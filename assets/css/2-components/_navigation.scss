@@ -41,9 +41,13 @@ nav {
         }
         &:hover {
           text-decoration: underline;
+          @media(max-width: 750px) {
+            text-decoration: none;
+          }
         }
         @media(max-width: 750px) {
           color: $light-text-color;
+          text-decoration: none;
         }
       }
       @media(max-width: 750px) {

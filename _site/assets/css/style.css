@@ -844,9 +844,13 @@ nav {
           padding: 15px 0 15px 10px; }
         nav .nav-wrap #menu a:hover {
           text-decoration: underline; }
+          @media (max-width: 750px) {
+            nav .nav-wrap #menu a:hover {
+              text-decoration: none; } }
         @media (max-width: 750px) {
           nav .nav-wrap #menu a {
-            color: #F4F5F0; } }
+            color: #F4F5F0;
+            text-decoration: none; } }
       @media (max-width: 750px) {
         nav .nav-wrap #menu {
           display: block;
@@ -985,9 +989,9 @@ button, .button {
     background: #F4F5F0;
     color: #333332; }
     button.light:hover, .button.light:hover {
-      background: white; }
-    button.light:active, .button.light:active {
       background: #e9ebe1; }
+    button.light:active, .button.light:active {
+      background: white; }
   button.dark, .button.dark {
     background: #333332; }
     button.dark:hover, .button.dark:hover {
