@@ -807,10 +807,17 @@ code {
   margin-top: 0; }
 
 nav {
-  height: 100px; }
+  height: 100px;
+  background: #F4F5F0; }
   @media (max-width: 750px) {
     nav {
-      height: 50px; } }
+      height: 50px;
+      width: 100%;
+      background: #333332;
+      position: fixed;
+      top: 0;
+      left: 0;
+      z-index: 999; } }
   nav .nav-wrap {
     max-width: 1170px;
     width: 90%;
@@ -822,9 +829,9 @@ nav {
       padding: 25px 0; }
       @media (max-width: 750px) {
         nav .nav-wrap .logo {
-          padding: 10px 0; }
+          padding: 0px 0; }
           nav .nav-wrap .logo svg {
-            height: 30px; } }
+            height: 50px; } }
     nav .nav-wrap #menu {
       float: right;
       margin: 40px 0; }
@@ -832,6 +839,9 @@ nav {
         color: #333332;
         text-decoration: none;
         padding: 15px 10px; }
+        @media (max-width: 750px) {
+          nav .nav-wrap #menu a {
+            color: #F4F5F0; } }
       @media (max-width: 750px) {
         nav .nav-wrap #menu {
           display: block;
@@ -842,7 +852,7 @@ nav {
           top: 50px;
           right: -100vw;
           z-index: 999;
-          background: white;
+          background: #333332;
           -webkit-transition: all 250ms ease-in;
           transition: all 250ms ease-in; }
           nav .nav-wrap #menu.active {
@@ -853,17 +863,17 @@ nav {
             display: block;
             text-align: center;
             font-size: 1.5rem;
-            border-bottom: 1px solid #F4F5F0;
+            border-bottom: 1px solid #4C4D4B;
             -webkit-transition: background 100ms ease-in-out;
             transition: background 100ms ease-in-out; }
             nav .nav-wrap #menu a:hover {
-              background: #F4F5F0; } }
+              background: #4C4D4B; } }
     nav .nav-wrap #menu-toggle {
       position: absolute;
       right: 0;
       top: 0;
       font-size: 2.5rem;
-      color: #333332;
+      color: #F4F5F0;
       line-height: 50px;
       display: none;
       cursor: pointer; }
@@ -877,6 +887,9 @@ nav {
   width: 100vw;
   overflow: hidden;
   position: relative; }
+  @media (max-width: 750px) {
+    .banner {
+      margin-top: 50px; } }
   .banner .content .lead {
     margin: 0;
     font-size: 3rem;
@@ -898,13 +911,13 @@ nav {
   .banner.big {
     height: 400px;
     width: 100vw; }
-    @media (max-width: 768px) {
+    @media (max-width: 750px) {
       .banner.big {
         text-align: center; } }
     .banner.big .content .lead {
       font-size: 5rem;
       text-shadow: 1px 1px 3px #429c53; }
-      @media (max-width: 768px) {
+      @media (max-width: 750px) {
         .banner.big .content .lead {
           font-size: 3.15rem;
           text-align: center;
@@ -919,7 +932,7 @@ nav {
       position: relative;
       z-index: 2;
       text-shadow: 1px 1px 3px #429c53; }
-      @media (max-width: 768px) {
+      @media (max-width: 750px) {
         .banner.big .content .sublead {
           font-size: 2rem;
           text-align: center;
@@ -932,7 +945,7 @@ nav {
       margin: 25px 25px 0 0;
       z-index: 2;
       box-shadow: 2px 2px 3px #429c53; }
-      @media (max-width: 768px) {
+      @media (max-width: 750px) {
         .banner.big button, .banner.big .button {
           font-size: 1rem;
           margin: 5px; } }

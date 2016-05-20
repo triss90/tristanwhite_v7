@@ -1,7 +1,14 @@
 nav {
   height: 100px;
+  background: $light-text-color;
   @media(max-width: 750px) {
     height: 50px;
+    width: 100%;
+    background: $dark-text-color;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
   }
   .nav-wrap {
     max-width: 1170px;
@@ -14,9 +21,9 @@ nav {
     .logo {
       padding: 25px 0;
       @media(max-width: 750px) {
-        padding: 10px 0;
+        padding: 0px 0;
         svg {
-          height: 30px;
+          height: 50px;
         }
       }
     }
@@ -27,6 +34,9 @@ nav {
         color: $dark-text-color;
         text-decoration: none;
         padding: 15px 10px;
+        @media(max-width: 750px) {
+          color: $light-text-color;
+        }
       }
       @media(max-width: 750px) {
         display: block;
@@ -37,7 +47,7 @@ nav {
         top: 50px;
         right: -100vw;
         z-index: 999;
-        background: white;
+        background: $dark-text-color;
         transition: all 250ms ease-in;
         &.active {
           right: 0;
@@ -47,10 +57,10 @@ nav {
           display: block;
           text-align: center;
           font-size: 1.5rem;
-          border-bottom: 1px solid $light-text-color;
+          border-bottom: 1px solid $dark-background-color;
           transition: background 100ms ease-in-out;
           &:hover {
-            background: $light-text-color;
+            background: $dark-background-color;
           }
         }
       }
@@ -60,7 +70,7 @@ nav {
       right: 0;
       top: 0;
       font-size: 2.5rem;
-      color: $dark-text-color;
+      color: $light-text-color;
       line-height: 50px;
       display: none;
       cursor: pointer;
