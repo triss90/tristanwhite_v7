@@ -807,7 +807,6 @@ code {
   margin-top: 0; }
 
 nav {
-  border-bottom: 1px dashed red;
   height: 100px; }
   nav .nav-wrap {
     max-width: 1170px;
@@ -824,3 +823,79 @@ nav {
         color: #333332;
         text-decoration: none;
         padding: 15px 10px; }
+
+.banner {
+  background: #58B96B;
+  height: 150px;
+  width: 100vw;
+  overflow: hidden;
+  position: relative; }
+  .banner .content .lead {
+    margin: 0;
+    font-size: 3rem;
+    color: #F4F5F0;
+    font-weight: 100;
+    line-height: 150px;
+    position: relative;
+    z-index: 2; }
+  .banner .content span.bg-img {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: -25px; }
+    .banner .content span.bg-img svg {
+      height: 200px;
+      width: auto; }
+      .banner .content span.bg-img svg path {
+        fill: #46a759; }
+  .banner.big {
+    height: 400px;
+    width: 100vw; }
+    .banner.big .content .lead {
+      font-size: 5rem; }
+    .banner.big .content .sublead {
+      margin: 0;
+      font-size: 3rem;
+      line-height: 3.5rem;
+      color: #F4F5F0;
+      font-weight: 100;
+      position: relative;
+      z-index: 2; }
+    .banner.big .content span.bg-img svg {
+      height: 500px;
+      width: auto; }
+    .banner.big button, .banner.big .button {
+      margin: 25px 25px 0 0;
+      z-index: 2; }
+
+button, .button {
+  background: #58B96B;
+  color: #F4F5F0;
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 3px;
+  -webkit-transition: all 100ms ease-in-out;
+  transition: all 100ms ease-in-out;
+  position: relative; }
+  button:hover, .button:hover {
+    background: #6ac17b; }
+  button:active, .button:active {
+    background: #49ae5d; }
+  button.light, .button.light {
+    background: #F4F5F0;
+    color: #333332; }
+    button.light:hover, .button.light:hover {
+      background: white; }
+    button.light:active, .button.light:active {
+      background: #e9ebe1; }
+  button.dark, .button.dark {
+    background: #333332; }
+    button.dark:hover, .button.dark:hover {
+      background: #40403f; }
+    button.dark:active, .button.dark:active {
+      background: #262625; }
+  button.big, .button.big {
+    font-size: 1.35rem;
+    padding: 20px 35px; }

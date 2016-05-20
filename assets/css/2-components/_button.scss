@@ -1,0 +1,40 @@
+button, .button {
+  background: $link-color;
+  color: $light-text-color;
+  display: inline-block;
+  cursor: pointer;
+  padding: 15px 25px;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: all 100ms ease-in-out;
+  position: relative;
+  &:hover {
+    background: lighten($link-color,5%);
+  }
+  &:active {
+    background: darken($link-color,5%);
+  }
+  &.light {
+    background: $light-text-color;
+    color: $dark-text-color;
+    &:hover {
+      background: lighten($light-text-color,5%);
+    }
+    &:active {
+      background: darken($light-text-color,5%);
+    }
+  }
+  &.dark {
+    background: $dark-text-color;
+    &:hover {
+      background: lighten($dark-text-color,5%);
+    }
+    &:active {
+      background: darken($dark-text-color,5%);
+    }
+  }
+  &.big {
+    font-size: 1.35rem;
+    padding: 20px 35px;
+  }
+}

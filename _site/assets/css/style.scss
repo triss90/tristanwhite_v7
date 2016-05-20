@@ -7,6 +7,8 @@
 
 //Base - CSS used throughout the project or app, e.g. a navigation
 @import '2-components/navigation';
+@import '2-components/banner';
+@import '2-components/button';
 
 //Pages - Styles specific to the different pages
 @import '3-pages/frontpage';

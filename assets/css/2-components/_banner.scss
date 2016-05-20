@@ -1,0 +1,62 @@
+.banner {
+  background: $link-color;
+  height: 150px;
+  width: 100vw;
+  overflow: hidden;
+  position: relative;
+  .content {
+    .lead {
+      margin: 0;
+      font-size: 3rem;
+      color: $light-text-color;
+      font-weight: 100;
+      line-height: 150px;
+      position: relative;
+      z-index: 2;
+      //text-shadow: 1px 1px 3px darken($link-color, 20%);
+    }
+    span.bg-img {
+      display: inline-block;
+      position: absolute;
+      right: 0;
+      top: -25px;
+      svg {
+        height: 200px;
+        width: auto;
+        path {
+          fill: darken($link-color, 7%);
+        }
+      }
+    }
+  }
+
+  &.big {
+    height: 400px;
+    width: 100vw;
+    .content {
+      .lead {
+        font-size: 5rem;
+      }
+      .sublead {
+        margin: 0;
+        font-size: 3rem;
+        line-height: 3.5rem;
+        color: $light-text-color;
+        font-weight: 100;
+        position: relative;
+        z-index: 2;
+      }
+      span.bg-img {
+        svg {
+          height: 500px;
+          width: auto;
+        }
+      }
+    }
+    button, .button {
+      margin: 25px 25px 0 0;
+      z-index: 2;
+    }
+  }
+
+}
