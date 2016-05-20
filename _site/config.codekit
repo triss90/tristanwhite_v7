@@ -215,15 +215,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/css\/style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -808,6 +799,39 @@
 		"initialSize": 1.0299e+06,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/products\/work_hard_preview.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/products\/work_hard_preview.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/work\/heidi_ryghseter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25013,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/heidi_ryghseter.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/heidi_ryghseter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/work\/henriette_knak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17308,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/henriette_knak.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/henriette_knak.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/work\/kurt_mikkelsen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20572,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/kurt_mikkelsen.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/kurt_mikkelsen.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1879,6 +1903,39 @@
 		"initialSize": 1.0299e+06,
 		"inputAbbreviatedPath": "\/assets\/img\/products\/work_hard_preview.png",
 		"outputAbbreviatedPath": "\/assets\/img\/products\/work_hard_preview.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/heidi_ryghseter.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 25013,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/heidi_ryghseter.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/heidi_ryghseter.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/henriette_knak.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 17308,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/henriette_knak.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/henriette_knak.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/kurt_mikkelsen.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20572,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/kurt_mikkelsen.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/kurt_mikkelsen.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0

@@ -1,7 +1,7 @@
 nav {
   height: 100px;
   background: $light-text-color;
-  @media(max-width: 750px) {
+  @media(max-width: 768px) {
     height: 50px;
     width: 100%;
     background: $dark-text-color;
@@ -20,7 +20,7 @@ nav {
     }
     .logo {
       padding: 25px 0;
-      @media(max-width: 750px) {
+      @media(max-width: 768px) {
         padding: 0px 0;
         svg {
           height: 50px;
@@ -41,16 +41,16 @@ nav {
         }
         &:hover {
           text-decoration: underline;
-          @media(max-width: 750px) {
+          @media(max-width: 768px) {
             text-decoration: none;
           }
         }
-        @media(max-width: 750px) {
+        @media(max-width: 768px) {
           color: $light-text-color;
           text-decoration: none;
         }
       }
-      @media(max-width: 750px) {
+      @media(max-width: 768px) {
         display: block;
         height: calc(100vh - 50px);
         width: 100vw;
@@ -86,7 +86,7 @@ nav {
       line-height: 50px;
       display: none;
       cursor: pointer;
-      @media(max-width: 750px) {
+      @media(max-width: 768px) {
         display: block;
       }
     }
