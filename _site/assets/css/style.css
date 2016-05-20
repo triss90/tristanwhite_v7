@@ -851,8 +851,18 @@ nav {
   .banner.big {
     height: 400px;
     width: 100vw; }
+    @media (max-width: 768px) {
+      .banner.big {
+        text-align: center; } }
     .banner.big .content .lead {
-      font-size: 5rem; }
+      font-size: 5rem;
+      text-shadow: 1px 1px 3px #429c53; }
+      @media (max-width: 768px) {
+        .banner.big .content .lead {
+          font-size: 3.15rem;
+          text-align: center;
+          line-height: 4.5rem;
+          margin: 25px 0; } }
     .banner.big .content .sublead {
       margin: 0;
       font-size: 3rem;
@@ -860,13 +870,25 @@ nav {
       color: #F4F5F0;
       font-weight: 100;
       position: relative;
-      z-index: 2; }
+      z-index: 2;
+      text-shadow: 1px 1px 3px #429c53; }
+      @media (max-width: 768px) {
+        .banner.big .content .sublead {
+          font-size: 2rem;
+          text-align: center;
+          line-height: 3.5rem;
+          margin: 25px 0; } }
     .banner.big .content span.bg-img svg {
       height: 500px;
       width: auto; }
     .banner.big button, .banner.big .button {
       margin: 25px 25px 0 0;
-      z-index: 2; }
+      z-index: 2;
+      box-shadow: 2px 2px 3px #429c53; }
+      @media (max-width: 768px) {
+        .banner.big button, .banner.big .button {
+          font-size: 1rem;
+          margin: 5px; } }
 
 button, .button {
   background: #58B96B;

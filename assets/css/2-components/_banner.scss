@@ -13,7 +13,6 @@
       line-height: 150px;
       position: relative;
       z-index: 2;
-      //text-shadow: 1px 1px 3px darken($link-color, 20%);
     }
     span.bg-img {
       display: inline-block;
@@ -33,9 +32,19 @@
   &.big {
     height: 400px;
     width: 100vw;
+    @media (max-width: 768px) {
+       text-align: center;
+    }
     .content {
       .lead {
         font-size: 5rem;
+        text-shadow: 1px 1px 3px darken($link-color, 10%);
+        @media (max-width: 768px) {
+           font-size: 3.15rem;
+           text-align: center;
+           line-height: 4.5rem;
+           margin: 25px 0;
+        }
       }
       .sublead {
         margin: 0;
@@ -45,6 +54,13 @@
         font-weight: 100;
         position: relative;
         z-index: 2;
+        text-shadow: 1px 1px 3px darken($link-color, 10%);
+        @media (max-width: 768px) {
+           font-size: 2rem;
+           text-align: center;
+           line-height: 3.5rem;
+           margin: 25px 0;
+        }
       }
       span.bg-img {
         svg {
@@ -56,6 +72,11 @@
     button, .button {
       margin: 25px 25px 0 0;
       z-index: 2;
+      box-shadow: 2px 2px 3px darken($link-color, 10%);
+      @media (max-width: 768px) {
+         font-size: 1rem;
+         margin: 5px;
+      }
     }
   }
 
