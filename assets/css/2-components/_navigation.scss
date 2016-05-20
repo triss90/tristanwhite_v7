@@ -34,6 +34,14 @@ nav {
         color: $dark-text-color;
         text-decoration: none;
         padding: 15px 10px;
+        margin: 0;
+        //background: $link-color;
+        &:last-child {
+          padding: 15px 0 15px 10px;
+        }
+        &:hover {
+          text-decoration: underline;
+        }
         @media(max-width: 750px) {
           color: $light-text-color;
         }

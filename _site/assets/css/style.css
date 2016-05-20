@@ -838,7 +838,12 @@ nav {
       nav .nav-wrap #menu a {
         color: #333332;
         text-decoration: none;
-        padding: 15px 10px; }
+        padding: 15px 10px;
+        margin: 0; }
+        nav .nav-wrap #menu a:last-child {
+          padding: 15px 0 15px 10px; }
+        nav .nav-wrap #menu a:hover {
+          text-decoration: underline; }
         @media (max-width: 750px) {
           nav .nav-wrap #menu a {
             color: #F4F5F0; } }
@@ -923,6 +928,10 @@ nav {
           text-align: center;
           line-height: 4.5rem;
           margin: 25px 0; } }
+      @media (max-width: 350px) {
+        .banner.big .content .lead {
+          font-size: 2.7rem;
+          line-height: 3.5rem; } }
     .banner.big .content .sublead {
       margin: 0;
       font-size: 3rem;
@@ -938,6 +947,10 @@ nav {
           text-align: center;
           line-height: 3.5rem;
           margin: 25px 0; } }
+      @media (max-width: 350px) {
+        .banner.big .content .sublead {
+          font-size: 1.8rem;
+          line-height: 2.5rem; } }
     .banner.big .content span.bg-img svg {
       height: 500px;
       width: auto; }
@@ -949,6 +962,9 @@ nav {
         .banner.big button, .banner.big .button {
           font-size: 1rem;
           margin: 5px; } }
+      @media (max-width: 350px) {
+        .banner.big button, .banner.big .button {
+          padding: 15px 20px; } }
 
 button, .button {
   background: #58B96B;
