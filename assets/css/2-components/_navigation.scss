@@ -1,22 +1,71 @@
 nav {
   height: 100px;
+  @media(max-width: 750px) {
+    height: 50px;
+  }
   .nav-wrap {
     max-width: 1170px;
     width: 90%;
     margin: 0 auto;
+    position: relative;
     .logo, .menu {
       display: inline-block;
     }
     .logo {
       padding: 25px 0;
+      @media(max-width: 750px) {
+        padding: 10px 0;
+        svg {
+          height: 30px;
+        }
+      }
     }
-    .menu {
+    #menu {
       float: right;
       margin: 40px 0;
       a {
         color: $dark-text-color;
         text-decoration: none;
         padding: 15px 10px;
+      }
+      @media(max-width: 750px) {
+        display: block;
+        height: calc(100vh - 50px);
+        width: 100vw;
+        position: fixed;
+        margin: 0;
+        top: 50px;
+        right: -100vw;
+        z-index: 999;
+        background: white;
+        transition: all 250ms ease-in;
+        &.active {
+          right: 0;
+          transition: all 250ms ease-out;
+        }
+        a {
+          display: block;
+          text-align: center;
+          font-size: 1.5rem;
+          border-bottom: 1px solid $light-text-color;
+          transition: background 100ms ease-in-out;
+          &:hover {
+            background: $light-text-color;
+          }
+        }
+      }
+    }
+    #menu-toggle {
+      position: absolute;
+      right: 0;
+      top: 0;
+      font-size: 2.5rem;
+      color: $dark-text-color;
+      line-height: 50px;
+      display: none;
+      cursor: pointer;
+      @media(max-width: 750px) {
+        display: block;
       }
     }
   }
