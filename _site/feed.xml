@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tristan White</title>
+    <description>Hi! My name is Tristan White, I&#39;m a designer, developer and somewhat unicorn-like. I was born and raised in a small town in Denmark. Today I am proud to call myself a full-stack web developer. I love making beautiful, yet practical websites and applications.</description>
+    <link>//tristanwhite.info//</link>
+    <atom:link href="//tristanwhite.info//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 20 May 2016 12:39:51 +0200</pubDate>
+    <lastBuildDate>Fri, 20 May 2016 12:39:51 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Quick Code - CSS Battery Loader</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/knsflx3w9Kg&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;300&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;oxWRzz&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/oxWRzz/&quot;&gt;CSS Battery Loader&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 16 May 2016 10:32:51 +0200</pubDate>
+        <link>//tristanwhite.info//videos/2016/05/16/quick-code-css-battery-loader.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/2016/05/16/quick-code-css-battery-loader.html</guid>
+        
+        
+        <category>videos</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Basic Flexbox Grid</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/gy6WKhMLNIA&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;eZWagq&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/triss90/pen/eZWagq/&quot;&gt;Basic Flexbox Grid&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 09 May 2016 11:26:11 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/05/09/quick-code-basic-flexbox-grid.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/05/09/quick-code-basic-flexbox-grid.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Rotating CSS Loader</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/ns-7c4aVk9k&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;YqVbXp&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/YqVbXp/&quot;&gt;Rotating CSS Loader&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 02 May 2016 10:32:51 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/05/02/quick-code-rotating-css-loader.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/05/02/quick-code-rotating-css-loader.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Animated Signature</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/8TpElz0W6A4&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;qOmgpx&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/qOmgpx/&quot;&gt;Animated Signature&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 25 Apr 2016 10:32:51 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/04/25/quick-code-animated-signature.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/04/25/quick-code-animated-signature.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Simple jQuery Slider</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/0QldkreB65I&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;500&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;ZWWbVQ&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/ZWWbVQ/&quot;&gt;Simple Image Slider&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 18 Apr 2016 15:02:00 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/04/18/quick-code-simple-slider.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/04/18/quick-code-simple-slider.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - CSS Checkbox</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/kCqwXRdPOMg&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;mPVmwR&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/mPVmwR/&quot;&gt;CSS Checkbox&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 11 Apr 2016 10:32:51 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/04/11/quick-code-css-checkbox.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/04/11/quick-code-css-checkbox.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>VPN &amp; GEO-Location</title>
+        <description>&lt;p&gt;I’ve been using a VPN for a few weeks now, but realized that despite my IP correctly reflecting the VPN server location, the browser would still show my actual location.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/posts/geolocation.png&quot; alt=&quot;GEO-Location Banner&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;After a bit of research it occurred to me that most browsers are configured to use alternate location services. Most commonly the wifi network information will be used as there are vast databases, which map wifi networks to geographic locations (usually generated by by Google Street View cars and the like).&lt;/p&gt;
+
+&lt;h3 id=&quot;how-to-disable-geo-location-in-browsers&quot;&gt;How to disable GEO-Location in browsers&lt;/h3&gt;
+
+&lt;h4 id=&quot;img-srcassetsimgpostsbrowser-chromepng-altchrome-width18px-chrome&quot;&gt;&lt;img src=&quot;/assets/img/posts/browser-chrome.png&quot; alt=&quot;Chrome&quot; width=&quot;18px&quot; /&gt; Chrome&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Open up Chrome settings by clicking on the toolbar icon (the three horizontal lines) and then settings.&lt;/li&gt;
+  &lt;li&gt;Scroll down and click “Show advanced settings”.&lt;/li&gt;
+  &lt;li&gt;Navigate to the “Privacy” section then click “Content Settings”.&lt;/li&gt;
+  &lt;li&gt;A dialog box appears, scroll down to “Location” section and select “Do not allow any site to track your physical location”.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;img-srcassetsimgpostsbrowser-safaripng-altsafari-width18px-safari&quot;&gt;&lt;img src=&quot;/assets/img/posts/browser-safari.png&quot; alt=&quot;Safari&quot; width=&quot;18px&quot; /&gt; Safari&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Open up Safari Preferences (cmd + ,) or  File&amp;gt;Preferences.&lt;/li&gt;
+  &lt;li&gt;Navigate to the the “Privacy tab”.&lt;/li&gt;
+  &lt;li&gt;Under “Website use of location services”, check “Deny without prompting”.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;img-srcassetsimgpostsbrowser-firefoxpng-altfirefox-width18px-firefox&quot;&gt;&lt;img src=&quot;/assets/img/posts/browser-firefox.png&quot; alt=&quot;Firefox&quot; width=&quot;18px&quot; /&gt; Firefox&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Type “about:config” in the search bar. If prompted with a warranty warning, click “I’ll be careful, I promise!”.&lt;/li&gt;
+  &lt;li&gt;In the search bar type in “geo.enabled”.&lt;/li&gt;
+  &lt;li&gt;Double click the “geo.enabled” item. This will change the status and value to false.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;img-srcassetsimgpostsbrowser-iepng-altinternet-explorer-width18px-ie&quot;&gt;&lt;img src=&quot;/assets/img/posts/browser-ie.png&quot; alt=&quot;Internet Explorer&quot; width=&quot;18px&quot; /&gt; IE&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Open the tools menu by clicking on the gear menu in the top right hand corner.&lt;/li&gt;
+  &lt;li&gt;Click on the “Privacy” tab.&lt;/li&gt;
+  &lt;li&gt;Under “Location”, select “Never Allow Websites To Request Your Physical Location”.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;img-srcassetsimgpostsbrowser-edgepng-altedge-width18px-edge&quot;&gt;&lt;img src=&quot;/assets/img/posts/browser-edge.png&quot; alt=&quot;Edge&quot; width=&quot;18px&quot; /&gt; Edge&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Click on the action center icon on your taskbar.&lt;/li&gt;
+  &lt;li&gt;Select the Location quick action to turn location off.&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h4 id=&quot;img-srcassetsimgpostsbrowser-operapng-altopera-width18px-opera&quot;&gt;&lt;img src=&quot;/assets/img/posts/browser-opera.png&quot; alt=&quot;Opera&quot; width=&quot;18px&quot; /&gt; Opera&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Open Opera Preferences.&lt;/li&gt;
+  &lt;li&gt;Click “Websites” in the left menu.&lt;/li&gt;
+  &lt;li&gt;Scroll down to “Location”.&lt;/li&gt;
+  &lt;li&gt;Click Do not allow any site to track my physical location.&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+        <pubDate>Wed, 06 Apr 2016 09:11:57 +0200</pubDate>
+        <link>//tristanwhite.info//articles/2016/04/06/vpn-and-geo-location.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//articles/2016/04/06/vpn-and-geo-location.html</guid>
+        
+        
+        <category>articles</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Fluid Navigation</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/QeBBMw78EWc&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;368&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;GZKRJo&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/GZKRJo/&quot;&gt;Fluid CSS Navigation&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 04 Apr 2016 10:32:51 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/04/04/quick-code-fluid-navigation.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/04/04/quick-code-fluid-navigation.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Animated Header</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/aIJZEDYBTqc&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;668&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;MKLQBW&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/MKLQBW/&quot;&gt;Animated 100vh header&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 28 Mar 2016 12:23:21 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/03/28/quick-code-animated-header.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/03/28/quick-code-animated-header.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Responsive Navigation</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/d0rae0T5kXU&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;630&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;VebpWG&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/VebpWG/&quot;&gt;Responsive Navigation&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Tue, 22 Mar 2016 07:01:42 +0100</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/03/22/quick-code-responsive-navigation.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/03/22/quick-code-responsive-navigation.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,24 @@
+nav {
+  border-bottom: 1px dashed red;
+  height: 100px;
+  .nav-wrap {
+    max-width: 1170px;
+    width: 90%;
+    margin: 0 auto;
+    .logo, .menu {
+      display: inline-block;
+    }
+    .logo {
+      padding: 25px 0;
+    }
+    .menu {
+      float: right;
+      margin: 40px 0;
+      a {
+        color: $dark-text-color;
+        text-decoration: none;
+        padding: 15px 10px;
+      }
+    }
+  }
+}
