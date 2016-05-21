@@ -28,6 +28,12 @@ section#about {
         margin-top: 25px;
       }
     }
+    .button {
+      margin: 0 5px;
+      @media (max-width: 360px) {
+        margin: 10px 0;
+      }
+    }
   }
 }
 
