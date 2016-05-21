@@ -1,11 +1,14 @@
 .carousel {
   text-align: left;
   height: 250px;
-  margin: 50px 0 0 0;
+  margin: 50px 0;
+  @media (max-width: 768px) {
+    text-align: center;
+    margin: 50px 0 0 0;
+  }
   .carousel-nav-wrap {
     position: relative;
     margin-bottom: 30px;
-    position: relative;
     h3 {
       display: inline-block;
     }
@@ -36,18 +39,23 @@
       transition: all ease-in-out 500ms;
       pointer-events: none;
       display: flex;
+      @media (max-width: 768px) {
+        display: block;
+      }
       &.is-current {
         opacity: 1;
         transform: translate(0px, 0px) scale(1);
       }
       .avatar {
         margin: 0 50px 0 0;
+        @media (max-width: 768px) {
+          display: none;
+        }
         img {
           border-radius: 50%;
         }
       }
       .testimonial {
-
         i {
           font-size: 1.25rem;
           line-height: 1.9rem;

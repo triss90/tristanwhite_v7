@@ -1380,6 +1380,25 @@ hr {
   margin: 50px 0;
   background-color: #d5d5d0; }
 
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0; }
+
+.clearfix {
+  display: inline-block; }
+
+/* start commented backslash hack \*/
+* html .clearfix {
+  height: 1%; }
+
+.clearfix {
+  display: block; }
+
+/* close commented backslash hack */
 nav {
   height: 100px;
   background: #F4F5F0; }
@@ -1615,11 +1634,14 @@ button, .button {
 .carousel {
   text-align: left;
   height: 250px;
-  margin: 50px 0 0 0; }
+  margin: 50px 0; }
+  @media (max-width: 768px) {
+    .carousel {
+      text-align: center;
+      margin: 50px 0 0 0; } }
   .carousel .carousel-nav-wrap {
     position: relative;
-    margin-bottom: 30px;
-    position: relative; }
+    margin-bottom: 30px; }
     .carousel .carousel-nav-wrap h3 {
       display: inline-block; }
     .carousel .carousel-nav-wrap .carousel-nav {
@@ -1650,12 +1672,18 @@ button, .button {
       display: -webkit-flex;
       display: -ms-flexbox;
       display: flex; }
+      @media (max-width: 768px) {
+        .carousel .carousel-wrap .carousel-unit {
+          display: block; } }
       .carousel .carousel-wrap .carousel-unit.is-current {
         opacity: 1;
         -webkit-transform: translate(0px, 0px) scale(1);
                 transform: translate(0px, 0px) scale(1); }
       .carousel .carousel-wrap .carousel-unit .avatar {
         margin: 0 50px 0 0; }
+        @media (max-width: 768px) {
+          .carousel .carousel-wrap .carousel-unit .avatar {
+            display: none; } }
         .carousel .carousel-wrap .carousel-unit .avatar img {
           border-radius: 50%; }
       .carousel .carousel-wrap .carousel-unit .testimonial i {

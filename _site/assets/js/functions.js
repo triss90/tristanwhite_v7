@@ -28,11 +28,12 @@ function carousel(){
       var height = $carouselUnits.eq(i).height();
       heights.push(height);
     }
-    var tallest = Math.max.apply(Math, heights);
+    var tallest = Math.max.apply(Math, heights) + 120;
     return tallest;
   }
 
   var $carouselWrap = $('.carousel-wrap'),
+      $carousel = $('.carousel'),
       $carouselUnits = $carouselWrap.find('.carousel-unit'),
       unitCount = $carouselUnits.length,
       tallestUnitHeight = getTallestUnitHeight(),
@@ -43,6 +44,7 @@ function carousel(){
   function initCarousel(){
     $carouselUnits.height(tallestUnitHeight).first().addClass('is-current');
     $carouselWrap.height(tallestUnitHeight);
+    $carousel.height(tallestUnitHeight);
   }
   initCarousel();
 
