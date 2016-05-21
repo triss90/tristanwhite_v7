@@ -30,3 +30,31 @@ section#about {
     }
   }
 }
+
+
+section#work {
+  background-color: $light-background-color;
+  background-image: url('/assets/img/work/client_logos_bg.png');
+  background-repeat: repeat;
+  padding: 100px 0;
+  text-align: center;
+  h2 {
+    font-weight: 100;
+    margin: 0 0 50px 0;
+    @media (max-width: 768px) {
+      font-size: 2.3rem;
+    }
+  }
+  img.work-item {
+    max-width: 100%;
+    margin: 5px;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
+    cursor: pointer;
+    transition: all ease-in-out 200ms;
+    &:hover {
+      box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
+      transform: translate(0px, -10px);
+    }
+  }
+}

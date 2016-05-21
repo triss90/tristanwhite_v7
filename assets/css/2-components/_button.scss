@@ -8,6 +8,7 @@ button, .button {
   border-radius: 3px;
   transition: all 100ms ease-in-out;
   position: relative;
+  box-shadow: 2px 2px 3px darken($link-color, 10%);
   &:hover {
     background: lighten($link-color, 5%);
     text-decoration: none;
@@ -18,6 +19,7 @@ button, .button {
   &.light {
     background: $light-background-color;
     color: $dark-text-color;
+    box-shadow: 2px 2px 3px darken($light-background-color, 10%);
     &:hover {
       background: darken($light-background-color, 5%);
     }
@@ -27,6 +29,7 @@ button, .button {
   }
   &.dark {
     background: $dark-text-color;
+    box-shadow: 2px 2px 3px darken($dark-text-color, 10%);
     &:hover {
       background: lighten($dark-text-color, 5%);
     }

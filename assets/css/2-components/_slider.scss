@@ -1,0 +1,61 @@
+.carousel {
+  text-align: left;
+  height: 250px;
+  margin: 50px 0 0 0;
+  .carousel-nav-wrap {
+    position: relative;
+    margin-bottom: 30px;
+    position: relative;
+    h3 {
+      display: inline-block;
+    }
+    .carousel-nav {
+      float: right;
+      position: absolute;
+      top: 13px;
+      right: 0;
+      svg {
+        cursor: pointer;
+        fill: $link-color;
+        height: 40px;
+        width: 40px;
+        top: 10px;
+        &:hover {
+          fill: darken($link-color, 20%);
+        }
+      }
+    }
+  }
+  .carousel-wrap {
+    position: relative;
+    margin-bottom: 20px;
+    .carousel-unit {
+      opacity: 0;
+      position: absolute;
+      transform: translate(0px, 50px) scale(1.2);
+      transition: all ease-in-out 500ms;
+      pointer-events: none;
+      display: flex;
+      &.is-current {
+        opacity: 1;
+        transform: translate(0px, 0px) scale(1);
+      }
+      .avatar {
+        margin: 0 50px 0 0;
+        img {
+          border-radius: 50%;
+        }
+      }
+      .testimonial {
+
+        i {
+          font-size: 1.25rem;
+          line-height: 1.9rem;
+        }
+        cite {
+          color: darken($light_background_color, 30%);
+        }
+      }
+    }
+  }
+}
