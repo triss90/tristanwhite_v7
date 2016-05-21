@@ -1,6 +1,7 @@
 .container {
     margin-right: auto;
-    margin-left: auto
+    margin-left: auto;
+    position: relative
 }
 .row {
     box-sizing: border-box;
@@ -19,7 +20,8 @@
     flex-direction: row;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
-    flex-wrap: wrap
+    flex-wrap: wrap;
+    position: relative
 }
 .row.reverse {
     -webkit-box-orient: horizontal;
@@ -59,7 +61,8 @@
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     padding-right: 0.5rem;
-    padding-left: 0.5rem
+    padding-left: 0.5rem;
+    position: relative
 }
 .tiny {
     -webkit-box-flex: 1;
@@ -273,7 +276,8 @@
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
         padding-right: 0.5rem;
-        padding-left: 0.5rem
+        padding-left: 0.5rem;
+        position: relative
     }
     .small {
         -webkit-box-flex: 1;
@@ -488,7 +492,8 @@
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
         padding-right: 0.5rem;
-        padding-left: 0.5rem
+        padding-left: 0.5rem;
+        position: relative
     }
     .medium {
         -webkit-box-flex: 1;
@@ -703,7 +708,8 @@
         -ms-flex: 0 0 auto;
         flex: 0 0 auto;
         padding-right: 0.5rem;
-        padding-left: 0.5rem
+        padding-left: 0.5rem;
+        position: relative
     }
     .large {
         -webkit-box-flex: 1;
