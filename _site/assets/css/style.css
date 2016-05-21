@@ -1651,12 +1651,14 @@ button, .button {
       right: 0; }
       .carousel .carousel-nav-wrap .carousel-nav svg {
         cursor: pointer;
-        fill: #58B96B;
+        fill: #333332;
         height: 40px;
         width: 40px;
-        top: 10px; }
+        top: 10px;
+        -webkit-transition: fill 150ms ease;
+        transition: fill 150ms ease; }
         .carousel .carousel-nav-wrap .carousel-nav svg:hover {
-          fill: #337840; }
+          fill: #58B96B; }
   .carousel .carousel-wrap {
     position: relative;
     margin-bottom: 20px; }

@@ -19,12 +19,13 @@
       right: 0;
       svg {
         cursor: pointer;
-        fill: $link-color;
+        fill: $dark-text-color;
         height: 40px;
         width: 40px;
         top: 10px;
+        transition: fill 150ms ease;
         &:hover {
-          fill: darken($link-color, 20%);
+          fill: $link-color;
         }
       }
     }
