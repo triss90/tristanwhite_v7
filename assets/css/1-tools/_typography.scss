@@ -8,6 +8,7 @@ html {
   font-family: 'Roboto', sans-serif;
   font-size: 16px;
   -webkit-font-smoothing: antialiased;
+  color: $dark-text-color;
 }
 /* Copy & Lists */
 p {
@@ -93,4 +94,22 @@ code {
 /* Hug the block above you */
 .hug {
   margin-top: 0;
+}
+
+a {
+  color: $link-color;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+hr {
+  border: 0;
+  height: 1px;
+  margin: 50px 0;
+  background-color: darken($light-background-color, 10%);
+  // @media (max-width: 768px) {
+  //   margin: 20px;
+  // }
 }

@@ -9,28 +9,29 @@ button, .button {
   transition: all 100ms ease-in-out;
   position: relative;
   &:hover {
-    background: lighten($link-color,5%);
+    background: lighten($link-color, 5%);
+    text-decoration: none;
   }
   &:active {
-    background: darken($link-color,5%);
+    background: darken($link-color, 5%);
   }
   &.light {
-    background: $light-text-color;
+    background: $light-background-color;
     color: $dark-text-color;
     &:hover {
-      background: darken($light-text-color,5%);
+      background: darken($light-background-color, 5%);
     }
     &:active {
-      background: lighten($light-text-color,5%);
+      background: lighten($light-background-color, 5%);
     }
   }
   &.dark {
     background: $dark-text-color;
     &:hover {
-      background: lighten($dark-text-color,5%);
+      background: lighten($dark-text-color, 5%);
     }
     &:active {
-      background: darken($dark-text-color,5%);
+      background: darken($dark-text-color, 5%);
     }
   }
   &.big {
