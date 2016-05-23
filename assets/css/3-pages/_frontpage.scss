@@ -13,7 +13,7 @@ section#about {
     }
   }
   p.about-text {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 45px;
     @media (max-width: 768px) {
       font-size: 20px;
@@ -92,15 +92,15 @@ section#content {
     display: block;
     margin: 25px auto;
     background: $light-text-color;
-    box-shadow: 0 0 10px rgba(0,0,0,0.4);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
     padding: 10px;
     position: relative;
     transition: all ease-in-out 200ms;
     border-radius: 5px;
-
     &:hover {
       transform: scale(1.05);
       text-decoration: none;
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
     }
     img {
       max-width: 100%;
@@ -119,6 +119,17 @@ section#content {
   article {
     margin: 0 0 50px 0;
     .post-link {
+      position: relative;
+      &.external:before {
+        content: '';
+        position: absolute;
+        left: -25px;
+        top: 0;
+        background-image: url('/assets/img/link.svg');
+        background-repeat: no-repeat;
+        height: 26px;
+        width: 26px;
+      }
       h3 {
         margin: 0 0 15px 0;
       }

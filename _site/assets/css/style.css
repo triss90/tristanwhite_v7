@@ -1615,7 +1615,7 @@ button, .button {
     font-size: 2rem;
     font-weight: 100; }
   .card p.description {
-    font-size: 1.25rem;
+    font-size: 1.1rem;
     line-height: 2rem;
     margin: 30px 0; }
   .card img {
@@ -1723,7 +1723,7 @@ section#about {
       section#about h2 {
         font-size: 2.3rem; } }
   section#about p.about-text {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 45px; }
     @media (max-width: 768px) {
       section#about p.about-text {
@@ -1790,7 +1790,7 @@ section#content {
     display: block;
     margin: 25px auto;
     background: #F4F5F0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     padding: 10px;
     position: relative;
     -webkit-transition: all ease-in-out 200ms;
@@ -1799,7 +1799,8 @@ section#content {
     section#content .video-link:hover {
       -webkit-transform: scale(1.05);
               transform: scale(1.05);
-      text-decoration: none; }
+      text-decoration: none;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
     section#content .video-link img {
       max-width: 100%;
       width: 100%; }
@@ -1813,8 +1814,19 @@ section#content {
       bottom: 20px; }
   section#content article {
     margin: 0 0 50px 0; }
-    section#content article .post-link h3 {
-      margin: 0 0 15px 0; }
+    section#content article .post-link {
+      position: relative; }
+      section#content article .post-link.external:before {
+        content: '';
+        position: absolute;
+        left: -25px;
+        top: 0;
+        background-image: url("/assets/img/link.svg");
+        background-repeat: no-repeat;
+        height: 26px;
+        width: 26px; }
+      section#content article .post-link h3 {
+        margin: 0 0 15px 0; }
     section#content article .date {
       color: #c7ccb3; }
   section#content .button {
