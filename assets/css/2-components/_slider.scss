@@ -9,6 +9,9 @@
   .carousel-nav-wrap {
     position: relative;
     margin-bottom: 30px;
+    @media(max-width: 768px) {
+      margin-bottom: 60px;
+    }
     h3 {
       display: inline-block;
     }
@@ -17,6 +20,13 @@
       position: absolute;
       top: 13px;
       right: 0;
+      @media(max-width: 768px){
+        position: relative;
+        float: left;
+        margin: 0px auto;
+        display: block;
+        width: 100%;
+      }
       svg {
         cursor: pointer;
         fill: $dark-text-color;
@@ -24,6 +34,11 @@
         width: 40px;
         top: 10px;
         transition: fill 150ms ease;
+        @media(max-width: 768px) {
+          height: 60px;
+          width: 60px;
+          margin: -10px 10px 10px 10px;
+        }
         &:hover {
           fill: $link-color;
         }

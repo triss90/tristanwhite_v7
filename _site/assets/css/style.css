@@ -1642,6 +1642,9 @@ button, .button {
   .carousel .carousel-nav-wrap {
     position: relative;
     margin-bottom: 30px; }
+    @media (max-width: 768px) {
+      .carousel .carousel-nav-wrap {
+        margin-bottom: 60px; } }
     .carousel .carousel-nav-wrap h3 {
       display: inline-block; }
     .carousel .carousel-nav-wrap .carousel-nav {
@@ -1649,6 +1652,13 @@ button, .button {
       position: absolute;
       top: 13px;
       right: 0; }
+      @media (max-width: 768px) {
+        .carousel .carousel-nav-wrap .carousel-nav {
+          position: relative;
+          float: left;
+          margin: 0px auto;
+          display: block;
+          width: 100%; } }
       .carousel .carousel-nav-wrap .carousel-nav svg {
         cursor: pointer;
         fill: #333332;
@@ -1657,6 +1667,11 @@ button, .button {
         top: 10px;
         -webkit-transition: fill 150ms ease;
         transition: fill 150ms ease; }
+        @media (max-width: 768px) {
+          .carousel .carousel-nav-wrap .carousel-nav svg {
+            height: 60px;
+            width: 60px;
+            margin: -10px 10px 10px 10px; } }
         .carousel .carousel-nav-wrap .carousel-nav svg:hover {
           fill: #58B96B; }
   .carousel .carousel-wrap {
