@@ -1747,10 +1747,19 @@ div#article.video {
     color: #F4F5F0;
     font-size: 3rem;
     font-weight: 700; }
+    @media (max-width: 768px) {
+      div#article.video .title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 4rem;
+        text-align: center; } }
   div#article.video .time {
     font-size: 1.5rem;
     color: #337840;
     line-height: 2rem; }
+    @media (max-width: 768px) {
+      div#article.video .time {
+        text-align: center; } }
   div#article.video .video-header {
     background: #58B96B;
     height: 500px; }
@@ -1759,13 +1768,7 @@ div#article.video {
     margin-top: -275px; }
     @media (max-width: 1025px) {
       div#article.video .responsive-video {
-        margin-top: -200px; } }
-    @media (max-width: 575px) {
-      div#article.video .responsive-video {
-        margin-top: -100px; } }
-    @media (max-width: 350px) {
-      div#article.video .responsive-video {
-        margin-top: 50px; } }
+        margin-top: -230px; } }
 
 footer {
   background: #F4F5F0;

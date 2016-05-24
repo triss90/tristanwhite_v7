@@ -4,11 +4,20 @@ div#article.video {
     color: $light-text-color;
     font-size: 3rem;
     font-weight: 700;
+    @media(max-width: 768px) {
+      font-size: 2rem;
+      line-height: 2.5rem;
+      margin-top: 4rem;
+      text-align: center;
+    }
   }
   .time {
     font-size: 1.5rem;
     color: darken($link-color, 20%);
     line-height: 2rem;
+    @media(max-width: 768px) {
+      text-align: center;
+    }
   }
   .video-header {
     background: $link-color;
@@ -18,13 +27,7 @@ div#article.video {
     box-shadow: 0 0 20px rgba(0,0,0,0.4);
     margin-top: -275px;
     @media(max-width: 1025px) {
-      margin-top: -200px;
-    }
-    @media(max-width: 575px) {
-      margin-top: -100px;
-    }
-    @media(max-width: 350px) {
-      margin-top: 50px;
+      margin-top: -230px;
     }
   }
 }
