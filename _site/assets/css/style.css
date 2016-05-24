@@ -1483,6 +1483,24 @@ nav {
         nav .nav-wrap #menu-toggle {
           display: block; } }
 
+.alt-nav {
+  background: #58B96B; }
+  @media (max-width: 768px) {
+    .alt-nav {
+      background: #333332; } }
+  .alt-nav .nav-wrap .logo svg rect {
+    fill: #F4F5F0; }
+    @media (max-width: 768px) {
+      .alt-nav .nav-wrap .logo svg rect {
+        fill: #333332; } }
+  .alt-nav .nav-wrap .logo svg path {
+    fill: #58B96B; }
+    @media (max-width: 768px) {
+      .alt-nav .nav-wrap .logo svg path {
+        fill: #F4F5F0; } }
+  .alt-nav .nav-wrap #menu a {
+    color: #F4F5F0; }
+
 .banner {
   background: #58B96B;
   height: 150px;
@@ -1709,19 +1727,59 @@ button, .button {
       .carousel .carousel-wrap .carousel-unit .testimonial cite {
         color: #a5a59a; }
 
-div#article .post {
+div#article.post {
   background: #F4F5F0; }
-  div#article .post .title {
+  div#article.post .title {
     color: #58B96B;
     font-size: 3rem;
     font-weight: 700; }
-  div#article .post .date {
+  div#article.post .date {
     font-size: 2rem;
     color: #c7ccb3;
     padding-bottom: 30px;
     border-bottom: 1px solid #c7ccb3; }
-  div#article .post img {
+  div#article.post img {
     max-width: 100%; }
+
+div#article.video {
+  background: #F4F5F0; }
+  div#article.video .title {
+    color: #F4F5F0;
+    font-size: 3rem;
+    font-weight: 700; }
+  div#article.video .time {
+    font-size: 2rem;
+    color: #F4F5F0;
+    line-height: 2rem; }
+  div#article.video .video-header {
+    background: #58B96B;
+    height: 500px; }
+  div#article.video .responsive-video {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin-top: -275px; }
+    @media (max-width: 1025px) {
+      div#article.video .responsive-video {
+        margin-top: -200px; } }
+    @media (max-width: 575px) {
+      div#article.video .responsive-video {
+        margin-top: -100px; } }
+    @media (max-width: 350px) {
+      div#article.video .responsive-video {
+        margin-top: 50px; } }
+
+.responsive-video {
+  position: relative;
+  padding-bottom: 56.25%; }
+  .responsive-video iframe {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: #F4F5F0;
+    padding: 10px;
+    border: 1px solid #dee1d1;
+    border-radius: 3px; }
 
 section#about {
   padding: 100px 0;

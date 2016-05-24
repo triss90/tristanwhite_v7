@@ -82,12 +82,26 @@ function carousel(){
 }
 
 
+
+/**
+  Alternative navigation schema
+**/
+function altNav() {
+  var article = $('#article'),
+      nav = $('nav');
+  if(article.hasClass('video')) {
+    nav.addClass('alt-nav');
+  }
+}
+
+
 /**
   Run functions
 **/
 $(function() {
 
   navigation();
+  altNav();
   carousel();
 
 });
