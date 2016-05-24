@@ -1,0 +1,32 @@
+footer {
+background: $light-text-color;
+text-align: center;
+padding: 50px 0;
+.social {
+  .item {
+    width: 50px;
+    display: inline-block;
+    svg {
+      width: 40px;
+      height: 40px;
+      g {
+        path {
+          @include transition(150ms);
+        }
+      }
+    }
+    &:hover {
+      svg {
+        g {
+          path {
+            fill: $link-color;
+          }
+        }
+      }
+    }
+  }
+  #codepen, #linkedin {
+      padding-top: 5px;
+    }
+  }
+}

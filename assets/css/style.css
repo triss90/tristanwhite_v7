@@ -1767,6 +1767,24 @@ div#article.video {
       div#article.video .responsive-video {
         margin-top: 50px; } }
 
+footer {
+  background: #F4F5F0;
+  text-align: center;
+  padding: 50px 0; }
+  footer .social .item {
+    width: 50px;
+    display: inline-block; }
+    footer .social .item svg {
+      width: 40px;
+      height: 40px; }
+      footer .social .item svg g path {
+        -webkit-transition: all 150ms ease-in-out;
+        transition: all 150ms ease-in-out; }
+    footer .social .item:hover svg g path {
+      fill: #58B96B; }
+  footer .social #codepen, footer .social #linkedin {
+    padding-top: 5px; }
+
 .responsive-video {
   position: relative;
   padding-bottom: 56.25%; }
