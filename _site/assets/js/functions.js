@@ -82,7 +82,6 @@ function carousel(){
 }
 
 
-
 /**
   Alternative navigation schema
 **/
@@ -96,6 +95,21 @@ function altNav() {
 
 
 /**
+  Shake random video element on home page
+**/
+function shakeVideo() {
+  window.setInterval(function() {
+    var random = Math.floor(Math.random()*3),
+        videoLink = $('.video-link');
+    videoLink.eq(random).addClass('shake');
+    setTimeout(function() {
+      videoLink.removeClass('shake');
+    }, 1000);
+  }, 5000);
+}
+
+
+/**
   Run functions
 **/
 $(function() {
@@ -103,5 +117,6 @@ $(function() {
   navigation();
   altNav();
   carousel();
+  shakeVideo();
 
 });

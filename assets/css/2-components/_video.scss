@@ -6,8 +6,8 @@ div#article.video {
     font-weight: 700;
   }
   .time {
-    font-size: 2rem;
-    color: $light-text-color;
+    font-size: 1.5rem;
+    color: darken($link-color, 20%);
     line-height: 2rem;
   }
   .video-header {
