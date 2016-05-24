@@ -1,0 +1,20 @@
+div#article .post {
+  background: $light-text-color;
+  .title {
+    color: $link-color;
+    font-size: 3rem;
+    font-weight: 700;
+  }
+  .date {
+    font-size: 2rem;
+    color: darken($light-text-color, 20%);
+    padding-bottom: 30px;
+    border-bottom: 1px solid darken($light-text-color, 20%);
+  }
+  .post-content {
+
+  }
+  img {
+    max-width: 100%;
+  }
+}
