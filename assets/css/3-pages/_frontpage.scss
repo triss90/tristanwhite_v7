@@ -159,3 +159,47 @@ section#content {
     width: 150px;
   }
 }
+
+
+section#contact {
+  background-color: $link-color;
+  padding: 100px 0;
+  position: relative;
+  overflow: hidden;
+  h3 {
+    margin: 0 0 20px 0;
+  }
+  .contact-form {
+    background: rgba($light-text-color,1);
+    border-radius: 5px;
+    position: relative;
+    z-index: 3;
+    padding: 20px;
+    input[type="text"],input[type="email"], textarea {
+      display: block;
+      border-radius: 5px;
+      width: 100%;
+      margin-bottom: 20px;
+      border: 1px solid darken($light-text-color, 10%);
+      resize: none;
+      padding: 10px;
+      &:focus {
+        outline: none;
+        border-color: $link-color;
+      }
+    }
+  }
+  span.bg-img {
+    z-index: 1;
+    position: absolute;
+    right: 0;
+    top: -150px;
+    svg {
+      height: 600px;
+      width: auto;
+      path {
+        fill: darken($link-color, 7%);
+      }
+    }
+  }
+}
