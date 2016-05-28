@@ -1880,6 +1880,9 @@ section#about {
       @media (max-width: 360px) {
         section#about .card .button {
           margin: 10px 0; } }
+      @media (max-width: 1200px) {
+        section#about .card .button {
+          margin: 10px 0; } }
 
 section#work {
   background-color: #EDEDEB;
