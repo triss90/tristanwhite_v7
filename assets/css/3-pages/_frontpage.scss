@@ -62,6 +62,10 @@ section#work {
     margin: 5px;
     cursor: pointer;
     position: relative;
+    display: inline-block;
+    @media (max-width: 768px) {
+      margin: 15px 5px;
+    }
     &:hover {
       img {
         box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);

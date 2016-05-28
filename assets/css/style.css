@@ -1903,7 +1903,11 @@ section#work {
     padding: 0;
     margin: 5px;
     cursor: pointer;
-    position: relative; }
+    position: relative;
+    display: inline-block; }
+    @media (max-width: 768px) {
+      section#work .work-item {
+        margin: 15px 5px; } }
     section#work .work-item:hover img {
       box-shadow: 0px 37px 20px -20px rgba(0, 0, 0, 0.2);
       -webkit-transform: translate(0px, -10px);
