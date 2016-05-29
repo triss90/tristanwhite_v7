@@ -212,19 +212,21 @@ section#contact {
   overflow: hidden;
   h3 {
     margin: 0 0 20px 0;
+    text-align: center;
   }
   .contact-form {
     background: rgba($light-text-color,1);
-    border-radius: 5px;
+    border-radius: 3px;
     position: relative;
     z-index: 3;
-    padding: 20px;
+    padding: 40px;
     input[type="text"],input[type="email"], textarea {
       display: block;
+      background: $light-text-color;
       border-radius: 5px;
       width: 100%;
       margin-bottom: 20px;
-      border: 1px solid darken($light-text-color, 10%);
+      border: 1px solid darken($light-text-color, 20%);
       resize: none;
       padding: 10px;
       &:focus {
@@ -238,6 +240,9 @@ section#contact {
     position: absolute;
     right: 0;
     top: -150px;
+    @media (max-width: 768px) {
+      right: -100px;
+    }
     svg {
       height: 600px;
       width: auto;

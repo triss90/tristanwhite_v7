@@ -2066,19 +2066,21 @@ section#contact {
   position: relative;
   overflow: hidden; }
   section#contact h3 {
-    margin: 0 0 20px 0; }
+    margin: 0 0 20px 0;
+    text-align: center; }
   section#contact .contact-form {
     background: #f4f5f0;
-    border-radius: 5px;
+    border-radius: 3px;
     position: relative;
     z-index: 3;
-    padding: 20px; }
+    padding: 40px; }
     section#contact .contact-form input[type="text"], section#contact .contact-form input[type="email"], section#contact .contact-form textarea {
       display: block;
+      background: #F4F5F0;
       border-radius: 5px;
       width: 100%;
       margin-bottom: 20px;
-      border: 1px solid #dee1d1;
+      border: 1px solid #c7ccb3;
       resize: none;
       padding: 10px; }
       section#contact .contact-form input[type="text"]:focus, section#contact .contact-form input[type="email"]:focus, section#contact .contact-form textarea:focus {
@@ -2089,6 +2091,9 @@ section#contact {
     position: absolute;
     right: 0;
     top: -150px; }
+    @media (max-width: 768px) {
+      section#contact span.bg-img {
+        right: -100px; } }
     section#contact span.bg-img svg {
       height: 600px;
       width: auto; }
