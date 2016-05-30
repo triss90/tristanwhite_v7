@@ -2,10 +2,10 @@
 layout: video
 title: "Quick Code - CSS Battery Loader"
 date: 2016-05-16 09:32:51 +0100
-categories: videos
+categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_css_battery_loader.png
 time: "02:51"
-number: "Episode #19"
+number: "19"
 ---
 
 <div class="responsive-video">

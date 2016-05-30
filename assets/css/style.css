@@ -1848,6 +1848,22 @@ footer {
     border: 1px solid #dee1d1;
     border-radius: 3px; }
 
+table {
+  width: 100%; }
+
+tr th {
+  border: 0;
+  color: #9a9a97; }
+tr td {
+  border: 1px solid #333332;
+  color: #333332;
+  padding: 12px;
+  line-height: 16px;
+  font-size: 16px; }
+  tr td:last-child, tr td:first-child {
+    width: 1%;
+    white-space: nowrap; }
+
 section#about {
   padding: 100px 0;
   text-align: center;
@@ -2099,3 +2115,14 @@ section#contact {
       width: auto; }
       section#contact span.bg-img svg path {
         fill: #46a759; }
+
+#videos {
+  background: #F4F5F0; }
+  #videos h2 {
+    font-size: 2rem; }
+    @media (max-width: 768px) {
+      #videos h2 {
+        text-align: center;
+        margin-top: 75px; } }
+  #videos img {
+    max-width: 100%; }

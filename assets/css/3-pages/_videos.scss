@@ -1,0 +1,14 @@
+#videos {
+  background: $light-text-color;
+  h2 {
+    font-size: 2rem;
+    @media(max-width: 768px) {
+      text-align: center;
+      margin-top: 75px;
+    }
+  }
+  img {
+    max-width: 100%;
+  }
+
+}

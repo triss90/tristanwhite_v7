@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+}
+
+
+tr {
+  th {
+    border: 0;
+    color: lighten($dark-text-color, 40%);
+  }
+  td {
+    border:1px solid $dark-text-color;
+    color: $dark-text-color;
+    padding: 12px;
+    line-height: 16px;
+    font-size: 16px;
+    &:last-child, &:first-child {
+      width: 1%;
+      white-space: nowrap;
+    }
+  }
+}
