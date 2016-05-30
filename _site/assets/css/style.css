@@ -1848,22 +1848,52 @@ footer {
     border: 1px solid #dee1d1;
     border-radius: 3px; }
 
+.table-wrapper {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  background: #F4F5F0;
+  border-radius: 5px;
+  position: relative; }
+  .table-wrapper .table-title {
+    position: absolute;
+    top: 10px;
+    left: -10px;
+    background: #58B96B;
+    font-weight: bold;
+    color: #F4F5F0;
+    padding: 10px 15px;
+    border-radius: 5px 5px 5px 0; }
+    .table-wrapper .table-title:after {
+      content: "";
+      position: absolute;
+      display: block;
+      width: 0;
+      height: 0;
+      bottom: -10px;
+      left: 0px;
+      border-left: 10px solid transparent;
+      border-right: 0px solid transparent;
+      border-top: 10px solid #429c53; }
+
 table {
   width: 100%; }
 
-tr th {
-  border: 0;
-  color: #9a9a97; }
-tr td {
-  border: 1px solid #333332;
-  color: #333332;
-  padding: 12px;
-  line-height: 16px;
-  font-size: 16px; }
-  tr td:last-child, tr td:first-child {
-    width: 1%;
-    white-space: nowrap;
-    text-align: center; }
+tr {
+  border-bottom: 1px solid #9a9a97; }
+  tr:last-child {
+    border: 0; }
+  tr th {
+    border: 0;
+    color: #9a9a97; }
+  tr td {
+    color: #333332;
+    padding: 12px;
+    line-height: 16px;
+    font-size: 16px; }
+    tr td:last-child, tr td:first-child {
+      width: 1%;
+      white-space: nowrap;
+      text-align: center; }
 
 section#about {
   padding: 100px 0;
@@ -2121,10 +2151,37 @@ section#contact {
 #videos {
   background: #F4F5F0; }
   #videos h2 {
-    font-size: 2rem; }
+    font-size: 2rem;
+    margin-bottom: 50px; }
     @media (max-width: 768px) {
       #videos h2 {
         text-align: center;
         margin-top: 75px; } }
-  #videos img {
-    max-width: 100%; }
+  #videos .video-link {
+    display: block;
+    margin: 25px auto;
+    background: #F4F5F0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    position: relative;
+    -webkit-transition: all ease-in-out 200ms;
+    transition: all ease-in-out 200ms;
+    border-radius: 5px; }
+    #videos .video-link:first-child {
+      margin-top: 0; }
+    #videos .video-link:hover {
+      -webkit-transform: scale(1.05);
+              transform: scale(1.05);
+      text-decoration: none;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); }
+    #videos .video-link img {
+      max-width: 100%;
+      width: 100%; }
+    #videos .video-link span.playtime {
+      background: rgba(0, 0, 0, 0.4);
+      padding: 10px 15px;
+      color: #F4F5F0;
+      text-decoration: none;
+      position: absolute;
+      right: 20px;
+      bottom: 20px; }
