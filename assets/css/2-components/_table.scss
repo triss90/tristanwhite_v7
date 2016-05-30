@@ -17,6 +17,7 @@ tr {
     &:last-child, &:first-child {
       width: 1%;
       white-space: nowrap;
+      text-align: center;
     }
   }
 }

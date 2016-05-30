@@ -14,7 +14,8 @@ section#about {
   }
   p.about-text {
     font-size: 20px;
-    line-height: 45px;
+    line-height: 37px;
+    color: lighten($dark-text-color, 20%);
     @media (max-width: 768px) {
       font-size: 20px;
       line-height: 30px;
