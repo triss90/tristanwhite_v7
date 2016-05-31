@@ -36,6 +36,14 @@ table {
 
 tr {
   border-bottom: 1px solid lighten($dark-text-color, 40%);
+  cursor: pointer;
+  &:hover {
+    background: darken($light-text-color, 5%);
+    th {
+      background: $light-text-color;
+      cursor: auto;
+    }
+  }
   &:last-child {
     border: 0;
   }

@@ -21,13 +21,11 @@ permalink: /videos/
               </tr>
             </thead>
             {% for post in site.categories.quick-code %}
-            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">
-              <tr>
+              <tr onclick="document.location = '{{ post.url | prepend: site.baseurl }}';">
                 <td class="block">{{ post.number }}</td>
                 <td class="block">{{ post.title }}</td>
                 <td class="block">{{ post.time }}</td>
               </tr>
-            </a>
             {% endfor %}
           </table>
         </div>

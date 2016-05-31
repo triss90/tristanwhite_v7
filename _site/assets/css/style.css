@@ -1879,7 +1879,13 @@ table {
   width: 100%; }
 
 tr {
-  border-bottom: 1px solid #9a9a97; }
+  border-bottom: 1px solid #9a9a97;
+  cursor: pointer; }
+  tr:hover {
+    background: #e9ebe1; }
+    tr:hover th {
+      background: #F4F5F0;
+      cursor: auto; }
   tr:last-child {
     border: 0; }
   tr th {
