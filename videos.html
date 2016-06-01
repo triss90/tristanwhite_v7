@@ -22,16 +22,14 @@ permalink: /videos/
             </thead>
             {% for post in site.categories.quick-code %}
               <tr onclick="document.location = '{{ post.url | prepend: site.baseurl }}';">
-                <td class="block">{{ post.number }}</td>
-                <td class="block">{{ post.title }}</td>
-                <td class="block">{{ post.time }}</td>
+                <td>{{ post.number }}</td>
+                <td>{{ post.title }}</td>
+                <td>{{ post.time }}</td>
               </tr>
             {% endfor %}
           </table>
         </div>
       </div>
-
-
 
       <div class="tiny-12 small-4 medium-4 large-4 last-small first-tiny">
         <h2>New videos</h2>

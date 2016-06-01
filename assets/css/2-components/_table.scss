@@ -13,7 +13,8 @@
     color: $light-text-color;
     padding: 10px 15px;
     border-radius: 5px 5px 5px 0;
-    //box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    z-index: 10;
     &:after {
       content: "";
       position: absolute;
@@ -31,8 +32,8 @@
 
 table {
   width: 100%;
+  position: relative;
 }
-
 
 tr {
   border-bottom: 1px solid lighten($dark-text-color, 40%);
@@ -42,6 +43,9 @@ tr {
     th {
       background: $light-text-color;
       cursor: auto;
+    }
+    td {
+      background: darken($light-text-color, 5%);
     }
   }
   &:last-child {

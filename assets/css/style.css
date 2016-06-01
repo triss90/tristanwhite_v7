@@ -1807,7 +1807,7 @@ div#article.video {
       div#article.video .time {
         text-align: center; } }
   div#article.video .video-header {
-    background: #58B96B;
+    background-color: #58B96B;
     height: 500px; }
   div#article.video .responsive-video {
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
@@ -1862,7 +1862,9 @@ footer {
     font-weight: bold;
     color: #F4F5F0;
     padding: 10px 15px;
-    border-radius: 5px 5px 5px 0; }
+    border-radius: 5px 5px 5px 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 10; }
     .table-wrapper .table-title:after {
       content: "";
       position: absolute;
@@ -1876,7 +1878,8 @@ footer {
       border-top: 10px solid #429c53; }
 
 table {
-  width: 100%; }
+  width: 100%;
+  position: relative; }
 
 tr {
   border-bottom: 1px solid #9a9a97;
@@ -1886,6 +1889,8 @@ tr {
     tr:hover th {
       background: #F4F5F0;
       cursor: auto; }
+    tr:hover td {
+      background: #e9ebe1; }
   tr:last-child {
     border: 0; }
   tr th {
