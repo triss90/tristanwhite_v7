@@ -2059,6 +2059,8 @@ footer {
   background: #F4F5F0;
   text-align: center;
   padding: 50px 0; }
+  footer .links {
+    margin: 20px 0; }
   footer .social .item {
     width: 50px;
     display: inline-block; }
