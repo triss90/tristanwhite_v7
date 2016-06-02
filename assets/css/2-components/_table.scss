@@ -1,5 +1,5 @@
 .table-wrapper {
-  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  box-shadow: 0 0 7px rgba(0,0,0,0.3);
   padding: 20px;
   background: $light-text-color;
   border-radius: 5px;
@@ -13,7 +13,7 @@
     color: $light-text-color;
     padding: 10px 15px;
     border-radius: 5px 5px 5px 0;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    box-shadow: 0 0 7px rgba(0,0,0,0.3);
     z-index: 10;
     &:after {
       content: "";

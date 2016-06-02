@@ -38,9 +38,7 @@ To use the grid system you'll need to use two separate Mixins. One for the conta
 
 This Mixin takes no values. It simply sets the size and position of the container, and makes sure that it'll adapt to different screen sizes. It saves
 
-<br>
 <hr>
-<br>
 
 ### The grid Item
 {% highlight scss %}
@@ -79,9 +77,7 @@ You can easily modify the Mixin, for example to add additional breakpoints to mo
 }
 {% endhighlight %}
 
-<br>
 <hr>
-<br>
 
 ### Example
 <p data-height="450" data-theme-id="16012" data-slug-hash="LpozKX" data-default-tab="result" data-user="triss90" class='codepen'>See the Pen <a href='http://codepen.io/triss90/pen/LpozKX/'>SASS Mixin Grid</a> by Tristan Oliver Mose Jensen White (<a href='http://codepen.io/triss90'>@triss90</a>) on <a href='http://codepen.io'>CodePen</a>.</p>

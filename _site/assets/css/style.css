@@ -1935,7 +1935,7 @@ button, .button {
   min-width: 100%;
   height: auto;
   padding: 50px 15px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   overflow: hidden;
   margin: 25px 0;
@@ -2088,7 +2088,7 @@ footer {
     border-radius: 3px; }
 
 .table-wrapper {
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
   padding: 20px;
   background: #F4F5F0;
   border-radius: 5px;
@@ -2102,7 +2102,7 @@ footer {
     color: #F4F5F0;
     padding: 10px 15px;
     border-radius: 5px 5px 5px 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
     z-index: 10; }
     .table-wrapper .table-title:after {
       content: "";
@@ -2411,7 +2411,7 @@ section#contact {
     display: block;
     margin: 25px auto;
     background: #F4F5F0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
     padding: 10px;
     position: relative;
     -webkit-transition: all ease-in-out 200ms;
