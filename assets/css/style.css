@@ -1400,7 +1400,8 @@ hr {
 
 /* close commented backslash hack */
 .highlight {
-  margin: 15px 0 0 0; }
+  margin: 15px 0 0 0;
+  color: #F4F5F0 !important; }
 
 .highlight:before {
   content: "Code Example";
@@ -2492,7 +2493,8 @@ div#article.post .post-header .date {
   color: #c7ccb3;
   text-transform: uppercase;
   font-weight: bold;
-  letter-spacing: 2px; }
+  letter-spacing: 2px;
+  border-bottom: 0; }
 div#article.post .post-content img, div#article.post .post-content svg {
   max-width: 100%; }
 div#article.post .post-content h4 {

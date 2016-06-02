@@ -63,7 +63,7 @@ Installing your certificate with Let's Encrypt is extremely easy. Simply run the
 $ ./letsencrypt-auto --apache
 {% endhighlight %}
 
-### 3. Choses your domains.
+### 3. Choses your domains
 The program automatically locates your the websites hosted by apache and asks which to encrypt. Simply follow the instructions.
 
 ### 4. Renewing your certificate
