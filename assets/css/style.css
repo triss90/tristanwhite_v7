@@ -2054,35 +2054,6 @@ div#article.post {
   div#article.post img {
     max-width: 100%; }
 
-div#article.video {
-  background: #F4F5F0; }
-  div#article.video .title {
-    color: #F4F5F0;
-    font-size: 3rem;
-    font-weight: 700; }
-    @media (max-width: 768px) {
-      div#article.video .title {
-        font-size: 2rem;
-        line-height: 2.5rem;
-        margin-top: 4rem;
-        text-align: center; } }
-  div#article.video .time {
-    font-size: 1.5rem;
-    color: #337840;
-    line-height: 2rem; }
-    @media (max-width: 768px) {
-      div#article.video .time {
-        text-align: center; } }
-  div#article.video .video-header {
-    background-color: #58B96B;
-    height: 500px; }
-  div#article.video .responsive-video {
-    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
-    margin-top: -275px; }
-    @media (max-width: 1025px) {
-      div#article.video .responsive-video {
-        margin-top: -230px; } }
-
 footer {
   background: #F4F5F0;
   text-align: center;
@@ -2463,3 +2434,71 @@ section#contact {
       position: absolute;
       right: 20px;
       bottom: 20px; }
+
+div#article.video {
+  background: #F4F5F0; }
+  div#article.video .title {
+    color: #F4F5F0;
+    font-size: 3rem;
+    font-weight: 700; }
+    @media (max-width: 768px) {
+      div#article.video .title {
+        font-size: 2rem;
+        line-height: 2.5rem;
+        margin-top: 4rem;
+        text-align: center; } }
+  div#article.video .time {
+    font-size: 1.5rem;
+    color: #337840;
+    line-height: 2rem; }
+    @media (max-width: 768px) {
+      div#article.video .time {
+        text-align: center; } }
+  div#article.video .video-header {
+    background-color: #58B96B;
+    height: 500px; }
+  div#article.video .responsive-video {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+    margin-top: -275px; }
+    @media (max-width: 1025px) {
+      div#article.video .responsive-video {
+        margin-top: -230px; } }
+
+#articles {
+  background-color: #F4F5F0; }
+  #articles h1 {
+    font-size: 2rem; }
+    @media (max-width: 768px) {
+      #articles h1 {
+        text-align: center;
+        margin: 70px 0 -20px 0; } }
+  #articles article {
+    padding: 50px 0;
+    border-bottom: 1px dashed #c7ccb3; }
+    #articles article h2 {
+      font-size: 2rem;
+      margin-top: 0; }
+    #articles article .date {
+      font-size: 0.9rem;
+      color: #c7ccb3;
+      text-transform: uppercase;
+      font-weight: bold;
+      letter-spacing: 2px; }
+
+div#article.post .post-header .title {
+  font-size: 2rem; }
+div#article.post .post-header .date {
+  font-size: 0.9rem;
+  color: #c7ccb3;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 2px; }
+div#article.post .post-content img, div#article.post .post-content svg {
+  max-width: 100%; }
+div#article.post .post-content h4 {
+  font-size: 1.125rem; }
+div#article.post .post-content .u-release {
+  max-width: 100vw !important;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%); }
