@@ -3,7 +3,8 @@
 **/
 function navigation() {
   var toggle = $('#menu-toggle'),
-      menu = $('#menu');
+      menu = $('#menu'),
+      menuItem = $('#menu a');
 
   toggle.on('click', function() {
     menu.toggleClass('active');
@@ -12,6 +13,10 @@ function navigation() {
     } else {
       toggle.addClass('active').html('&#10005;');
     }
+  });
+
+  menuItem.on('click', function() {
+    menu.removeClass('active');
   });
 
 }

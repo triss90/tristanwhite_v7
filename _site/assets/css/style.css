@@ -2488,6 +2488,9 @@ div#article.video {
 
 div#article.post .post-header .title {
   font-size: 2rem; }
+  @media (max-width: 768px) {
+    div#article.post .post-header .title {
+      font-size: 1.5rem; } }
 div#article.post .post-header .date {
   font-size: 0.9rem;
   color: #c7ccb3;
@@ -2507,3 +2510,7 @@ div#article.post .post-content .u-release {
 
 #terms {
   background: #F4F5F0; }
+  @media (max-width: 768px) {
+    #terms h2 {
+      font-size: 2rem;
+      margin-top: 70px; } }
