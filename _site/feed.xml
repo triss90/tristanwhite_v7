@@ -3,10 +3,10 @@
   <channel>
     <title>Tristan White</title>
     <description>Hi! My name is Tristan White, I&#39;m a designer, developer and somewhat unicorn-like. I was born and raised in a small town in Denmark. Today I am proud to call myself a full-stack web developer. I love making beautiful, yet practical websites and applications.</description>
-    <link>//tristanwhite.info//</link>
-    <atom:link href="//tristanwhite.info//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 02 Jun 2016 17:52:46 +0200</pubDate>
-    <lastBuildDate>Thu, 02 Jun 2016 17:52:46 +0200</lastBuildDate>
+    <link>//tristanwhite.info/stage//</link>
+    <atom:link href="//tristanwhite.info/stage//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 03 Jun 2016 12:22:42 +0200</pubDate>
+    <lastBuildDate>Fri, 03 Jun 2016 12:22:42 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
     
       <item>
@@ -24,8 +24,8 @@
 
 </description>
         <pubDate>Mon, 16 May 2016 10:32:51 +0200</pubDate>
-        <link>//tristanwhite.info//videos/quick-code/2016/05/16/quick-code-css-battery-loader.html</link>
-        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/05/16/quick-code-css-battery-loader.html</guid>
+        <link>//tristanwhite.info/stage//videos/quick-code/2016/05/16/quick-code-css-battery-loader.html</link>
+        <guid isPermaLink="true">//tristanwhite.info/stage//videos/quick-code/2016/05/16/quick-code-css-battery-loader.html</guid>
         
         
         <category>videos</category>
@@ -49,8 +49,8 @@
 
 </description>
         <pubDate>Mon, 09 May 2016 11:26:11 +0200</pubDate>
-        <link>//tristanwhite.info//videos/quick-code/2016/05/09/quick-code-basic-flexbox-grid.html</link>
-        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/05/09/quick-code-basic-flexbox-grid.html</guid>
+        <link>//tristanwhite.info/stage//videos/quick-code/2016/05/09/quick-code-basic-flexbox-grid.html</link>
+        <guid isPermaLink="true">//tristanwhite.info/stage//videos/quick-code/2016/05/09/quick-code-basic-flexbox-grid.html</guid>
         
         
         <category>videos</category>
@@ -74,8 +74,8 @@
 
 </description>
         <pubDate>Mon, 02 May 2016 10:32:51 +0200</pubDate>
-        <link>//tristanwhite.info//videos/quick-code/2016/05/02/quick-code-rotating-css-loader.html</link>
-        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/05/02/quick-code-rotating-css-loader.html</guid>
+        <link>//tristanwhite.info/stage//videos/quick-code/2016/05/02/quick-code-rotating-css-loader.html</link>
+        <guid isPermaLink="true">//tristanwhite.info/stage//videos/quick-code/2016/05/02/quick-code-rotating-css-loader.html</guid>
         
         
         <category>videos</category>
@@ -99,8 +99,8 @@
 
 </description>
         <pubDate>Mon, 25 Apr 2016 10:32:51 +0200</pubDate>
-        <link>//tristanwhite.info//videos/quick-code/2016/04/25/quick-code-animated-signature.html</link>
-        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/04/25/quick-code-animated-signature.html</guid>
+        <link>//tristanwhite.info/stage//videos/quick-code/2016/04/25/quick-code-animated-signature.html</link>
+        <guid isPermaLink="true">//tristanwhite.info/stage//videos/quick-code/2016/04/25/quick-code-animated-signature.html</guid>
         
         
         <category>videos</category>
@@ -124,8 +124,8 @@
 
 </description>
         <pubDate>Mon, 18 Apr 2016 15:02:00 +0200</pubDate>
-        <link>//tristanwhite.info//videos/quick-code/2016/04/18/quick-code-simple-slider.html</link>
-        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/04/18/quick-code-simple-slider.html</guid>
+        <link>//tristanwhite.info/stage//videos/quick-code/2016/04/18/quick-code-simple-slider.html</link>
+        <guid isPermaLink="true">//tristanwhite.info/stage//videos/quick-code/2016/04/18/quick-code-simple-slider.html</guid>
         
         
         <category>videos</category>
@@ -149,8 +149,8 @@
 
 </description>
         <pubDate>Mon, 11 Apr 2016 10:32:51 +0200</pubDate>
-        <link>//tristanwhite.info//videos/quick-code/2016/04/11/quick-code-css-checkbox.html</link>
-        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/04/11/quick-code-css-checkbox.html</guid>
+        <link>//tristanwhite.info/stage//videos/quick-code/2016/04/11/quick-code-css-checkbox.html</link>
+        <guid isPermaLink="true">//tristanwhite.info/stage//videos/quick-code/2016/04/11/quick-code-css-checkbox.html</guid>
         
         
         <category>videos</category>
@@ -213,8 +213,8 @@
 &lt;/ol&gt;
 </description>
         <pubDate>Wed, 06 Apr 2016 09:11:57 +0200</pubDate>
-        <link>//tristanwhite.info//articles/2016/04/06/vpn-and-geo-location.html</link>
-        <guid isPermaLink="true">//tristanwhite.info//articles/2016/04/06/vpn-and-geo-location.html</guid>
+        <link>//tristanwhite.info/stage//articles/2016/04/06/vpn-and-geo-location.html</link>
+        <guid isPermaLink="true">//tristanwhite.info/stage//articles/2016/04/06/vpn-and-geo-location.html</guid>
         
         
         <category>articles</category>
@@ -236,8 +236,8 @@
 
 </description>
         <pubDate>Mon, 04 Apr 2016 10:32:51 +0200</pubDate>
-        <link>//tristanwhite.info//videos/quick-code/2016/04/04/quick-code-fluid-navigation.html</link>
-        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/04/04/quick-code-fluid-navigation.html</guid>
+        <link>//tristanwhite.info/stage//videos/quick-code/2016/04/04/quick-code-fluid-navigation.html</link>
+        <guid isPermaLink="true">//tristanwhite.info/stage//videos/quick-code/2016/04/04/quick-code-fluid-navigation.html</guid>
         
         
         <category>videos</category>
@@ -261,8 +261,8 @@
 
 </description>
         <pubDate>Mon, 28 Mar 2016 12:23:21 +0200</pubDate>
-        <link>//tristanwhite.info//videos/quick-code/2016/03/28/quick-code-animated-header.html</link>
-        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/03/28/quick-code-animated-header.html</guid>
+        <link>//tristanwhite.info/stage//videos/quick-code/2016/03/28/quick-code-animated-header.html</link>
+        <guid isPermaLink="true">//tristanwhite.info/stage//videos/quick-code/2016/03/28/quick-code-animated-header.html</guid>
         
         
         <category>videos</category>
@@ -286,8 +286,8 @@
 
 </description>
         <pubDate>Tue, 22 Mar 2016 07:01:42 +0100</pubDate>
-        <link>//tristanwhite.info//videos/quick-code/2016/03/22/quick-code-responsive-navigation.html</link>
-        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/03/22/quick-code-responsive-navigation.html</guid>
+        <link>//tristanwhite.info/stage//videos/quick-code/2016/03/22/quick-code-responsive-navigation.html</link>
+        <guid isPermaLink="true">//tristanwhite.info/stage//videos/quick-code/2016/03/22/quick-code-responsive-navigation.html</guid>
         
         
         <category>videos</category>

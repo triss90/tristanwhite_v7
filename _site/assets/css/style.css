@@ -2034,7 +2034,8 @@ button, .button {
           .carousel .carousel-wrap .carousel-unit .avatar {
             display: none; } }
         .carousel .carousel-wrap .carousel-unit .avatar img {
-          border-radius: 50%; }
+          border-radius: 50%;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
       .carousel .carousel-wrap .carousel-unit .testimonial i {
         font-size: 1.25rem;
         line-height: 1.9rem; }

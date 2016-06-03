@@ -12,7 +12,7 @@ description: Hi! My name is Tristan White, I'm a designer, developer and somewha
              I was born and raised in a small town in Denmark. Today I am proud to call myself a full-stack web developer.
              I love making beautiful, yet practical websites and applications.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "//tristanwhite.info/" # the base hostname & protocol for your site
+url: "https://tristanwhite.info/" # the base hostname & protocol for your site
 twitter_username: Triss90
 github_username:  triss90405
 
