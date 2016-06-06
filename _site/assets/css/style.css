@@ -2169,7 +2169,8 @@ tr {
 section#about {
   padding: 100px 0;
   text-align: center;
-  background: #F4F5F0; }
+  background-color: #F4F5F0;
+  background-image: url("/assets/img/square_bg.png"); }
   @media (max-width: 768px) {
     section#about {
       padding: 30px 0; } }
