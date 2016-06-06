@@ -2166,6 +2166,9 @@ tr {
       outline: none;
       border-color: #58B96B; }
 
+html, body {
+  background: #F4F5F0; }
+
 section#about {
   padding: 100px 0;
   text-align: center;
