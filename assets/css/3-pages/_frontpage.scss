@@ -208,34 +208,16 @@ section#content {
 
 section#contact {
   background-color: $link-color;
+  background-image: url('/assets/img/square_bg.png');
   padding: 100px 0;
   position: relative;
   overflow: hidden;
-  h3 {
+  h2 {
     margin: 0 0 20px 0;
-    text-align: center;
+    color: $light-text-color;
+    font-weight: 100;
   }
-  .contact-form {
-    background: rgba($light-text-color,1);
-    border-radius: 3px;
-    position: relative;
-    z-index: 3;
-    padding: 40px;
-    input[type="text"],input[type="email"], textarea {
-      display: block;
-      background: $light-text-color;
-      border-radius: 5px;
-      width: 100%;
-      margin-bottom: 20px;
-      border: 1px solid darken($light-text-color, 20%);
-      resize: none;
-      padding: 10px;
-      &:focus {
-        outline: none;
-        border-color: $link-color;
-      }
-    }
-  }
+
   span.bg-img {
     z-index: 1;
     position: absolute;

@@ -1,0 +1,17 @@
+.contact-form {
+  position: relative;
+  input[type="text"],input[type="email"], textarea {
+    display: block;
+    background: $light-text-color;
+    border-radius: 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: 1px solid darken($light-text-color, 20%);
+    resize: none;
+    padding: 10px;
+    &:focus {
+      outline: none;
+      border-color: $link-color;
+    }
+  }
+}
