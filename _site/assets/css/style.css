@@ -1770,11 +1770,22 @@ nav {
     color: #F4F5F0; }
 
 .banner {
-  background: #58B96B;
+  background-color: #58B96B;
+  background-image: url("/assets/img/square_bg.png");
   height: 150px;
-  width: 100%;
+  max-width: 100%;
+  width: 100vw;
+  max-width: 100vw !important;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
   overflow: hidden;
   position: relative; }
+  .banner h1 {
+    color: #F4F5F0;
+    font-size: 2rem;
+    line-height: 150px;
+    margin: 0; }
   @media (max-width: 768px) {
     .banner {
       margin-top: 50px; } }
@@ -2523,3 +2534,62 @@ div#article.post .post-content .u-release {
     #terms h2 {
       font-size: 2rem;
       margin-top: 70px; } }
+
+section#shop .banner {
+  max-width: 100%;
+  width: 100vw;
+  max-width: 100vw !important;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%); }
+section#shop .item {
+  display: block;
+  background: #F4F5F0;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+  padding: 30px;
+  margin: 50px 0;
+  position: relative;
+  border-radius: 5px;
+  -webkit-transition: all 200ms ease-in-out;
+  transition: all 200ms ease-in-out; }
+  section#shop .item:hover {
+    text-decoration: none;
+    -webkit-transform: scale(1.05);
+            transform: scale(1.05); }
+  section#shop .item .price {
+    position: absolute;
+    right: -10px;
+    top: 10px;
+    box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+    background: #58B96B;
+    padding: 10px 15px;
+    color: #2b6737; }
+    section#shop .item .price:before {
+      content: "";
+      position: absolute;
+      left: -10px;
+      top: 0;
+      width: 0;
+      height: 0;
+      border-top: 19px solid transparent;
+      border-bottom: 20px solid transparent;
+      border-right: 10px solid #58B96B; }
+    section#shop .item .price:after {
+      content: "";
+      position: absolute;
+      bottom: -10px;
+      right: 0;
+      width: 0;
+      height: 0;
+      border-left: 0px solid transparent;
+      border-right: 10px solid transparent;
+      border-top: 10px solid #429c53; }
+    section#shop .item .price .old {
+      text-decoration: line-through; }
+  section#shop .item .cover img {
+    max-width: 100%; }
+  section#shop .item .lead {
+    color: #333332;
+    margin: 20px 0 10px 0; }
+  section#shop .item .description {
+    color: #333332; }

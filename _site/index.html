@@ -10,8 +10,8 @@
   <meta name="description" content="Hi! My name is Tristan White, I'm a designer, developer and somewhat unicorn-like. I was born and raised in a small town in Denmark. Today I am proud to call myself a full-stack web developer. I love making beautiful, yet practical websites and applications.">
 
   <link rel="stylesheet" href="/assets/css/style.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="//tristanwhite.info/stage//">
-  <link rel="alternate" type="application/rss+xml" title="Tristan White" href="//tristanwhite.info/stage//feed.xml">
+  <link rel="canonical" href="https://tristanwhite.info//">
+  <link rel="alternate" type="application/rss+xml" title="Tristan White" href="https://tristanwhite.info//feed.xml">
 
 </head>
 
@@ -314,12 +314,24 @@
     <div class="row">
       <div class="tiny-12 small-12 medium-10 medium-offset-1">
         <div class="contact-form">
-          <h2>Contact me</h2>
+          <div class="row">
+            <div class="tiny">
+              <h2>Contact me</h2>
+            </div>
+          </div>
           <form >
-            <input type="text" name="name" placeholder="Name">
-            <input type="email" name="email" placeholder="Email">
-            <textarea name="message" rows="8" cols="40" placeholder="Message"></textarea>
-            <button type="submit" class="sendbutton">Send message</button>
+            <div class="row">
+              <div class="tiny-12 small-12 medium-6 large-6">
+                <input type="text" name="name" placeholder="Your name">
+              </div>
+              <div class="tiny-12 small-12 medium-6 large-6">
+                <input type="email" name="email" placeholder="Your Email">
+              </div>
+              <div class="tiny-12">
+                <textarea name="message" rows="8" cols="40" placeholder="Message"></textarea>
+                <button type="submit" class="sendbutton">Send message</button>
+              </div>
+            </div>
           </form>
         </div>
       </div>

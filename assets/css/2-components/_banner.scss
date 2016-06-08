@@ -1,9 +1,21 @@
 .banner {
-  background: $link-color;
+  background-color: $link-color;
+  background-image: url('/assets/img/square_bg.png');
   height: 150px;
-  width: 100%;
+  max-width: 100%;
+  width: 100vw;
+  max-width: 100vw !important;
+  width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
   overflow: hidden;
   position: relative;
+  h1 {
+    color: $light-text-color;
+    font-size: 2rem;
+    line-height: 150px;
+    margin: 0;
+  }
   @media(max-width: 768px) {
     margin-top: 50px;
   }
