@@ -116,7 +116,8 @@ section#work {
 
 
 section#content {
-  background: $light-text-color;
+  background-color: $light-text-color;
+  background-image: url('/assets/img/bg-pattern.png');
   padding: 100px 0;
   @media (max-width: 768px) {
     padding: 30px 0;

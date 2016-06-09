@@ -2297,7 +2297,8 @@ section#work {
         padding: 10px; }
 
 section#content {
-  background: #F4F5F0;
+  background-color: #F4F5F0;
+  background-image: url("/assets/img/bg-pattern.png");
   padding: 100px 0; }
   @media (max-width: 768px) {
     section#content {
