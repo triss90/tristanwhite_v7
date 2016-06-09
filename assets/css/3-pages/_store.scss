@@ -52,6 +52,7 @@ section#shop {
       }
       .old {
         text-decoration: line-through;
+        color: darken($link-color, 13%);
       }
     }
     .cover {

@@ -2585,7 +2585,8 @@ section#shop .item {
       border-right: 10px solid transparent;
       border-top: 10px solid #429c53; }
     section#shop .item .price .old {
-      text-decoration: line-through; }
+      text-decoration: line-through;
+      color: #3d924e; }
   section#shop .item .cover img {
     max-width: 100%; }
   section#shop .item .lead {
