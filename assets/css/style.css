@@ -1771,7 +1771,6 @@ nav {
 
 .banner {
   background-color: #58B96B;
-  background-image: url("/assets/img/square_bg.png");
   height: 150px;
   max-width: 100%;
   width: 100vw;
@@ -2397,7 +2396,6 @@ section#content {
 
 section#contact {
   background-color: #58B96B;
-  background-image: url("/assets/img/square_bg.png");
   padding: 100px 0;
   position: relative;
   overflow: hidden; }
