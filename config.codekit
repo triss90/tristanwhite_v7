@@ -933,6 +933,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/work\/wokr-2-banner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47468,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/wokr-2-banner.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/wokr-2-banner.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/work\/work-1-banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50988,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-1-banner.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-1-banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/work\/work-1-big.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -940,6 +962,17 @@
 		"initialSize": 642260,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-1-big.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-1-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/work\/work-1-thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61414,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-1-thumb.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-1-thumb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -966,6 +999,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/work\/work-2-thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40923,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-2-thumb.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-2-thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/work\/work-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -977,6 +1021,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/work\/work-3-banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 219527,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-3-banner.jpg",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-3-banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/work\/work-3-big.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -984,6 +1039,17 @@
 		"initialSize": 189376,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-3-big.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-3-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/work\/work-3-thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 191143,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-3-thumb.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-3-thumb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1020,6 +1086,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/cases\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/cases\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/colors\/index.html": {
 		"fileType": 8192,
@@ -1568,6 +1643,22 @@
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/assets\/css\/3-pages\/_articles.scss",
 		"outputAbbreviatedPath": "\/assets\/css\/css\/_articles.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
+	"\/assets\/css\/3-pages\/_cases.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-pages\/_cases.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_cases.css",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 0,
@@ -2373,6 +2464,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/work\/wokr-2-banner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 47468,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/wokr-2-banner.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/wokr-2-banner.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/work-1-banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 50988,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/work-1-banner.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/work-1-banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/work\/work-1-big.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2380,6 +2493,17 @@
 		"initialSize": 642260,
 		"inputAbbreviatedPath": "\/assets\/img\/work\/work-1-big.png",
 		"outputAbbreviatedPath": "\/assets\/img\/work\/work-1-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/work-1-thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 61414,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/work-1-thumb.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/work-1-thumb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2406,6 +2530,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/work\/work-2-thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 40923,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/work-2-thumb.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/work-2-thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/work\/work-2.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2417,6 +2552,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/work\/work-3-banner.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 219527,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/work-3-banner.jpg",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/work-3-banner.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/work\/work-3-big.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2424,6 +2570,17 @@
 		"initialSize": 189376,
 		"inputAbbreviatedPath": "\/assets\/img\/work\/work-3-big.png",
 		"outputAbbreviatedPath": "\/assets\/img\/work\/work-3-big.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/work-3-thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 191143,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/work-3-thumb.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/work-3-thumb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2460,6 +2617,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/cases.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cases.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/colors.html": {
 		"fileType": 8192,

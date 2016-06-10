@@ -2593,3 +2593,35 @@ section#shop .item {
     margin: 20px 0 10px 0; }
   section#shop .item .description {
     color: #333332; }
+
+section#cases .banner {
+  margin-bottom: 50px; }
+section#cases .case-container {
+  position: relative; }
+  section#cases .case-container:hover .overlay {
+    visibility: visible;
+    opacity: 1; }
+  section#cases .case-container .overlay {
+    background: rgba(88, 185, 107, 0.9);
+    height: calc(100% - 4px);
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    visibility: hidden;
+    opacity: 0;
+    -webkit-transition: all 300ms ease-in-out;
+    transition: all 300ms ease-in-out;
+    padding: 20px; }
+    section#cases .case-container .overlay .title {
+      font-size: 1.5rem;
+      line-height: 1.5rem;
+      padding: 0;
+      margin: 0;
+      color: #F4F5F0;
+      font-weight: 100; }
+    section#cases .case-container .overlay .description {
+      color: #23552d;
+      font-size: 1.2rem; }
+  section#cases .case-container img {
+    max-width: 100%; }
