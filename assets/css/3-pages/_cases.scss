@@ -4,6 +4,7 @@ section#cases {
   }
   .case-container {
     position: relative;
+    margin-bottom: 40px;
     &:hover {
       .overlay {
         visibility: visible;
@@ -21,6 +22,14 @@ section#cases {
       opacity: 0;
       transition: all 300ms ease-in-out;
       padding: 20px;
+
+      // display: flex;
+      // flex-direction: column;
+      // justify-content: space-between;
+
+      .button {
+        display: inline-block;
+      }
       .title {
         font-size: 1.5rem;
         line-height: 1.5rem;
@@ -30,8 +39,9 @@ section#cases {
         font-weight: 100;
       }
       .description {
-        color: darken($link-color, 30%);
+        color: darken($link-color, 25%);
         font-size: 1.2rem;
+        margin-bottom: 1.5rem;
       }
     }
     img {

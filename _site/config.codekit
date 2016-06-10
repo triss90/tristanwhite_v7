@@ -1074,6 +1074,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/work\/work-4-thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2062,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-4-thumb.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/work-4-thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/js\/functions.js": {
 		"fileType": 64,
 		"ignore": 0,
@@ -2601,6 +2612,17 @@
 		"initialSize": 31940,
 		"inputAbbreviatedPath": "\/assets\/img\/work\/work-3.png",
 		"outputAbbreviatedPath": "\/assets\/img\/work\/work-3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/work-4-thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 2062,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/work-4-thumb.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/work-4-thumb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
