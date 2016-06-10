@@ -1813,8 +1813,7 @@ nav {
       .banner.big {
         text-align: center; } }
     .banner.big .content .lead {
-      font-size: 5rem;
-      text-shadow: 1px 1px 3px #429c53; }
+      font-size: 5rem; }
       @media (max-width: 768px) {
         .banner.big .content .lead {
           font-size: 3.15rem;
@@ -1832,8 +1831,7 @@ nav {
       color: #F4F5F0;
       font-weight: 100;
       position: relative;
-      z-index: 2;
-      text-shadow: 1px 1px 3px #429c53; }
+      z-index: 2; }
       @media (max-width: 768px) {
         .banner.big .content .sublead {
           font-size: 2rem;
@@ -1849,8 +1847,7 @@ nav {
       width: auto; }
     .banner.big button, .banner.big .button {
       margin: 25px 25px 0 0;
-      z-index: 2;
-      box-shadow: 2px 2px 3px #429c53; }
+      z-index: 2; }
       @media (max-width: 768px) {
         .banner.big button, .banner.big .button {
           font-size: 1rem;
@@ -1869,8 +1866,7 @@ button, .button {
   border-radius: 3px;
   -webkit-transition: all 100ms ease-in-out;
   transition: all 100ms ease-in-out;
-  position: relative;
-  box-shadow: 2px 2px 3px #429c53; }
+  position: relative; }
   button:hover, .button:hover {
     background: #6ac17b;
     text-decoration: none; }
@@ -1878,15 +1874,13 @@ button, .button {
     background: #49ae5d; }
   button.light, .button.light {
     background: #EDEDEB;
-    color: #333332;
-    box-shadow: 2px 2px 3px #d5d5d0; }
+    color: #333332; }
     button.light:hover, .button.light:hover {
       background: #e1e1de; }
     button.light:active, .button.light:active {
       background: #f9f9f8; }
   button.dark, .button.dark {
-    background: #333332;
-    box-shadow: 2px 2px 3px #191919; }
+    background: #333332; }
     button.dark:hover, .button.dark:hover {
       background: #40403f; }
     button.dark:active, .button.dark:active {
@@ -1948,7 +1942,7 @@ button, .button {
   min-width: 100%;
   height: auto;
   padding: 50px 15px;
-  box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
   border-radius: 5px;
   overflow: hidden;
   margin: 25px 0;
