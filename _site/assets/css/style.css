@@ -2251,10 +2251,12 @@ section#work {
       border-radius: 5px;
       box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4); }
     section#work .work-item .overlay {
-      background: rgba(88, 185, 107, 0.95);
+      background: rgba(88, 185, 107, 0.9);
       position: absolute;
       width: 100%;
-      height: 100%;
+      height: calc(100% - 4px);
+      top: 0;
+      left: 0;
       display: -webkit-box;
       display: -webkit-flex;
       display: -ms-flexbox;
@@ -2274,8 +2276,8 @@ section#work {
               justify-content: center;
       visibility: hidden;
       opacity: 0;
-      -webkit-transition: all ease-in-out 400ms;
-      transition: all ease-in-out 400ms;
+      -webkit-transition: all ease-in-out 300ms;
+      transition: all ease-in-out 300ms;
       z-index: 2;
       border-radius: 5px; }
       section#work .work-item .overlay p {
@@ -2607,7 +2609,8 @@ section#cases .case-container {
     opacity: 0;
     -webkit-transition: all 300ms ease-in-out;
     transition: all 300ms ease-in-out;
-    padding: 20px; }
+    padding: 20px;
+    border-radius: 5px; }
     section#cases .case-container .overlay .button {
       display: inline-block; }
     section#cases .case-container .overlay .title {
@@ -2622,4 +2625,6 @@ section#cases .case-container {
       font-size: 1.2rem;
       margin-bottom: 1.5rem; }
   section#cases .case-container img {
-    max-width: 100%; }
+    max-width: 100%;
+    border-radius: 5px;
+    box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4); }
