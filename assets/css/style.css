@@ -2544,17 +2544,8 @@ section#shop .item {
     box-shadow: 0 0 7px rgba(0, 0, 0, 0.3);
     background: #58B96B;
     padding: 10px 15px;
-    color: #2b6737; }
-    section#shop .item .price:before {
-      content: "";
-      position: absolute;
-      left: -10px;
-      top: 0;
-      width: 0;
-      height: 0;
-      border-top: 19px solid transparent;
-      border-bottom: 20px solid transparent;
-      border-right: 10px solid #58B96B; }
+    color: #F4F5F0;
+    border-radius: 5px 5px 0 5px; }
     section#shop .item .price:after {
       content: "";
       position: absolute;
@@ -2567,7 +2558,7 @@ section#shop .item {
       border-top: 10px solid #429c53; }
     section#shop .item .price .old {
       text-decoration: line-through;
-      color: #3d924e; }
+      color: #337840; }
   section#shop .item .cover img {
     max-width: 100%; }
   section#shop .item .lead {

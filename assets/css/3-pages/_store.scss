@@ -27,18 +27,8 @@ section#shop {
       box-shadow: 0 0 7px rgba(0,0,0,0.3);
       background: $link-color;
       padding: 10px 15px;
-      color: darken($link-color, 25%);
-      &:before {
-        content: "";
-        position: absolute;
-        left: -10px;
-        top: 0;
-        width: 0;
-        height: 0;
-        border-top: 19px solid transparent;
-        border-bottom: 20px solid transparent;
-        border-right: 10px solid $link-color;
-      }
+      color: $light-text-color;
+      border-radius: 5px 5px 0 5px;
       &:after {
         content: "";
         position: absolute;
@@ -52,7 +42,7 @@ section#shop {
       }
       .old {
         text-decoration: line-through;
-        color: darken($link-color, 13%);
+        color: darken($link-color, 20%);
       }
     }
     .cover {
