@@ -1785,9 +1785,14 @@ nav {
     font-size: 2rem;
     line-height: 150px;
     margin: 0; }
+    @media (max-width: 768px) {
+      .banner h1 {
+        line-height: 75px;
+        text-align: center; } }
   @media (max-width: 768px) {
     .banner {
-      margin-top: 50px; } }
+      margin-top: 50px;
+      height: 75px; } }
   .banner .content .lead {
     margin: 0;
     font-size: 3rem;
@@ -2482,12 +2487,6 @@ div#article.video {
 
 #articles {
   background-color: #F4F5F0; }
-  #articles h1 {
-    font-size: 2rem; }
-    @media (max-width: 768px) {
-      #articles h1 {
-        text-align: center;
-        margin: 70px 0 -20px 0; } }
   #articles article {
     padding: 50px 0;
     border-bottom: 1px dashed #c7ccb3; }

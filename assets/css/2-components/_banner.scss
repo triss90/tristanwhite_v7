@@ -14,9 +14,14 @@
     font-size: 2rem;
     line-height: 150px;
     margin: 0;
+    @media(max-width: 768px) {
+      line-height: 75px;
+      text-align: center;
+    }
   }
   @media(max-width: 768px) {
     margin-top: 50px;
+    height: 75px;
   }
   .content {
     .lead {
