@@ -212,9 +212,9 @@ permalink: /
 <section id="content">
   <div class="container">
     <div class="row">
-      <div class="tiny-12 small-6 medium-8 large-8">
+      <div class="tiny-12 small-6 medium-7 large-7">
         <h2>New Articles</h2>
-        {% for post in site.categories.articles limit:4 %}
+        {% for post in site.categories.articles limit:3 %}
         <article>
            <div class="title">
               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
@@ -225,7 +225,7 @@ permalink: /
         {% endfor %}
         <a href="{{ site.baseurl }}/articles/" class="button">Read more...</a>
       </div>
-      <div class="tiny-12 small-6 medium-4 large-4">
+      <div class="tiny-12 small-6 medium-4 large-4 medium-offset-1 large-offset-1">
         <h2>New Videos</h2>
         {% for post in site.categories.videos limit:3 %}
         <a class="video-link" href="{{ post.url | prepend: site.baseurl }}">
@@ -243,7 +243,7 @@ permalink: /
 <section id="contact">
   <div class="container">
     <div class="row">
-      <div class="tiny-12 small-12 medium-10 medium-offset-1">
+      <div class="tiny-12 small-12 medium-8 medium-offset-2">
         <div class="contact-form">
           <div class="row">
             <div class="tiny">
@@ -259,7 +259,7 @@ permalink: /
                 <input type="email" name="email" placeholder="Your Email">
               </div>
               <div class="tiny-12">
-                <textarea name="message" rows="8" cols="40" placeholder="Message"></textarea>
+                <textarea name="message" rows="8" cols="60" placeholder="Message"></textarea>
                 <button type="submit" class="sendbutton">Send message</button>
               </div>
             </div>
