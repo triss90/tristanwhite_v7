@@ -1,4 +1,7 @@
 section#cases {
+  @media(max-width: 768px) {
+    text-align: center;
+  }
   .banner {
     margin-bottom: 50px;
   }
@@ -25,6 +28,9 @@ section#cases {
       border-radius: 5px;
       .button {
         display: inline-block;
+        @media(max-width: 350px) {
+          padding: 0.5rem 1rem;
+        }
       }
       .title {
         font-size: 1.5rem;
@@ -38,6 +44,18 @@ section#cases {
         color: darken($link-color, 25%);
         font-size: 1.2rem;
         margin-bottom: 1.5rem;
+        @media(max-width: 1200px) {
+          margin: .5rem 0;
+          font-size: 1rem;
+        }
+        @media(max-width: 768px) {
+          margin: 1.5rem 0;
+          font-size: 1rem;
+        }
+        @media(max-width: 350px) {
+          margin: .5rem 0;
+          font-size: 1rem;
+        }
       }
     }
     img {
