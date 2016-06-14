@@ -254,7 +254,8 @@ section#content {
       }
     }
     .date {
-      color: darken($light-text-color, 20%);
+      color: darken($light-text-color, 25%);
+      font-weight: bold;
     }
     .excerpt {
 

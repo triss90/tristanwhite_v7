@@ -2378,7 +2378,8 @@ section#content {
       section#content article .post-link h3 {
         margin: 0 0 15px 0; }
     section#content article .date {
-      color: #c7ccb3; }
+      color: #bcc2a4;
+      font-weight: bold; }
   section#content .button {
     text-align: center;
     margin: 0 auto;
