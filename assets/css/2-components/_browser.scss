@@ -1,0 +1,80 @@
+
+/* OSX Safari Browser */
+.browser-window-osx {
+  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.11);
+  border: 1px solid rgb(195, 195, 195);
+  width: 100%;
+  margin: 50px auto;
+  padding: 0;
+  border-radius: 5px;
+  position: relative;
+  .header {
+    background: #e8e8e8;
+    height: 45px;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 10px 0 10px;
+    .menu {
+      width: 70px;
+      display: inline-block;
+      height: 25px;
+      @media (max-width: 750px) {
+        display: none;
+      }
+      span {
+        margin: 6px 4px;
+        padding: 0;
+        height: 12px;
+        width: 12px;
+        display: block;
+        float: left;
+        border-radius: 50%;
+        &.close {
+          background: #df7065;
+        }
+        &.minimize {
+          background: #e6bb46;
+        }
+        &.maximize {
+          background: #5bcc8b;
+        }
+      }
+    }
+    .search {
+      background: white;
+      width: 50%;
+      display: inline-block;
+      height: 25px;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden;
+      @media (max-width: 750px) {
+        width: 100%;
+      }
+      p {
+        color: #555555;
+        font-size: 1rem !important;
+        line-height: 1rem !important;
+        margin: 6px 10px !important;
+        letter-spacing: 0.6px;
+        position: absolute;
+
+        span {
+          color: #7ED321;
+        }
+      }
+    }
+  }
+  .window {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    transform: scale(1);
+    border-radius: 0 0 5px 5px;
+    iframe {
+      width: 100%;
+      height: 60vh;
+      border: 0;
+      margin: 0 0 -4px 0;
+    }
+  }
+}

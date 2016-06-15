@@ -18,6 +18,7 @@
 @import '2-components/responsive-video';
 @import '2-components/table';
 @import '2-components/form';
+@import '2-components/browser';
 @import '2-components/base';
 
 //Pages - Styles specific to the different pages
@@ -29,3 +30,5 @@
 @import '3-pages/terms';
 @import '3-pages/store';
 @import '3-pages/cases';
+
+@import '3-pages/case_gridder';

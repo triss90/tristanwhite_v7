@@ -2178,6 +2178,74 @@ tr {
       outline: none;
       border-color: #58B96B; }
 
+/* OSX Safari Browser */
+.browser-window-osx {
+  box-shadow: 0px 2px 3px 0px rgba(50, 50, 50, 0.11);
+  border: 1px solid #c3c3c3;
+  width: 100%;
+  margin: 50px auto;
+  padding: 0;
+  border-radius: 5px;
+  position: relative; }
+  .browser-window-osx .header {
+    background: #e8e8e8;
+    height: 45px;
+    border-radius: 5px 5px 0 0;
+    padding: 10px 10px 0 10px; }
+    .browser-window-osx .header .menu {
+      width: 70px;
+      display: inline-block;
+      height: 25px; }
+      @media (max-width: 750px) {
+        .browser-window-osx .header .menu {
+          display: none; } }
+      .browser-window-osx .header .menu span {
+        margin: 6px 4px;
+        padding: 0;
+        height: 12px;
+        width: 12px;
+        display: block;
+        float: left;
+        border-radius: 50%; }
+        .browser-window-osx .header .menu span.close {
+          background: #df7065; }
+        .browser-window-osx .header .menu span.minimize {
+          background: #e6bb46; }
+        .browser-window-osx .header .menu span.maximize {
+          background: #5bcc8b; }
+    .browser-window-osx .header .search {
+      background: white;
+      width: 50%;
+      display: inline-block;
+      height: 25px;
+      border-radius: 5px;
+      position: relative;
+      overflow: hidden; }
+      @media (max-width: 750px) {
+        .browser-window-osx .header .search {
+          width: 100%; } }
+      .browser-window-osx .header .search p {
+        color: #555555;
+        font-size: 1rem !important;
+        line-height: 1rem !important;
+        margin: 6px 10px !important;
+        letter-spacing: 0.6px;
+        position: absolute; }
+        .browser-window-osx .header .search p span {
+          color: #7ED321; }
+  .browser-window-osx .window {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+    border-radius: 0 0 5px 5px; }
+    .browser-window-osx .window iframe {
+      width: 100%;
+      height: 60vh;
+      border: 0;
+      margin: 0 0 -4px 0; }
+
 html, body {
   background: #F4F5F0; }
 
@@ -2627,3 +2695,69 @@ section#cases .case-container {
     max-width: 100%;
     border-radius: 5px;
     box-shadow: 0px 17px 10px -10px rgba(0, 0, 0, 0.4); }
+
+section#case_gridder .banner {
+  height: 512px;
+  background-color: #212836;
+  background-image: url("/assets/img/work/gridder_banner.png");
+  background-size: cover;
+  background-position: center top;
+  padding-top: 100px; }
+  @media (max-width: 768px) {
+    section#case_gridder .banner {
+      text-align: center; } }
+  section#case_gridder .banner h1 {
+    border: 3px solid #F4F5F0;
+    display: inline-block;
+    padding: 20px 50px;
+    font-size: 3.5rem;
+    line-height: 3.5rem;
+    font-weight: 300; }
+    @media (max-width: 768px) {
+      section#case_gridder .banner h1 {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        padding: 15px 25px; } }
+  section#case_gridder .banner p {
+    color: #F4F5F0;
+    font-size: 2rem;
+    line-height: 4rem; }
+    @media (max-width: 768px) {
+      section#case_gridder .banner p {
+        font-size: 1.5rem;
+        line-height: 2rem; } }
+  section#case_gridder .banner .button {
+    color: #212836;
+    margin-top: 30px; }
+section#case_gridder a {
+  color: #00b9e6; }
+section#case_gridder .content h2 {
+  text-align: center;
+  font-weight: 100;
+  color: #212836;
+  position: relative;
+  padding-bottom: 25px;
+  margin-top: 80px; }
+  section#case_gridder .content h2:after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: 70px;
+    left: calc(50% - 50px);
+    width: 100px;
+    height: 2px;
+    background: #e0e0e0; }
+section#case_gridder .content p {
+  font-size: 1.2rem;
+  line-height: 2rem; }
+section#case_gridder .content img {
+  max-width: 100%; }
+  section#case_gridder .content img.browser {
+    max-width: 65%;
+    margin: 50px 0;
+    text-align: right; }
+
+footer .links a {
+  color: #00b9e6; }
+footer .social .item:hover svg g path {
+  fill: #00b9e6; }

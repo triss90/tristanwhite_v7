@@ -260,6 +260,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 163307,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/bg.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/branding\/logo_color.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -858,9 +869,31 @@
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 16515,
+		"initialSize": 12939,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/client_logos_bg.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/client_logos_bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/work\/gridder-browser.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182514,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/gridder-browser.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/gridder-browser.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/work\/gridder_banner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20208,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/gridder_banner.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/gridder_banner.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1106,6 +1139,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/_site\/cases\/gridder\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/cases\/gridder\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/_site\/cases\/index.html": {
 		"fileType": 8192,
@@ -1494,6 +1536,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/css\/2-components\/_browser.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/2-components\/_browser.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_browser.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/css\/2-components\/_button.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1670,6 +1728,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/css\/3-pages\/_case_gridder.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-pages\/_case_gridder.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_case_gridder.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/css\/3-pages\/_cases.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -1798,6 +1872,17 @@
 		"initialSize": 14268,
 		"inputAbbreviatedPath": "\/assets\/img\/bg-pattern.png",
 		"outputAbbreviatedPath": "\/assets\/img\/bg-pattern.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/bg.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 163307,
+		"inputAbbreviatedPath": "\/assets\/img\/bg.png",
+		"outputAbbreviatedPath": "\/assets\/img\/bg.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2407,6 +2492,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/work\/gridder-browser.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 182514,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/gridder-browser.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/gridder-browser.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/gridder_banner.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 20208,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/gridder_banner.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/gridder_banner.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/work\/heidi_ryghseter.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2654,6 +2761,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/cases.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/cases\/gridder.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/cases\/gridder.html",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
