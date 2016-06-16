@@ -2455,27 +2455,26 @@ section#content {
     width: 150px; }
 
 section#contact {
-  background-color: #58B96B;
-  padding: 100px 0;
-  position: relative;
-  overflow: hidden; }
-  section#contact h2 {
-    margin: 0 0 20px 0;
-    color: #F4F5F0;
-    font-weight: 100; }
-  section#contact span.bg-img {
-    z-index: 1;
-    position: absolute;
-    right: 0;
-    top: -150px; }
-    @media (max-width: 768px) {
-      section#contact span.bg-img {
-        right: -100px; } }
-    section#contact span.bg-img svg {
-      height: 600px;
-      width: auto; }
-      section#contact span.bg-img svg path {
-        fill: #46a759; }
+  background: #58B96B; }
+  section#contact a {
+    text-align: center;
+    background: #58B96B;
+    display: block;
+    padding: 100px 0;
+    font-size: 5vw;
+    color: #F4F5F0; }
+    section#contact a:hover {
+      text-decoration: none;
+      background: -webkit-radial-gradient(center center 400px, #429c53 0%, #58B96B 100%);
+      background: radial-gradient(400px at center center, #429c53 0%, #58B96B 100%); }
+      @media (max-width: 62rem) {
+        section#contact a:hover {
+          background: -webkit-radial-gradient(center center 300px, #429c53 0%, #58B96B 100%);
+          background: radial-gradient(300px at center center, #429c53 0%, #58B96B 100%); } }
+      @media (max-width: 42rem) {
+        section#contact a:hover {
+          background: -webkit-radial-gradient(center center 180px, #429c53 0%, #58B96B 100%);
+          background: radial-gradient(180px at center center, #429c53 0%, #58B96B 100%); } }
 
 #videos {
   background: #F4F5F0; }
@@ -2756,8 +2755,3 @@ section#case_gridder .content img {
     max-width: 65%;
     margin: 50px 0;
     text-align: right; }
-
-footer .links a {
-  color: #00b9e6; }
-footer .social .item:hover svg g path {
-  fill: #00b9e6; }

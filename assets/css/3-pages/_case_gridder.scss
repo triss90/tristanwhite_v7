@@ -77,27 +77,3 @@ section#case_gridder {
     }
   }
 }
-
-
-
-footer {
-  .links {
-    a {
-      color: $case_gridder_color_2;
-    }
-  }
-  .social {
-    .item {
-      &:hover {
-        svg {
-          g {
-            path {
-              fill: $case_gridder_color_2;
-            }
-          }
-        }
-      }
-    }
-  }
-
-}
