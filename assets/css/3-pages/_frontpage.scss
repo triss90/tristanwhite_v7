@@ -276,17 +276,17 @@ section#contact {
     text-align: center;
     background: $link-color;
     display: block;
-    padding: 100px 0;
+    padding: 200px 0;
     font-size: 5vw;
     color: $light-text-color;
     &:hover {
       text-decoration: none;
-      background: radial-gradient(400px at center center , darken($link-color, 10%) 0%, $link-color 100%);
+      background: radial-gradient(400px at center center , darken($link-color, 20%) 0%, $link-color 100%);
       @media(max-width: 62rem) {
-        background: radial-gradient(300px at center center , darken($link-color, 10%) 0%, $link-color 100%);
+        background: radial-gradient(300px at center center , darken($link-color, 20%) 0%, $link-color 100%);
       }
       @media(max-width: 42rem) {
-        background: radial-gradient(180px at center center , darken($link-color, 10%) 0%, $link-color 100%);
+        background: radial-gradient(180px at center center , darken($link-color, 20%) 0%, $link-color 100%);
       }
     }
   }
