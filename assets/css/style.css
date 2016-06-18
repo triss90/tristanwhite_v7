@@ -1771,6 +1771,7 @@ nav {
 
 .banner {
   background-color: #58B96B;
+  background-image: url("/assets/img/fabric.png");
   height: 150px;
   max-width: 100%;
   width: 100vw;
