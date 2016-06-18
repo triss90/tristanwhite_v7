@@ -1813,9 +1813,82 @@ nav {
         fill: #46a759; }
   .banner.big {
     width: 100%;
-    padding: 100px 0;
-    height: 600px; }
-    @media (max-width: 768px) {
+    background-image: url("/assets/img/fabric.png");
+    height: 600px;
+    position: relative; }
+    .banner.big .lead-wrapper {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 0 50px 50px 50px;
+      border-radius: 10px;
+      display: inline-block;
+      z-index: 3;
+      position: relative;
+      margin-top: 75px;
+      display: none; }
+    @media (max-width: 1024px) {
+      .banner.big {
+        height: 450px; } }
+    .banner.big #monitor, .banner.big #keyboard, .banner.big #mouse, .banner.big #paper, .banner.big #phone, .banner.big #pencil {
+      position: absolute; }
+    .banner.big #monitor {
+      top: 30px;
+      width: 60%;
+      left: calc(50% - 30%);
+      z-index: 2; }
+      @media (max-width: 1024px) {
+        .banner.big #monitor {
+          width: 90%;
+          left: calc(50% - 45%); } }
+      .banner.big #monitor.fadeIn {
+        -webkit-transition: all 300ms ease-out;
+        transition: all 300ms ease-out; }
+    .banner.big #keyboard {
+      top: 330px;
+      left: 30%;
+      width: 25%;
+      z-index: 2; }
+      @media (max-width: 1024px) {
+        .banner.big #keyboard {
+          top: 230px;
+          width: 37.5%;
+          left: 23%; } }
+    .banner.big #mouse {
+      top: 330px;
+      left: 60%;
+      width: 6.5%;
+      z-index: 2; }
+      @media (max-width: 1024px) {
+        .banner.big #mouse {
+          width: 9%;
+          top: 250px;
+          left: 70%; } }
+    .banner.big #paper {
+      right: 10%;
+      width: 17%;
+      top: 200px; }
+      @media (max-width: 1024px) {
+        .banner.big #paper {
+          top: 20px;
+          width: 20%; } }
+    .banner.big #phone {
+      width: 7%;
+      left: 15%;
+      top: 250px; }
+      @media (max-width: 1024px) {
+        .banner.big #phone {
+          top: 170px;
+          width: 10%; } }
+    .banner.big #pencil {
+      right: 15%;
+      top: 230px;
+      width: 12%; }
+      @media (max-width: 1024px) {
+        .banner.big #pencil {
+          width: 15%;
+          top: 175px;
+          right: 17%;
+          z-index: 2; } }
+    @media (max-width: 1024px) {
       .banner.big {
         text-align: center; } }
     .banner.big .content .lead {
@@ -1896,56 +1969,7 @@ button, .button {
   button.big, .button.big {
     font-size: 1.35rem;
     padding: 20px 35px; }
-  button.sendbutton, .button.sendbutton {
-    background: #429c53;
-    color: #F4F5F0;
-    border: 0;
-    cursor: pointer;
-    display: inline-block;
-    letter-spacing: 1px;
-    margin: 0px;
-    padding: 1rem 1.5rem;
-    border-radius: 5px;
-    -webkit-transition: background 100ms ease-in-out;
-    transition: background 100ms ease-in-out; }
-    @media (max-width: 768px) {
-      button.sendbutton, .button.sendbutton {
-        width: 100%; } }
-    button.sendbutton:hover, .button.sendbutton:hover {
-      background: #3f9550; }
-    button.sendbutton:active, .button.sendbutton:active {
-      background: #3a8a4a; }
-    button.sendbutton:focus, .button.sendbutton:focus {
-      outline: none; }
-    button.sendbutton.sent, .button.sendbutton.sent {
-      -webkit-transition: all 1s ease-in-out;
-      transition: all 1s ease-in-out; }
-    button.sendbutton.error, .button.sendbutton.error {
-      background: #C0392D; }
-    button.sendbutton .loading, .button.sendbutton .loading {
-      display: inline-block;
-      margin: -2px 2px;
-      height: 12px;
-      width: 12px;
-      border-radius: 50%;
-      border: 3px solid #F4F5F0;
-      border-top-color: transparent;
-      -webkit-animation: spin 800ms infinite linear;
-              animation: spin 800ms infinite linear; }
-@-webkit-keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
-@keyframes spin {
-  0% {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg); }
-  100% {
-    -webkit-transform: rotate(360deg);
-            transform: rotate(360deg); } }
+
 .card {
   min-width: 100%;
   height: auto;
