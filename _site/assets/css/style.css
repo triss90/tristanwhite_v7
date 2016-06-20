@@ -1817,15 +1817,6 @@ nav {
     background-image: url("/assets/img/fabric.png");
     height: 600px;
     position: relative; }
-    .banner.big .lead-wrapper {
-      background: rgba(0, 0, 0, 0.7);
-      padding: 0 50px 50px 50px;
-      border-radius: 10px;
-      display: inline-block;
-      z-index: 3;
-      position: relative;
-      margin-top: 75px;
-      display: none; }
     @media (max-width: 1024px) {
       .banner.big {
         height: 450px; } }
@@ -1892,41 +1883,50 @@ nav {
     @media (max-width: 1024px) {
       .banner.big {
         text-align: center; } }
-    .banner.big .content .lead {
-      font-size: 5rem; }
-      @media (max-width: 768px) {
-        .banner.big .content .lead {
-          font-size: 3.15rem;
-          text-align: center;
-          line-height: 4.5rem;
-          margin: 25px 0; } }
-      @media (max-width: 350px) {
-        .banner.big .content .lead {
-          font-size: 2.7rem;
-          line-height: 3.5rem; } }
-    .banner.big .content .sublead {
-      margin: 0;
-      font-size: 2.5rem;
-      line-height: 4rem;
-      color: #F4F5F0;
-      font-weight: 100;
+    .banner.big .lead-wrapper {
+      background: rgba(0, 0, 0, 0.7);
+      padding: 0 50px 50px 50px;
+      border-radius: 10px;
+      display: inline-block;
+      z-index: 3;
       position: relative;
-      z-index: 2;
-      margin: 0 0 30px 0; }
-      @media (max-width: 768px) {
-        .banner.big .content .sublead {
-          font-size: 2rem;
-          text-align: center;
-          line-height: 3.5rem;
-          margin: 25px 0; } }
-      @media (max-width: 350px) {
-        .banner.big .content .sublead {
-          font-size: 1.8rem;
-          line-height: 2.5rem; } }
-    .banner.big .content span.bg-img svg {
-      height: 800px;
-      width: auto;
-      margin-top: -150px; }
+      margin-top: 75px;
+      display: none; }
+      .banner.big .lead-wrapper .lead {
+        font-size: 5rem; }
+        @media (max-width: 768px) {
+          .banner.big .lead-wrapper .lead {
+            font-size: 3.15rem;
+            text-align: center;
+            line-height: 4.5rem;
+            margin: 25px 0; } }
+        @media (max-width: 350px) {
+          .banner.big .lead-wrapper .lead {
+            font-size: 2.7rem;
+            line-height: 3.5rem; } }
+      .banner.big .lead-wrapper .sublead {
+        margin: 0;
+        font-size: 2.5rem;
+        line-height: 4rem;
+        color: #F4F5F0;
+        font-weight: 100;
+        position: relative;
+        z-index: 2;
+        margin: 0 0 30px 0; }
+        @media (max-width: 768px) {
+          .banner.big .lead-wrapper .sublead {
+            font-size: 2rem;
+            text-align: center;
+            line-height: 3.5rem;
+            margin: 25px 0; } }
+        @media (max-width: 350px) {
+          .banner.big .lead-wrapper .sublead {
+            font-size: 1.8rem;
+            line-height: 2.5rem; } }
+      .banner.big .lead-wrapper span.bg-img svg {
+        height: 800px;
+        width: auto;
+        margin-top: -150px; }
     .banner.big button, .banner.big .button {
       margin: 25px 25px 0 0;
       z-index: 2; }

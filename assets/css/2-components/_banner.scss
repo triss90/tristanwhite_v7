@@ -54,16 +54,6 @@
     background-image: url("/assets/img/fabric.png");
     height: 600px;
     position: relative;
-    .lead-wrapper {
-      background: rgba(0,0,0,0.7);
-      padding: 0 50px 50px 50px;
-      border-radius: 10px;
-      display: inline-block;
-      z-index: 3;
-      position: relative;
-      margin-top: 75px;
-      display: none;
-    }
     @media(max-width: 1024px) {
       height: 450px;
     }
@@ -137,7 +127,15 @@
     @media (max-width: 1024px) {
        text-align: center;
     }
-    .content {
+    .lead-wrapper {
+      background: rgba(0,0,0,0.7);
+      padding: 0 50px 50px 50px;
+      border-radius: 10px;
+      display: inline-block;
+      z-index: 3;
+      position: relative;
+      margin-top: 75px;
+      display: none;
       .lead {
         font-size: 5rem;
         @media (max-width: 768px) {
