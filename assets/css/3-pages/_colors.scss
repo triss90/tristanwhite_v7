@@ -1,0 +1,217 @@
+// Colors
+$page-turqoise: #1ABC9C;
+$page-greenSea: #16A085;
+$page-emerald: #2ECC71;
+$page-green: #27AE60;
+$page-green-haze: #019875;
+$page-gossip: #87D37C;
+$page-river: #3498DB;
+$page-blue: #2980D9;
+$page-amethyst: #9B59B6;
+$page-purple: #8E44AD;
+$page-asphalt: #34495E;
+$page-nightly: #2C3E50;
+$page-sun: #F1C40F;
+$page-orange: #F39C12;
+$page-carrot: #E67E22;
+$page-pumpkin: #D35400;
+$page-rose: #E74C3C;
+$page-red: #C0392D;
+$page-powder: #ECF0F1;
+$page-silver: #BDC3C7;
+$page-concrete: #95A5A6;
+$page-grey: #7F8C8D;
+$page-cabaret: #D2527F;
+$page-sunglo: #E26A6A;
+
+
+section#colors {
+  min-height: 100vh;
+  .tiny-3 {
+    padding: 0 !important;
+  }
+  .item {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 150ms ease-in-out;
+    position: relative;
+    p {
+      font-size: 1.5rem;
+      transition: all 150ms ease-in-out;
+      @media(max-width: 48rem) {
+        transform: rotate(-90deg);
+      }
+    }
+    &.turqoise {
+      background: $page-turqoise;
+      color: darken($page-turqoise, 25%);
+      &:hover {
+        background: lighten($page-turqoise, 5%);
+      }
+    }
+    &.emerald {
+      background: $page-emerald;
+      color: darken($page-emerald, 25%);
+      &:hover {
+        background: lighten($page-emerald, 5%);
+      }
+    }
+    &.river {
+      background: $page-river;
+      color: darken($page-river, 25%);
+      &:hover {
+        background: lighten($page-river, 5%);
+      }
+    }
+    &.amethyst {
+      background: $page-amethyst;
+      color: darken($page-amethyst, 25%);
+      &:hover {
+        background: lighten($page-amethyst, 5%);
+      }
+    }
+    &.asphalt {
+      background: $page-asphalt;
+      color: darken($page-asphalt, 25%);
+      &:hover {
+        background: lighten($page-asphalt, 5%);
+      }
+    }
+    &.greenSea {
+      background: $page-greenSea;
+      color: darken($page-greenSea, 25%);
+      &:hover {
+        background: lighten($page-greenSea, 5%);
+      }
+    }
+    &.green {
+      background: $page-green;
+      color: darken($page-green, 25%);
+      &:hover {
+        background: lighten($page-green, 5%);
+      }
+    }
+    &.green-haze {
+      background: $page-green-haze;
+      color: darken($page-green-haze, 25%);
+      &:hover {
+        background: lighten($page-green-haze, 5%);
+      }
+    }
+    &.gossip {
+      background: $page-gossip;
+      color: darken($page-gossip, 25%);
+      &:hover {
+        background: lighten($page-gossip, 5%);
+      }
+    }
+    &.blue {
+      background: $page-blue;
+      color: darken($page-blue, 25%);
+      &:hover {
+        background: lighten($page-blue, 5%);
+      }
+    }
+    &.purple {
+      background: $page-purple;
+      color: darken($page-purple, 25%);
+      &:hover {
+        background: lighten($page-purple, 5%);
+      }
+    }
+    &.nightly {
+      background: $page-nightly;
+      color: darken($page-nightly, 25%);
+      &:hover {
+        background: lighten($page-nightly, 5%);
+      }
+    }
+    &.sun {
+      background: $page-sun;
+      color: darken($page-sun, 25%);
+      &:hover {
+        background: lighten($page-sun, 5%);
+      }
+    }
+    &.carrot {
+      background: $page-carrot;
+      color: darken($page-carrot, 25%);
+      &:hover {
+        background: lighten($page-carrot, 5%);
+      }
+    }
+    &.rose {
+      background: $page-rose;
+      color: darken($page-rose, 25%);
+      &:hover {
+        background: lighten($page-rose, 5%);
+      }
+    }
+    &.powder {
+      background: $page-powder;
+      color: darken($page-powder, 25%);
+      &:hover {
+        background: lighten($page-powder, 5%);
+      }
+    }
+    &.concrete {
+      background: $page-concrete;
+      color: darken($page-concrete, 25%);
+      &:hover {
+        background: lighten($page-concrete, 5%);
+      }
+    }
+    &.orange {
+      background: $page-orange;
+      color: darken($page-orange, 25%);
+      &:hover {
+        background: lighten($page-orange, 5%);
+      }
+    }
+    &.pumpkin {
+      background: $page-pumpkin;
+      color: darken($page-pumpkin, 25%);
+      &:hover {
+        background: lighten($page-pumpkin, 5%);
+      }
+    }
+    &.red {
+      background: $page-red;
+      color: darken($page-red, 25%);
+      &:hover {
+        background: lighten($page-red, 5%);
+      }
+    }
+    &.cabaret {
+      background: $page-cabaret;
+      color: darken($page-cabaret, 25%);
+      &:hover {
+        background: lighten($page-cabaret, 5%);
+      }
+    }
+    &.sunglo {
+      background: $page-sunglo;
+      color: darken($page-sunglo, 25%);
+      &:hover {
+        background: lighten($page-sunglo, 5%);
+      }
+    }
+    &.silver {
+      background: $page-silver;
+      color: darken($page-silver, 25%);
+      &:hover {
+        background: lighten($page-silver, 5%);
+      }
+    }
+    &.grey {
+      background: $page-grey;
+      color: darken($page-grey, 25%);
+      &:hover {
+        background: lighten($page-grey, 5%);
+      }
+    }
+  }
+}
