@@ -1,6 +1,5 @@
 .banner {
   background-color: $link-color;
-  background-image: url('/assets/img/fabric.png');
   height: 150px;
   max-width: 100%;
   width: 100vw;
@@ -51,98 +50,35 @@
 
   &.big {
     width: 100%;
-    background-image: url("/assets/img/fabric.png");
-    height: 600px;
+    height: 550px;
     position: relative;
+    background-image: url('/assets/img/tw_logo_transparent.svg');
+    background-repeat: no-repeat;
+    background-size: 75%;
+    background-position: right center;
+    @media (max-width: 768px) {
+       background-size: 120%;
+    }
     @media(max-width: 1024px) {
       height: 450px;
-    }
-    #monitor, #keyboard, #mouse, #paper, #phone, #pencil {
-      position: absolute;
-    }
-    #monitor {
-      top: 30px;
-      width: 60%;
-      left: calc(50% - 30%);
-      z-index: 2;
-      @media(max-width: 1024px) {
-        width: 90%;
-        left: calc(50% - 45%);
-      }
-      &.fadeIn {
-        transition: all 300ms ease-out;
-      }
-    }
-    #keyboard {
-      top: 330px;
-      left: 30%;
-      width: 25%;
-      z-index: 2;
-      @media(max-width: 1024px) {
-        top: 230px;
-        width: 37.5%;
-        left: 23%;
-      }
-    }
-    #mouse {
-      top: 330px;
-      left: 60%;
-      width: 6.5%;
-      z-index: 2;
-      @media(max-width: 1024px) {
-        width: 9%;
-        top: 250px;
-        left: 70%;
-      }
-    }
-    #paper {
-      right: 10%;
-      width: 17%;
-      top: 200px;
-      @media(max-width: 1024px) {
-        top: 20px;
-        width: 20%;
-      }
-    }
-    #phone {
-      width: 7%;
-      left: 15%;
-      top: 250px;
-      @media(max-width: 1024px) {
-        top: 170px;
-        width: 10%;
-      }
-    }
-    #pencil {
-      right: 15%;
-      top: 230px;
-      width: 12%;
-      @media(max-width: 1024px) {
-        width: 15%;
-        top: 175px;
-        right: 17%;
-        z-index: 2;
-      }
     }
     @media (max-width: 1024px) {
        text-align: center;
     }
     .lead-wrapper {
-      background: rgba(0,0,0,0.7);
-      padding: 0 50px 50px 50px;
-      border-radius: 10px;
-      display: inline-block;
-      z-index: 3;
-      position: relative;
-      margin-top: 75px;
-      display: none;
+      margin-top: 50px;
       .lead {
         font-size: 5rem;
+        font-weight: normal;
+        @media (max-width: 1024px) {
+          font-size: 4rem;
+          line-height: 5rem;
+        }
         @media (max-width: 768px) {
            font-size: 3.15rem;
            text-align: center;
            line-height: 4.5rem;
-           margin: 25px 0;
+           margin: 0;
         }
         @media (max-width: 350px) {
           font-size: 2.7rem;
@@ -158,6 +94,10 @@
         position: relative;
         z-index: 2;
         margin: 0 0 30px 0;
+        @media (max-width: 1024px) {
+          font-size: 2.2rem;
+          line-height: 4rem;
+        }
         @media (max-width: 768px) {
            font-size: 2rem;
            text-align: center;
