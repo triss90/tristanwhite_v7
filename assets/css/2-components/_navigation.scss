@@ -92,34 +92,3 @@ nav {
     }
   }
 }
-
-.alt-nav {
-  background: $link-color;
-  @media(max-width: 768px) {
-    background: $dark-text-color;
-  }
-  .nav-wrap {
-    .logo {
-        svg {
-          rect {
-            fill: $light-text-color;
-            @media(max-width: 768px) {
-              fill: $dark-text-color;
-            }
-          }
-          path {
-            fill: $link-color;
-            @media(max-width: 768px) {
-              fill: $light-text-color;
-            }
-          }
-        }
-
-    }
-    #menu {
-      a {
-        color: $light-text-color;
-      }
-    }
-  }
-}

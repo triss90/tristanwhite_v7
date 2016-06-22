@@ -78,18 +78,6 @@ function carousel(){
 
 
 /**
-  Alternative navigation schema
-**/
-function altNav() {
-  var article = $('#article'),
-      nav = $('nav');
-  if(article.hasClass('video')) {
-    nav.addClass('alt-nav');
-  }
-}
-
-
-/**
   Shake random video element on home page
 **/
 function shakeVideo() {
@@ -121,7 +109,6 @@ function bannerFade() {
 **/
 $(function() {
   navigation();
-  altNav();
   carousel();
   shakeVideo();
   bannerFade();

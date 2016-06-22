@@ -1751,24 +1751,6 @@ nav {
         nav .nav-wrap #menu-toggle {
           display: block; } }
 
-.alt-nav {
-  background: #58B96B; }
-  @media (max-width: 768px) {
-    .alt-nav {
-      background: #333332; } }
-  .alt-nav .nav-wrap .logo svg rect {
-    fill: #F4F5F0; }
-    @media (max-width: 768px) {
-      .alt-nav .nav-wrap .logo svg rect {
-        fill: #333332; } }
-  .alt-nav .nav-wrap .logo svg path {
-    fill: #58B96B; }
-    @media (max-width: 768px) {
-      .alt-nav .nav-wrap .logo svg path {
-        fill: #F4F5F0; } }
-  .alt-nav .nav-wrap #menu a {
-    color: #F4F5F0; }
-
 .banner {
   background-color: #58B96B;
   height: 150px;
