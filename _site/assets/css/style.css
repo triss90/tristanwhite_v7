@@ -1793,24 +1793,6 @@ nav {
     .banner {
       margin-top: 50px;
       height: 75px; } }
-  .banner .content .lead {
-    margin: 0;
-    font-size: 3rem;
-    color: #F4F5F0;
-    font-weight: 100;
-    line-height: 150px;
-    position: relative;
-    z-index: 2; }
-  .banner .content span.bg-img {
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    top: -25px; }
-    .banner .content span.bg-img svg {
-      height: 200px;
-      width: auto; }
-      .banner .content span.bg-img svg path {
-        fill: #46a759; }
   .banner.big {
     width: 100%;
     height: 550px;
@@ -1870,10 +1852,6 @@ nav {
           .banner.big .lead-wrapper .sublead {
             font-size: 1.8rem;
             line-height: 2.5rem; } }
-      .banner.big .lead-wrapper span.bg-img svg {
-        height: 800px;
-        width: auto;
-        margin-top: -150px; }
     .banner.big button, .banner.big .button {
       margin: 25px 25px 0 0;
       z-index: 2; }
