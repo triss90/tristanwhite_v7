@@ -1,0 +1,118 @@
+$case_mikkelsenconsult_color_1: #f57a31;
+$case_mikkelsenconsult_color_2: #2b2b2b;
+
+section#case_mikkelsenconsult {
+  .banner {
+    height: 512px;
+    background-color: $light-background-color;
+    background-image: url('/assets/img/work/mikkelsencunsult_bg.png');
+    background-size: cover;
+    background-position: center top;
+    padding-top: 100px;
+    position: relative;
+    @media(max-width: 768px) {
+      text-align: center;
+    }
+    .overlay {
+      background-color: rgba(0,0,0,0.5);
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 512px;
+    }
+    h1 {
+      border: 3px solid $light-text-color;
+      color: $light-text-color;
+      display: inline-block;
+      padding: 20px 50px;
+      font-size: 3.5rem;
+      line-height: 3.5rem;
+      font-weight: 300;
+      @media(max-width: 768px) {
+        font-size: 2.5rem;
+        line-height: 2.5rem;
+        padding: 15px 25px;
+      }
+    }
+    p {
+      color: $light-text-color;
+      font-size: 2rem;
+      line-height: 4rem;
+      @media(max-width: 768px) {
+        font-size: 1.5rem;
+        line-height: 2rem;
+      }
+    }
+    .button {
+      background: $case_mikkelsenconsult_color_1;
+      color: $light-text-color;
+      margin-top: 20px;
+      &:hover {
+        background: darken($case_mikkelsenconsult_color_1, 10%);
+      }
+    }
+  }
+
+  a {
+    color: $case_mikkelsenconsult_color_1;
+  }
+
+  .challange, .solution {
+    min-height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .content {
+      padding: 50px 75px;
+      @media(max-width: 768px) {
+        padding: 50px 10px;
+      }
+      p {
+        font-size: 1.2rem;
+        line-height: 2rem;
+      }
+      h2 {
+        font-size: 2rem;
+        padding-top: 0;
+        margin-top: 0;
+      }
+    }
+  }
+
+  .challange {
+    background: $case_mikkelsenconsult_color_1;
+    .content {
+      p, h2 {
+        color: $light-text-color;
+      }
+    }
+  }
+  .solution {
+    background: $light-text-color;
+  }
+
+}
+
+.result-header {
+  background: $case_mikkelsenconsult_color_2;
+  margin: 0;
+  text-align: center;
+  h2 {
+    margin: 0;
+    color: $light-text-color;
+    font-size: 2rem;
+    padding: 50px 0;
+  }
+}
+.result {
+  text-align: center;
+  padding: 100px 0;
+  p {
+    font-size: 1.2rem;
+    line-height: 2rem;
+  }
+  img {
+    max-width: 100%;
+  }
+}
