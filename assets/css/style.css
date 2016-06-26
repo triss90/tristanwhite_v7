@@ -2784,6 +2784,20 @@ section#colors {
       section#colors .item.grey:hover {
         background: #8c9899; }
 
+section#branding .logos {
+  margin-top: 50px;
+  text-align: center; }
+  section#branding .logos .card {
+    padding: 10px 15px; }
+    section#branding .logos .card h3 {
+      margin: 20px 0; }
+  section#branding .logos .button {
+    margin: 20px 0;
+    display: block; }
+section#branding p {
+  display: block;
+  margin: 50px auto; }
+
 section#case_gridder .banner {
   height: 512px;
   background-color: #212836;

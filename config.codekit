@@ -233,15 +233,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/css\/style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -467,24 +458,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/img\/branding\/logo_color.png": {
+	"\/_site\/assets\/img\/branding\/logo_1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 11137,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_color.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_color.png",
+		"initialSize": 11436,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_1.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_site\/assets\/img\/branding\/logo_color_flat.png": {
+	"\/_site\/assets\/img\/branding\/logo_2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10894,
-		"inputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_color_flat.png",
-		"outputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_color_flat.png",
+		"initialSize": 10640,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_2.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/branding\/logo_3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6640,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_3.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/branding\/logo_4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8218,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_4.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/branding\/logo_4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1479,6 +1492,15 @@
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
+	"\/_site\/branding\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/branding\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/cases\/gridder\/index.html": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -2076,6 +2098,22 @@
 		"shouldRunBless": 0,
 		"useLibsass": 0
 		},
+	"\/assets\/css\/3-pages\/_branding.scss": {
+		"createSourceMap": 0,
+		"debugStyle": 0,
+		"decimalPrecision": 10,
+		"fileType": 4,
+		"ignore": 1,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/assets\/css\/3-pages\/_branding.scss",
+		"outputAbbreviatedPath": "\/assets\/css\/css\/_branding.css",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"outputStyle": 0,
+		"shouldRunAutoprefixer": 1,
+		"shouldRunBless": 0,
+		"useLibsass": 0
+		},
 	"\/assets\/css\/3-pages\/_case_gridder.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -2454,24 +2492,46 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/branding\/logo_color.png": {
+	"\/assets\/img\/branding\/logo_1.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 11137,
-		"inputAbbreviatedPath": "\/assets\/img\/branding\/logo_color.png",
-		"outputAbbreviatedPath": "\/assets\/img\/branding\/logo_color.png",
+		"initialSize": 11436,
+		"inputAbbreviatedPath": "\/assets\/img\/branding\/logo_1.png",
+		"outputAbbreviatedPath": "\/assets\/img\/branding\/logo_1.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/assets\/img\/branding\/logo_color_flat.png": {
+	"\/assets\/img\/branding\/logo_2.png": {
 		"fileType": 32768,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 10894,
-		"inputAbbreviatedPath": "\/assets\/img\/branding\/logo_color_flat.png",
-		"outputAbbreviatedPath": "\/assets\/img\/branding\/logo_color_flat.png",
+		"initialSize": 10640,
+		"inputAbbreviatedPath": "\/assets\/img\/branding\/logo_2.png",
+		"outputAbbreviatedPath": "\/assets\/img\/branding\/logo_2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/branding\/logo_3.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 6640,
+		"inputAbbreviatedPath": "\/assets\/img\/branding\/logo_3.png",
+		"outputAbbreviatedPath": "\/assets\/img\/branding\/logo_3.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/branding\/logo_4.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 8218,
+		"inputAbbreviatedPath": "\/assets\/img\/branding\/logo_4.png",
+		"outputAbbreviatedPath": "\/assets\/img\/branding\/logo_4.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3465,6 +3525,15 @@
 		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
+		},
+	"\/branding.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/branding.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
 		},
 	"\/cases.html": {
 		"fileType": 8192,

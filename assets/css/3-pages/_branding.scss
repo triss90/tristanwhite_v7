@@ -1,0 +1,20 @@
+section#branding {
+  .logos {
+    margin-top: 50px;
+    text-align: center;
+    .card {
+      padding: 10px 15px;
+      h3 {
+        margin: 20px 0;
+      }
+    }
+    .button {
+      margin: 20px 0;
+      display: block;
+    }
+  }
+  p {
+    display: block;
+    margin: 50px auto;
+  }
+}
