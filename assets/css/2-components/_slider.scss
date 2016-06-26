@@ -14,6 +14,7 @@
     }
     h3 {
       display: inline-block;
+      color: $light-text-color;
     }
     .carousel-nav {
       float: right;
@@ -29,7 +30,7 @@
       }
       svg {
         cursor: pointer;
-        fill: $dark-text-color;
+        fill: $light-text-color;
         height: 40px;
         width: 40px;
         top: 10px;
@@ -40,7 +41,7 @@
           margin: -10px 10px 10px 10px;
         }
         &:hover {
-          fill: $link-color;
+          fill: $dark-text-color;
         }
       }
     }
@@ -73,12 +74,13 @@
         }
       }
       .testimonial {
+        color: $light-text-color;
         i {
           font-size: 1.25rem;
           line-height: 1.9rem;
         }
         cite {
-          color: darken($light_background_color, 30%);
+          color: darken($link-color, 25%);
         }
       }
     }

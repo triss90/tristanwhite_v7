@@ -1925,7 +1925,8 @@ button, .button {
       .carousel .carousel-nav-wrap {
         margin-bottom: 60px; } }
     .carousel .carousel-nav-wrap h3 {
-      display: inline-block; }
+      display: inline-block;
+      color: #F4F5F0; }
     .carousel .carousel-nav-wrap .carousel-nav {
       float: right;
       position: absolute;
@@ -1940,7 +1941,7 @@ button, .button {
           width: 100%; } }
       .carousel .carousel-nav-wrap .carousel-nav svg {
         cursor: pointer;
-        fill: #333332;
+        fill: #F4F5F0;
         height: 40px;
         width: 40px;
         top: 10px;
@@ -1952,7 +1953,7 @@ button, .button {
             width: 60px;
             margin: -10px 10px 10px 10px; } }
         .carousel .carousel-nav-wrap .carousel-nav svg:hover {
-          fill: #58B96B; }
+          fill: #333332; }
   .carousel .carousel-wrap {
     position: relative;
     margin-bottom: 20px; }
@@ -1983,11 +1984,13 @@ button, .button {
         .carousel .carousel-wrap .carousel-unit .avatar img {
           border-radius: 50%;
           box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); }
-      .carousel .carousel-wrap .carousel-unit .testimonial i {
-        font-size: 1.25rem;
-        line-height: 1.9rem; }
-      .carousel .carousel-wrap .carousel-unit .testimonial cite {
-        color: #a5a59a; }
+      .carousel .carousel-wrap .carousel-unit .testimonial {
+        color: #F4F5F0; }
+        .carousel .carousel-wrap .carousel-unit .testimonial i {
+          font-size: 1.25rem;
+          line-height: 1.9rem; }
+        .carousel .carousel-wrap .carousel-unit .testimonial cite {
+          color: #2b6737; }
 
 div#article.post {
   background: #F4F5F0; }
@@ -2220,15 +2223,18 @@ section#about {
           margin: 10px 0; } }
 
 section#work {
-  background-color: #EDEDEB;
-  background-image: url("/assets/img/work/client_logos_bg.png");
-  background-repeat: repeat;
+  background-color: #58B96B;
+  background-image: url("/assets/img/tw_logo_transparent.svg");
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: center center;
   padding: 100px 0; }
   @media (max-width: 768px) {
     section#work {
       padding: 30px 0; } }
   section#work h2 {
     font-weight: 100;
+    color: #F4F5F0;
     margin: 0 0 50px 0;
     text-align: center; }
     @media (max-width: 768px) {
@@ -2241,7 +2247,7 @@ section#work {
       visibility: visible;
       opacity: 1; }
     section#work .case-container .overlay {
-      background: rgba(88, 185, 107, 0.9);
+      background: rgba(51, 51, 50, 0.9);
       height: calc(100% - 4px);
       width: 100%;
       position: absolute;
@@ -2266,7 +2272,7 @@ section#work {
         color: #F4F5F0;
         font-weight: 100; }
       section#work .case-container .overlay .description {
-        color: #2b6737;
+        color: #F4F5F0;
         font-size: 1rem;
         margin-bottom: 1.5rem; }
         @media (max-width: 1200px) {
@@ -2582,7 +2588,7 @@ section#cases .case-container {
     visibility: visible;
     opacity: 1; }
   section#cases .case-container .overlay {
-    background: rgba(88, 185, 107, 0.9);
+    background: rgba(51, 51, 50, 0.9);
     height: calc(100% - 4px);
     width: 100%;
     position: absolute;
@@ -2607,7 +2613,7 @@ section#cases .case-container {
       color: #F4F5F0;
       font-weight: 100; }
     section#cases .case-container .overlay .description {
-      color: #2b6737;
+      color: #F4F5F0;
       font-size: 1rem;
       margin-bottom: 1.5rem; }
       @media (max-width: 1200px) {

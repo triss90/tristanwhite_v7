@@ -15,7 +15,7 @@ section#cases {
       }
     }
     .overlay {
-      background: rgba($link-color, 0.9);
+      background: rgba($dark-text-color, 0.9);
       height: calc(100% - 4px);
       width: 100%;
       position: absolute;
@@ -41,7 +41,7 @@ section#cases {
         font-weight: 100;
       }
       .description {
-        color: darken($link-color, 25%);
+        color: $light-text-color;
         font-size: 1rem;
         margin-bottom: 1.5rem;
         @media(max-width: 1200px) {

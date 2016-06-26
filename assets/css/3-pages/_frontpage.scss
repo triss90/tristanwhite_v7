@@ -44,15 +44,19 @@ section#about {
 
 
 section#work {
-  background-color: $light-background-color;
-  background-image: url('/assets/img/work/client_logos_bg.png');
-  background-repeat: repeat;
+  background-color: $link-color;
+  //background-image: url('/assets/img/work/client_logos_bg.png');
+  background-image: url('/assets/img/tw_logo_transparent.svg');
+  background-repeat: no-repeat;
+  background-size: 110%;
+  background-position: center center;
   padding: 100px 0;
   @media (max-width: 768px) {
     padding: 30px 0;
   }
   h2 {
     font-weight: 100;
+    color: $light-text-color;
     margin: 0 0 50px 0;
     text-align: center;
     @media (max-width: 768px) {
@@ -69,7 +73,7 @@ section#work {
       }
     }
     .overlay {
-      background: rgba($link-color, 0.9);
+      background: rgba($dark-text-color, 0.9);
       height: calc(100% - 4px);
       width: 100%;
       position: absolute;
@@ -95,7 +99,7 @@ section#work {
         font-weight: 100;
       }
       .description {
-        color: darken($link-color, 25%);
+        color: $light-text-color;
         font-size: 1rem;
         margin-bottom: 1.5rem;
         @media(max-width: 1200px) {
@@ -118,61 +122,6 @@ section#work {
       box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
     }
   }
-  // .work-item {
-  //   padding: 0;
-  //   margin: 5px;
-  //   cursor: pointer;
-  //   position: relative;
-  //   display: inline-block;
-  //   @media (max-width: 768px) {
-  //     margin: 15px 5px;
-  //   }
-  //   &:hover {
-  //     img {
-  //       box-shadow: 0px 37px 20px -20px rgba(0,0,0,0.2);
-  //       transform: translate(0px, -10px);
-  //     }
-  //     .overlay {
-  //       visibility: visible;
-  //       opacity: 1;
-  //       transform: translate(0px, -10px);
-  //     }
-  //   }
-  //   img {
-  //     transition: all ease-in-out 300ms;
-  //     max-width: 100%;
-  //     border-radius: 5px;
-  //     box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
-  //   }
-  //   .overlay {
-  //     background: rgba($link-color, 0.9);
-  //     position: absolute;
-  //     width: 100%;
-  //     height: calc(100% - 4px);
-  //     top: 0;
-  //     left: 0;
-  //     display: flex;
-  //     flex-direction: row;
-  //     align-items: center;
-  //     justify-content: center;
-  //     visibility: hidden;
-  //     opacity: 0;
-  //     transition: all ease-in-out 300ms;
-  //     z-index: 2;
-  //     border-radius: 5px;
-  //     p {
-  //       margin: 0;
-  //       font-size: 18px;
-  //       line-height: 18px;
-  //       font-weight: 700;
-  //       letter-spacing: 2px;
-  //       text-transform: uppercase;
-  //       color: $light-text-color;
-  //       border: 2px solid $light-text-color;
-  //       padding: 10px;
-  //     }
-  //   }
-  // }
 }
 
 
