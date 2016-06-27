@@ -1,11 +1,11 @@
 ---
 layout: video
 title: "Quick Code - Pulsing CSS Loader"
-date: 2016-05-30 11:32:51 +0100
-categories: videos
+date: 2016-05-30 10:22:11 +0100
+categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_pulsing_css_loader.png
-time: "01:47"
-number: "Episode #21"
+time: "01:48"
+number: "21"
 ---
 
 <div class="responsive-video">

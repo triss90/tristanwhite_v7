@@ -1,8 +1,8 @@
 ---
 layout: video
 title: "Quick Code - Pulsing CSS Loader"
-date: 2016-05-06 11:32:51 +0100
-categories: videos
+date: 2016-06-06 06:12:21 +0100
+categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_sass_mixin_grid.png
 time: "01:47"
 number: "Episode #22"

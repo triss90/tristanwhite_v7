@@ -1,8 +1,8 @@
 ---
 layout: video
 title: "Quick Code - Scaling CSS Loader"
-date: 2016-05-13 12:17:09 +0100
-categories: videos
+date: 2016-06-13 13:09:19 +0100
+categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_scaling_css_loader.png
 time: "02:34"
 number: "Episode #23"
