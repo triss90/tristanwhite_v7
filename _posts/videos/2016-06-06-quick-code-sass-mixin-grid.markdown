@@ -5,7 +5,7 @@ date: 2016-06-06 06:12:21 +0100
 categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_sass_mixin_grid.png
 time: "01:47"
-number: "Episode #22"
+number: "22"
 ---
 
 <div class="responsive-video">

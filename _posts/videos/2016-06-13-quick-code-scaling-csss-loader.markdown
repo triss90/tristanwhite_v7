@@ -5,7 +5,7 @@ date: 2016-06-13 13:09:19 +0100
 categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_scaling_css_loader.png
 time: "02:34"
-number: "Episode #23"
+number: "23"
 ---
 
 <div class="responsive-video">
