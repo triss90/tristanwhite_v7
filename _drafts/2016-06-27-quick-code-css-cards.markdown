@@ -5,7 +5,7 @@ date: 2016-05-27 09:24:11 +0100
 categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_css_cards.png
 time: "03:29"
-number: "Episode #25"
+number: "25"
 ---
 
 <div class="responsive-video">
