@@ -1,7 +1,7 @@
 ---
 layout: video
 title: "Quick Code - CSS Cards"
-date: 2016-05-27 09:24:11 +0100
+date: 2016-06-27 08:24:11 +0100
 categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_css_cards.png
 time: "03:29"

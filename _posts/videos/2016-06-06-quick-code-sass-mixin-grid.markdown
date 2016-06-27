@@ -1,6 +1,6 @@
 ---
 layout: video
-title: "Quick Code - Pulsing CSS Loader"
+title: "Quick Code - SASS Mixin Grid"
 date: 2016-06-06 06:12:21 +0100
 categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_sass_mixin_grid.png
