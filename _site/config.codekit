@@ -3819,9 +3819,9 @@
 	},
 "projectAttributes": {
 	"bowerAbbreviatedPath": "",
-	"displayValue": "tristanwhite.dev_v7",
-	"displayValueWasSetByUser": 0,
-	"iconImageName": "brackets_yellow"
+	"displayValue": "tristanwhite v7",
+	"displayValueWasSetByUser": 1,
+	"iconImageName": "\/assets\/img\/apple-touch-icon-180x180.png"
 	},
 "projectSettings": {
 	"alwaysUseExternalServer": 1,
