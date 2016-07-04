@@ -1882,6 +1882,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/videos\/quick-code\/2016\/07\/04\/quick-code-css-loader-2-0.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/quick-code\/2016\/07\/04\/quick-code-css-loader-2-0.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/articles.html": {
 		"fileType": 8192,
 		"ignore": 0,
