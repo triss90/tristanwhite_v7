@@ -75,12 +75,14 @@
       }
       .testimonial {
         color: $light-text-color;
-        i {
+        p {
           font-size: 1.25rem;
-          line-height: 1.9rem;
+          line-height: 2.3rem;
+          letter-spacing: 1px;
         }
         cite {
-          color: darken($link-color, 25%);
+          color: darken($link-color, 30%);
+          font-size: 1.25rem;
         }
       }
     }
