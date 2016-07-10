@@ -5,7 +5,7 @@ date: 2016-07-18 09:12:01 +0100
 categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_off_canvas_navigation.png
 time: "03:23"
-number: "Episode #28"
+number: "28"
 ---
 
 <div class="responsive-video">

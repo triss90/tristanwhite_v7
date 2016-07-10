@@ -5,7 +5,7 @@ date: 2016-07-25 10:03:24 +0100
 categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_send_button_concept.png
 time: "03:13"
-number: "Episode #29"
+number: "29"
 ---
 
 <div class="responsive-video">
