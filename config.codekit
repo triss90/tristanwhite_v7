@@ -233,15 +233,6 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_site\/assets\/css\/style.css": {
-		"fileType": 16,
-		"ignore": 1,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_site\/assets\/css\/style.css",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_site\/assets\/css\/style.scss": {
 		"createSourceMap": 0,
 		"debugStyle": 0,
@@ -863,6 +854,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/posts\/quick_code_animated_skills_v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31242,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_animated_skills_v2.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_animated_skills_v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/posts\/quick_code_another_responsive_menu.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -892,6 +894,17 @@
 		"initialSize": 17343,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_bouncy_buttons.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_bouncy_buttons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/posts\/quick_code_cookie_alert.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28158,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_cookie_alert.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_cookie_alert.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -980,6 +993,17 @@
 		"initialSize": 20771,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_css_timeline.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_css_timeline.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/posts\/quick_code_css_timeline_v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54710,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_css_timeline_v2.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_css_timeline_v2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -1123,6 +1147,17 @@
 		"initialSize": 24496,
 		"inputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_simple_slider.png",
 		"outputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_simple_slider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/posts\/quick_code_simplistic_dialog.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49089,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_simplistic_dialog.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_simplistic_dialog.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3084,6 +3119,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/assets\/img\/posts\/quick_code_animated_skills_v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 31242,
+		"inputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_animated_skills_v2.png",
+		"outputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_animated_skills_v2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/assets\/img\/posts\/quick_code_another_responsive_menu.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3113,6 +3159,17 @@
 		"initialSize": 17343,
 		"inputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_bouncy_buttons.png",
 		"outputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_bouncy_buttons.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/posts\/quick_code_cookie_alert.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 28158,
+		"inputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_cookie_alert.png",
+		"outputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_cookie_alert.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3201,6 +3258,17 @@
 		"initialSize": 20771,
 		"inputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_css_timeline.png",
 		"outputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_css_timeline.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/posts\/quick_code_css_timeline_v2.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 54710,
+		"inputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_css_timeline_v2.png",
+		"outputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_css_timeline_v2.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -3344,6 +3412,17 @@
 		"initialSize": 24496,
 		"inputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_simple_slider.png",
 		"outputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_simple_slider.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/posts\/quick_code_simplistic_dialog.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 49089,
+		"inputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_simplistic_dialog.png",
+		"outputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_simplistic_dialog.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
