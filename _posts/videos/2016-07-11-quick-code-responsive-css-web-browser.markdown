@@ -16,5 +16,5 @@ number: "27"
 
 ### The code
 
-<p data-height="300" data-theme-id="16012" data-slug-hash="vGdggN" data-default-tab="result" data-user="triss90" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/triss90/pen/vGdggN/">Responsive CSS Web Browser</a> by Tristan  White (<a href="http://codepen.io/triss90">@triss90</a>) on <a href="http://codepen.io">CodePen</a>.</p>
+<p data-height="700" data-theme-id="16012" data-slug-hash="vGdggN" data-default-tab="result" data-user="triss90" data-embed-version="2" class="codepen">See the Pen <a href="http://codepen.io/triss90/pen/vGdggN/">Responsive CSS Web Browser</a> by Tristan  White (<a href="http://codepen.io/triss90">@triss90</a>) on <a href="http://codepen.io">CodePen</a>.</p>
 <script async src="//assets.codepen.io/assets/embed/ei.js"></script>
