@@ -221,12 +221,20 @@ section#content {
 
 section#contact {
   background: $link-color;
+  text-align: justify;
   a {
     text-align: center;
     background: $link-color;
     display: block;
     padding: 200px 0;
-    font-size: 5vw;
+    font-size: 70px;
+    @media(max-width: 62rem) {
+      font-size: 50px;
+    }
+    @media(max-width: 42rem) {
+      font-size: 24px;
+      padding: 100px 0;
+    }
     color: $light-text-color;
     &:hover {
       text-decoration: none;
