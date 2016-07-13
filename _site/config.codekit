@@ -632,6 +632,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/posts\/a_simple_parallax_effect.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29148,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/posts\/a_simple_parallax_effect.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/posts\/a_simple_parallax_effect.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/posts\/atom-icon.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -2902,6 +2913,17 @@
 		"initialSize": 2459,
 		"inputAbbreviatedPath": "\/assets\/img\/mstile-70x70.png",
 		"outputAbbreviatedPath": "\/assets\/img\/mstile-70x70.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/posts\/a_simple_parallax_effect.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 29148,
+		"inputAbbreviatedPath": "\/assets\/img\/posts\/a_simple_parallax_effect.png",
+		"outputAbbreviatedPath": "\/assets\/img\/posts\/a_simple_parallax_effect.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
