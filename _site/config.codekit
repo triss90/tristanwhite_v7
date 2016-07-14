@@ -1754,6 +1754,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/videos\/miscellaneous\/2016\/07\/14\/a-simple-parallax-effect.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/miscellaneous\/2016\/07\/14\/a-simple-parallax-effect.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/videos\/quick-code\/2015\/11\/10\/quick-code-css-loadingbar.html": {
 		"fileType": 8192,
 		"ignore": 0,

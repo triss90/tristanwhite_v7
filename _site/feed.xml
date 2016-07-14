@@ -5,9 +5,34 @@
     <description>Hi! My name is Tristan White, I&#39;m a designer, developer and somewhat unicorn-like. I was born and raised in a small town in Denmark. Today I am proud to call myself a full-stack web developer. I love making beautiful, yet practical websites and applications.</description>
     <link>https://tristanwhite.info//</link>
     <atom:link href="https://tristanwhite.info//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 13 Jul 2016 19:07:28 +0200</pubDate>
-    <lastBuildDate>Wed, 13 Jul 2016 19:07:28 +0200</lastBuildDate>
+    <pubDate>Thu, 14 Jul 2016 09:03:45 +0200</pubDate>
+    <lastBuildDate>Thu, 14 Jul 2016 09:03:45 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>A Simple Parallax Effect</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/YWVXTt7MmQ0&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;800&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;XdERrK&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/XdERrK/&quot;&gt;Simple Parallax Effect&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Thu, 14 Jul 2016 07:12:01 +0200</pubDate>
+        <link>https://tristanwhite.info//videos/miscellaneous/2016/07/14/a-simple-parallax-effect.html</link>
+        <guid isPermaLink="true">https://tristanwhite.info//videos/miscellaneous/2016/07/14/a-simple-parallax-effect.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>miscellaneous</category>
+        
+      </item>
     
       <item>
         <title>Quick Code - Responsive CSS Web Browser</title>
@@ -226,31 +251,6 @@
         <pubDate>Mon, 16 May 2016 10:32:51 +0200</pubDate>
         <link>https://tristanwhite.info//videos/quick-code/2016/05/16/quick-code-css-battery-loader.html</link>
         <guid isPermaLink="true">https://tristanwhite.info//videos/quick-code/2016/05/16/quick-code-css-battery-loader.html</guid>
-        
-        
-        <category>videos</category>
-        
-        <category>quick-code</category>
-        
-      </item>
-    
-      <item>
-        <title>Quick Code - Basic Flexbox Grid</title>
-        <description>&lt;div class=&quot;responsive-video&quot;&gt;
-   &lt;iframe src=&quot;https://www.youtube.com/embed/gy6WKhMLNIA&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
-
-&lt;p data-height=&quot;268&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;eZWagq&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/triss90/pen/eZWagq/&quot;&gt;Basic Flexbox Grid&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-</description>
-        <pubDate>Mon, 09 May 2016 11:26:11 +0200</pubDate>
-        <link>https://tristanwhite.info//videos/quick-code/2016/05/09/quick-code-basic-flexbox-grid.html</link>
-        <guid isPermaLink="true">https://tristanwhite.info//videos/quick-code/2016/05/09/quick-code-basic-flexbox-grid.html</guid>
         
         
         <category>videos</category>
