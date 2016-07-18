@@ -1017,6 +1017,28 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/posts\/quick_code_css_target_dialog.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42594,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_css_target_dialog.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_css_target_dialog.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_site\/assets\/img\/posts\/quick_code_css_target_navigation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34358,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_css_target_navigation.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/posts\/quick_code_css_target_navigation.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/posts\/quick_code_css_timeline.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -3327,6 +3349,28 @@
 		"initialSize": 22366,
 		"inputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_css_pokeball.png",
 		"outputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_css_pokeball.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/posts\/quick_code_css_target_dialog.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 42594,
+		"inputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_css_target_dialog.png",
+		"outputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_css_target_dialog.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/posts\/quick_code_css_target_navigation.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34358,
+		"inputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_css_target_navigation.png",
+		"outputAbbreviatedPath": "\/assets\/img\/posts\/quick_code_css_target_navigation.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
