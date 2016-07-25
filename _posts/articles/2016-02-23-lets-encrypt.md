@@ -76,5 +76,5 @@ $ letsencrypt revoke --cert-path example-cert.pem
 {% endhighlight %}
 
 ### Conclusion
-Let's encrypt is amazing! I less than 5 minutes I was serving a this website via 256-bit encryption.
+Let's encrypt is amazing! In less than 5 minutes I was serving this website via 256-bit encryption.
 <a href="https://github.com/letsencrypt/letsencrypt" target="top">Read more and download Let's Encrypt</a>

@@ -2048,6 +2048,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/videos\/quick-code\/2016\/07\/25\/quick-code-send-button-concept.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/videos\/quick-code\/2016\/07\/25\/quick-code-send-button-concept.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/articles.html": {
 		"fileType": 8192,
 		"ignore": 0,
