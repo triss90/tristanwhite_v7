@@ -1,0 +1,400 @@
+// Imports
+@import "normalize";
+@import "bourbon";
+@import "colours";
+@import "sceletus";
+@import "roboto";
+
+// General
+html,body {
+	font-family: 'Roboto', sans-serif;
+	background-color: $black;
+	color: $gunMetal;
+}
+body {
+	@media (max-width: 767px) {
+		margin-top: 60px;
+	}
+}
+
+a {
+	&:link,
+	&:visited {
+		color: $sunflower;
+		text-decoration: none;
+	}
+	&:hover,
+	&:active {
+		color: $paper;
+	}
+}
+
+
+// Navigation
+.menu-btn {
+    display: none;
+    float:right;
+    cursor: pointer;
+    padding: 15px;
+    img {
+    	height: 30px;
+    }
+	@media (max-width: 767px) {
+		display: block;
+	}
+}
+.show-menu {
+	display: block !important;
+}
+
+nav {
+	height: 100px;
+	background: $paper;
+	color: $gunMetal;
+	@media (max-width: 767px) {
+		position: fixed;
+		top: 0;
+		z-index: 2;
+		width: 100%;
+		height: 60px;
+	}
+	.menu {
+		float: right;
+		@media (max-width: 767px) {
+	    	display: none;
+	        width: 100%;
+	        background: $paper;
+	        position: fixed;
+			top: 60px;
+			left: 0px;
+			height: 100%;
+			z-index: 999;
+			text-align: center;
+	    }
+		ul {
+			height: 50px;
+			padding-top: 11px;
+			li {
+				display:inline;
+				a {
+					color: $gunMetal;
+					text-decoration: none;
+					margin: 10px 0px 0px 40px;
+					text-transform: uppercase;
+					font-size: 1.6rem;
+					font-weight: 500;
+					@media (max-width: 767px) {
+						display: block;
+			        	color: $gunMetal;
+			        	margin-bottom: -20px;
+			        	margin-left: -40px;
+					}
+					@include transition(all 0.2s ease-in-out);
+					&:hover,
+					&:focus {
+						outline: none;
+						color: $sunflower;
+						@include transition(all 0.2s ease-in-out);
+					}
+				}
+			}
+		}
+	}
+	.logo {
+		svg {
+			width: 60px;
+			height: 57px;
+			g text {
+				fill: $gunMetal;
+				@include transition(all 0.1s ease-in-out);
+			}
+			&:hover {
+				g text {
+					fill: $sunflower;
+				}
+			}
+		}
+	}
+}
+
+
+
+// Header
+header {
+	background-color: $paper;
+	position: relative;
+	overflow: hidden;
+	height: 100%;
+	.phrase {
+		margin-top: 15%;
+		height: 100%;
+	    h1 {
+			font-size: 7rem;
+			font-style: italic;
+			text-align: center;
+			vertical-align: center;
+			font-weight: 300;
+			color: $sunflower;
+			font-weight: 100;
+			@media screen and (max-width: 1200px) {
+				font-size: 6rem
+			}
+			@media screen and (max-width: 992px) {
+				font-size: 5rem;
+			}
+			@media screen and (max-width: 768px) {
+				font-size: 2.5rem;
+				margin-top: 15%;
+			}
+		}
+		@media screen and (max-width: 768px) {
+			margin-top: 15%;
+		}
+	}
+	img {
+		margin-top: 100px;
+		float:right;
+		@media screen and (max-width: 768px) {
+			margin-top: 0px;
+		}
+	}
+}
+
+
+// About section
+section#about {
+	h2 {
+		color: $sunflower;
+		font-size: 2.5rem;
+		margin-top: 100px;
+	}
+	.social {
+		a {
+			background: $paper;
+			color: $black;
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			margin: 30px 15px 0 15px;
+			font-size: 3rem;
+			@include transition(all 0.2s ease-in-out);
+			&:hover,
+			&:focus {
+				outline: none;
+				background: $sunflower;
+				@include transition(all 0.2s ease-in-out);
+			}
+		}
+	}
+	p {
+		margin-top: 75px;
+		color: $gunMetal;
+		font-size: 3rem;
+		font-weight: 300;
+	}
+	.skills {
+		text-align: center;
+		margin: 50px 0 100px 0;
+	}
+	.skill-label {
+		color: $gunMetal;
+		text-transform: uppercase;
+
+	}
+	.skill-icons {
+		span {
+			height: 30px;
+			width: 30px;
+			border-radius: 50%;
+			display: inline-block;
+			background: $gunMetal;
+			margin: 10px 5px 20px 5px;
+			font-weight: 700;
+			@media screen and (max-width: 768px) {
+				height: 20px;
+				width: 20px;
+				margin: 10px 3px 20px 3px;
+			}
+			&.active {
+				background: $sunflower;
+			}
+		}
+	}
+}
+
+
+// Work section
+section#work {
+	background: $paper;
+	h2 {
+		color: $gunMetal;
+		font-size: 2.5rem;
+		margin-top: 100px;
+	}
+	.projects {
+		margin: 30px 0 70px 0;
+		@media screen and (max-width: 768px) {
+			text-align: center;
+		}
+		.prj-item {
+			overflow: hidden;
+			background: $paper;
+			-webkit-box-shadow: 0 8px 6px -6px black;
+			-moz-box-shadow: 0 8px 6px -6px black;
+			box-shadow: 0 8px 6px -6px black;
+			margin: 30px auto;
+			background: $red;
+			height: auto;
+			max-width: 300px;
+			.prj-item-inner {
+				overflow: hidden;
+				position: relative;
+				overflow: hidden;
+				height: 300px;
+				max-width: 300px;
+				.prj-overlay {
+					text-align: center;
+					height: 50px;
+					background: $black;
+					color: $sunflower;
+					line-height: 4.8rem;
+				}
+				img {
+					position: absolute;
+					height: 100%;
+					width: 100%;
+					@include transition(all 0.1s ease-in-out);
+					max-width: auto;
+					margin-top: -50px;
+					&:hover {
+						margin-top: 0px;
+					}
+
+				}
+			}
+		}
+	}
+	.tada {
+		-webkit-animation-duration: 1s;
+		animation-duration: 1s;
+		-webkit-animation-fill-mode: both;
+		animation-fill-mode: both;
+		-webkit-animation-timing-function: ease-in;
+		animation-timing-function: ease-in;
+		-webkit-animation-name: tada;
+		animation-name: tada;
+	}
+	@-webkit-keyframes tada {
+	    0% {-webkit-transform: scale(1);}
+	    10%, 20% {-webkit-transform: scale(0.9) rotate(-3deg);}
+	    30%, 50%, 70%, 90% {-webkit-transform: scale(1.1) rotate(3deg);}
+	    40%, 60%, 80% {-webkit-transform: scale(1.1) rotate(-3deg);}
+	    100% {-webkit-transform: scale(1) rotate(0);}
+	}
+	@keyframes tada {
+	    0% {transform: scale(1);}
+	    10%, 20% {transform: scale(0.9) rotate(-3deg);}
+	    30%, 50%, 70%, 90% {transform: scale(1.1) rotate(3deg);}
+	    40%, 60%, 80% {transform: scale(1.1) rotate(-3deg);}
+	    100% {transform: scale(1) rotate(0);}
+	}
+}
+
+
+// Clients section
+section#clients {
+	padding-bottom: 70px;
+	overflow: hidden;
+	h2 {
+		color: $sunflower;
+		font-size: 2.5rem;
+		margin: 100px 0 50px 0;
+	}
+	img {
+		background: $paper;
+		border-radius: 50%;
+		border: 2px solid $lightBlack;
+		margin: 0 auto;
+	}
+	.text {
+		padding: 30px;
+	}
+
+
+}
+
+
+
+// Contact section
+a section#contact {
+	background: $sunflower;
+	color: $paper;
+	-webkit-box-shadow: inset 0px 0px 111px -1px rgba(0,0,0,0.75);
+	-moz-box-shadow: inset 0px 0px 111px -1px rgba(0,0,0,0.75);
+	box-shadow: inset 0px 0px 111px -1px rgba(0,0,0,0.75);
+	@include transition(all 0.15s ease-in-out);
+	h1 {
+		font-size: 6rem;
+		line-height: 40rem;
+		margin: 0;
+		padding: 0;
+		@media (max-width: 768px) {
+			font-size: 3rem;
+			line-height: 25rem;
+		}
+	}
+	&:hover {
+		background: lighten($sunflower, 10%);
+	}
+}
+
+// Footer
+footer {
+	height: 300px;
+	padding-top: 80px;
+	.heart {
+		height: 16px;
+		width: 16px;
+		g path {
+			fill: #E0645C;
+		}
+	}
+	a {
+		color: $sunflower;
+		text-decoration: none;
+		&:hover,
+		&:focus {
+			outline: none;
+			color: $sunflower;
+			text-decoration: underline;
+		}
+	}
+	.social {
+		a {
+			background: $paper;
+			color: $black;
+			display: inline-block;
+			width: 50px;
+			height: 50px;
+			border-radius: 50%;
+			margin: 30px 15px 0 15px;
+			font-size: 3rem;
+			float: right;
+			@media screen and (max-width: 768px) {
+				float: none;
+			}
+			text-align: center;
+			@include transition(all 0.2s ease-in-out);
+			&:hover,
+			&:focus {
+				outline: none;
+				background: $sunflower;
+				@include transition(all 0.2s ease-in-out);
+			}
+		}
+	}
+	@media screen and (max-width: 768px) {
+		text-align: center;
+	}
+}

@@ -1,0 +1,27 @@
+footer {
+   margin: 50px 0;
+   .copyright {
+      color: $grey;
+      a {
+         color: $grey;
+         text-decoration: underline;
+         &:hover {
+            color: $orange
+         }
+      }
+   }
+   .links {
+      text-align: right;
+      a {
+         path {
+            fill: $grey;
+            @include transition(.15s);
+         }
+         &:hover {
+            path {
+               fill: $orange;
+            }
+         }
+      }
+   }
+}

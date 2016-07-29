@@ -1,0 +1,33 @@
+* {
+   font-family: 'Open Sans', sans-serif;
+   font-size: 16px;
+   font-weight: 400;
+   color: $black;
+}
+
+h1 {
+   font-size: 3rem;
+   font-weight: 300
+}
+h2 {
+   font-weight: 300;
+   font-size: 2rem;
+   color: $orange;
+}
+h3 {
+   font-weight: 400;
+   font-size: 1.5rem;
+}
+hr {
+   border: 0px;
+   background: lighten($grey, 20%);
+   height: 1px;
+}
+a{
+   color: orange;
+   text-decoration: none;
+   @include transition(.15s);
+   &:hover {
+      color: darken($orange, 3%);
+   }
+}

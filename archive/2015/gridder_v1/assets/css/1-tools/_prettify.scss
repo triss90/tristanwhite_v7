@@ -1,0 +1,26 @@
+pre.prettyprint {
+   padding: 1rem !important;
+   border: 1px solid lighten($grey, 20%) !important;
+   border-radius: 5px;
+   overflow: auto;
+   .pln { color: #333333 }  /* plain text */
+   .str { color: #dd1144 }  /* string content */
+   .kwd { color: #333333 }  /* a keyword */
+   .com { color: #999988 }  /* a comment */
+   .typ { color: #445588 }  /* a type name */
+   .lit { color: #445588 }  /* a literal value */
+   /* punctuation, lisp open bracket, lisp close bracket */
+   .pun, .opn, .clo { color: #333333 }
+   .tag { color: navy }  /* a markup tag name */
+   .atn { color: teal }  /* a markup attribute name */
+   .atv { color: #dd1144 }  /* a markup attribute value */
+   .dec { color: #333333 }
+   .var { color: teal }  /* a declaration; a variable name */
+   .fun { color: #990000 }  /* a function name */
+}
+code {
+   background: lighten($grey, 35%);
+   padding: 0px 6px;
+   border-radius: 3px;
+   border: 1px solid lighten($grey, 30%);
+}

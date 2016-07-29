@@ -1,0 +1,37 @@
+table {
+   width: 100%;
+   caption {
+     font-size: 1.6em;
+     font-weight: bold;
+     padding: 10px 0;
+   }
+   thead th {
+     font-weight: bold;
+     background: $orange;
+     color: #fff;
+   }
+   tr {
+     background: lighten($green, 45%);
+     border-bottom: 1px solid #fff;
+     margin-bottom: 5px;
+     &:nth-child(even) {
+        background: lighten($green, 50%);
+     }
+   }
+
+   th,
+   td {
+     text-align: left;
+     padding: 20px;
+     font-weight: normal;
+   }
+   tfoot tr {
+     background: none;
+   }
+   tfoot td {
+     padding: 10px 2px;
+     font-size: 0.8em;
+     font-style: italic;
+     color: #ecf0f1;
+   }
+}

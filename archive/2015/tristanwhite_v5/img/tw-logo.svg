@@ -1,0 +1,10 @@
+<svg width="100px" height="118px" viewBox="0 0 100 118" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <text id="t" sketch:type="MSTextLayer" font-family="Roboto" font-size="100" font-weight="normal" fill="#000000">
+            <tspan x="0" y="93">t</tspan>
+        </text>
+        <text id="w" sketch:type="MSTextLayer" font-family="Roboto" font-size="100" font-weight="normal" fill="#000000">
+            <tspan x="24" y="93">w</tspan>
+        </text>
+    </g>
+</svg>

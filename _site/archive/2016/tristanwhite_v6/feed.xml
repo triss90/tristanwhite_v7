@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tristan White</title>
+    <description>Hi! My name is Tristan White, I&#39;m a designer, developer and somewhat unicorn-like. I was born and raised in a small town in Denmark. Today I am proud to call myself a full-stack web developer. I love making beautiful, yet practical websites and applications.</description>
+    <link>//tristanwhite.info//</link>
+    <atom:link href="//tristanwhite.info//feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Mon, 20 Jun 2016 15:10:01 +0200</pubDate>
+    <lastBuildDate>Mon, 20 Jun 2016 15:10:01 +0200</lastBuildDate>
+    <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Quick Code - Another Responsive Menu</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/Hy-Oc1OkdL4&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;300&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;pyqxjE&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/pyqxjE/&quot;&gt;Another Responsive Menu&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 20 Jun 2016 14:17:09 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/06/20/quick-code-another-responsive-menu.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/06/20/quick-code-another-responsive-menu.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Scaling CSS Loader</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/N5BPBSfU3Nw&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;300&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;WwyvjP&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/WwyvjP/&quot;&gt;Scaling CSS Loader&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 13 Jun 2016 14:09:19 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/06/13/quick-code-scaling-csss-loader.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/06/13/quick-code-scaling-csss-loader.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Pulsing CSS Loader</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/mdDMuE3VXbw&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;450&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;LpozKX&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/LpozKX/&quot;&gt;SASS Mixin Grid&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 06 Jun 2016 07:12:21 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/06/06/quick-code-sass-mixin-grid.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/06/06/quick-code-sass-mixin-grid.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Pulsing CSS Loader</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/-KHBwa3OPYc&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;400&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;XdRwXv&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/triss90/pen/XdRwXv/&quot;&gt;Pulsing CSS Loader&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 30 May 2016 11:22:11 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/05/30/quick-code-pulsing-css-loader.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/05/30/quick-code-pulsing-css-loader.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - CSS Battery Loader</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/SywElFuD-U8 &quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;900&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;pjPRyW&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/triss90/pen/pjPRyW/&quot;&gt;Animated skills&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 23 May 2016 08:15:51 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/05/23/quick-code-animated-skills.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/05/23/quick-code-animated-skills.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - CSS Battery Loader</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/knsflx3w9Kg&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;300&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;oxWRzz&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/oxWRzz/&quot;&gt;CSS Battery Loader&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 16 May 2016 10:32:51 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/05/16/quick-code-css-battery-loader.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/05/16/quick-code-css-battery-loader.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Basic Flexbox Grid</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/gy6WKhMLNIA&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;eZWagq&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;https://codepen.io/triss90/pen/eZWagq/&quot;&gt;Basic Flexbox Grid&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 09 May 2016 11:26:11 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/05/09/quick-code-basic-flexbox-grid.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/05/09/quick-code-basic-flexbox-grid.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Rotating CSS Loader</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/ns-7c4aVk9k&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;YqVbXp&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/YqVbXp/&quot;&gt;Rotating CSS Loader&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 02 May 2016 10:32:51 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/05/02/quick-code-rotating-css-loader.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/05/02/quick-code-rotating-css-loader.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Animated Signature</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/8TpElz0W6A4&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;268&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;qOmgpx&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/qOmgpx/&quot;&gt;Animated Signature&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 25 Apr 2016 10:32:51 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/04/25/quick-code-animated-signature.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/04/25/quick-code-animated-signature.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+      <item>
+        <title>Quick Code - Simple jQuery Slider</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/0QldkreB65I&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;500&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;ZWWbVQ&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/ZWWbVQ/&quot;&gt;Simple Image Slider&lt;/a&gt; by Tristan Oliver Mose Jensen White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 18 Apr 2016 15:02:00 +0200</pubDate>
+        <link>//tristanwhite.info//videos/quick-code/2016/04/18/quick-code-simple-slider.html</link>
+        <guid isPermaLink="true">//tristanwhite.info//videos/quick-code/2016/04/18/quick-code-simple-slider.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
+    
+  </channel>
+</rss>

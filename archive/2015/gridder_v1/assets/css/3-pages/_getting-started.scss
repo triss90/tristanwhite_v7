@@ -1,0 +1,11 @@
+section#getting-started {
+   h1 {
+      color: $grey;
+   }
+   .getting-started-item {
+      margin-bottom: 75px;
+      h2 {
+         cursor: pointer;
+      }
+   }
+}

@@ -1,0 +1,98 @@
+body {
+   @media (max-width: 992px) {
+      margin-top: 75px;
+   }
+}
+
+.navigation {
+   @media (max-width: 992px) {
+      position: fixed;
+      left: 0;
+      top: -20px;
+      background: white;
+      width: 100%;
+      padding: 20px 5% 12px 5%;
+      z-index: 2;
+      -webkit-box-box-shadow: 0 4px 3px -2px $grey;
+      -moz-box-box-shadow: 0 4px 3px -2px $grey;
+      box-shadow: 0 4px 3px -2px $grey;
+   }
+   margin-top: 20px;
+   .logo {
+      img {
+         width: 35px;
+         display: inline-block;
+         vertical-align: middle;
+         margin-right: 10px;
+         &:hover {
+            -webkit-animation-name: tada;
+            animation-name: tada;
+            -webkit-animation-duration: .7s;
+            animation-duration: .7s;
+            -webkit-animation-fill-mode: both;
+            animation-fill-mode: both;
+            -webkit-animation-timing-function: ease-out;
+            animation-timing-function: ease-out;
+         }
+      }
+   }
+   .mobile-toggle {
+      display: none;
+      margin-top: -5px;
+      text-align: right;
+      cursor: pointer;
+      @media (max-width: 992px) {
+         display: block;
+      }
+      path {
+         fill: $orange;
+      }
+   }
+   nav {
+      text-align: right;
+      @media (max-width: 992px) {
+         display: none;
+         background: white;
+         position: fixed;
+         left: 0;
+         width: 100%;
+         -webkit-box-box-shadow: 0 4px 10px -2px $grey;
+         -moz-box-box-shadow: 0 4px 10px -2px $grey;
+         box-shadow: 0 4px 10px -2px $grey;
+         padding-bottom: 50px;
+      }
+      ul {
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         @media (max-width: 992px) {
+            text-align: center;
+         }
+         li {
+            display: inline;
+            @media (max-width: 992px) {
+               display: block;
+            }
+            a {
+               line-height: 1;
+               padding: 5px 10px;
+               color: $orange;
+               text-decoration: none;
+               @media (max-width: 992px) {
+                  line-height: 2.5;
+                  font-size: 2rem;
+               }
+               &:hover {
+                  color: $grey;
+                  @media (max-width: 992px) {
+
+                  }
+               }
+            }
+         }
+      }
+   }
+   .mobile-show {
+      display: block;
+   }
+}

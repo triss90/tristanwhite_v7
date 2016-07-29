@@ -1,0 +1,37 @@
+a.button1 {
+   background: $green;
+   padding: 20px 30px;
+   font-size: 1.5rem;
+   font-weight: 300;
+   color: white;
+   text-decoration: none;
+   border-radius: 10px;
+   text-align: center;
+   display: block;
+   max-width: 300px;
+   margin: 0 auto;
+   @include transition(.15s);
+   &:hover {
+      background: darken($green, 5%);
+   }
+}
+
+a.button2 {
+   background: white;
+   border: 3px solid $green;
+   padding: 15px 20px;
+   font-size: 1rem;
+   font-weight: 700;
+   text-align: center;
+   color: $green;
+   text-decoration: none;
+   border-radius: 10px;
+   margin: 30px;
+   position: relative;
+   display: block;
+   @include transition(.15s);
+   &:hover {
+      background: $green;
+      color: white;
+   }
+}

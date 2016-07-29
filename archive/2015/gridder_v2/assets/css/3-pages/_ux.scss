@@ -1,0 +1,15 @@
+a.unfold {
+   font-size: 0.8rem;
+   color: $rose;
+   position: relative;
+   cursor: pointer;
+   &:before {
+      content: "+";
+   }
+   &:hover {
+      color: darken($rose, 20%);
+   }
+   &.active:before {
+      content: "-";
+   }
+}
