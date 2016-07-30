@@ -1770,6 +1770,15 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/_site\/archive\/2014\/holmerundhoejfestuge\/index.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/_site\/archive\/2014\/holmerundhoejfestuge\/index.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/_site\/archive\/2014\/holmerundhoejfestuge\/index1.html": {
 		"fileType": 8192,
 		"ignore": 0,
