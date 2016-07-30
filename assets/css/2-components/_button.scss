@@ -8,6 +8,7 @@ button, .button {
   border-radius: 3px;
   transition: all 100ms ease-in-out;
   position: relative;
+  font-weight: bold;
   &:hover {
     background: lighten($link-color, 5%);
     text-decoration: none;

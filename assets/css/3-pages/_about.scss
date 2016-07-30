@@ -1,0 +1,32 @@
+section#about {
+
+  .tw-avatar {
+    @media(max-width: 768px) {
+      margin-top: 75px !important;
+    }
+  }
+
+  hr {
+    margin: 100px 0;
+  }
+
+  .card {
+    .stat-title {
+      font-size: 2rem;
+      font-weight: 100;
+      margin-top: 0px;
+      span {
+        font-size: 1rem;
+        color: lighten($dark-text-color, 45%);
+        font-weight: 600;
+        line-height: 1rem;
+      }
+    }
+    .stat-number {
+      font-size: 5rem;
+      margin: 50px 0;
+      color: $link-color;
+    }
+  }
+
+}
