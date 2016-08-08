@@ -1,7 +1,7 @@
 ---
 layout: video
 title: "Quick Code - CSS Timeline v2"
-date: 2016-07-25 10:03:24 +0100
+date: 2016-08-08 10:03:24 +0100
 categories: videos quick-code
 thumbnail: assets/img/posts/quick_code_css_timeline_v2.png
 time: "03:15"

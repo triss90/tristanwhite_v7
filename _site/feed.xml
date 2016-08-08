@@ -5,9 +5,34 @@
     <description>Hi! My name is Tristan White, I&#39;m a designer, developer and somewhat unicorn-like. I was born and raised in a small town in Denmark. Today I am proud to call myself a full-stack web developer. I love making beautiful, yet practical websites and applications.</description>
     <link>https://tristanwhite.info//</link>
     <atom:link href="https://tristanwhite.info//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Aug 2016 14:21:12 +0200</pubDate>
-    <lastBuildDate>Mon, 01 Aug 2016 14:21:12 +0200</lastBuildDate>
+    <pubDate>Mon, 08 Aug 2016 13:35:26 +0200</pubDate>
+    <lastBuildDate>Mon, 08 Aug 2016 13:35:26 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Quick Code - CSS Timeline v2</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/o0CZdOSqHhY&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;700&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;GqRKeW&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/GqRKeW/&quot;&gt;time line test&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 08 Aug 2016 11:03:24 +0200</pubDate>
+        <link>https://tristanwhite.info//videos/quick-code/2016/08/08/quick-code-css-timeline-v2.html</link>
+        <guid isPermaLink="true">https://tristanwhite.info//videos/quick-code/2016/08/08/quick-code-css-timeline-v2.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
     
       <item>
         <title>Quick Code - Animated Skills V2</title>
@@ -226,31 +251,6 @@
         <pubDate>Mon, 13 Jun 2016 14:09:19 +0200</pubDate>
         <link>https://tristanwhite.info//videos/quick-code/2016/06/13/quick-code-scaling-csss-loader.html</link>
         <guid isPermaLink="true">https://tristanwhite.info//videos/quick-code/2016/06/13/quick-code-scaling-csss-loader.html</guid>
-        
-        
-        <category>videos</category>
-        
-        <category>quick-code</category>
-        
-      </item>
-    
-      <item>
-        <title>Quick Code - SASS Mixin Grid</title>
-        <description>&lt;div class=&quot;responsive-video&quot;&gt;
-   &lt;iframe src=&quot;https://www.youtube.com/embed/mdDMuE3VXbw&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
-
-&lt;p data-height=&quot;450&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;LpozKX&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/LpozKX/&quot;&gt;SASS Mixin Grid&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-</description>
-        <pubDate>Mon, 06 Jun 2016 07:12:21 +0200</pubDate>
-        <link>https://tristanwhite.info//videos/quick-code/2016/06/06/quick-code-sass-mixin-grid.html</link>
-        <guid isPermaLink="true">https://tristanwhite.info//videos/quick-code/2016/06/06/quick-code-sass-mixin-grid.html</guid>
         
         
         <category>videos</category>
