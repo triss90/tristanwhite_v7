@@ -5,9 +5,34 @@
     <description>Hi! My name is Tristan White, I&#39;m a designer, developer and somewhat unicorn-like. I was born and raised in a small town in Denmark. Today I am proud to call myself a full-stack web developer. I love making beautiful, yet practical websites and applications.</description>
     <link>https://tristanwhite.info//</link>
     <atom:link href="https://tristanwhite.info//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 Aug 2016 17:14:30 +0200</pubDate>
-    <lastBuildDate>Thu, 11 Aug 2016 17:14:30 +0200</lastBuildDate>
+    <pubDate>Mon, 15 Aug 2016 18:43:12 +0200</pubDate>
+    <lastBuildDate>Mon, 15 Aug 2016 18:43:12 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Quick Code - Simplistic Dialog</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/PGWtvDuDWls&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;600&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;gMwRXQ&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/gMwRXQ/&quot;&gt;Simplistic Dialog&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 15 Aug 2016 11:03:24 +0200</pubDate>
+        <link>https://tristanwhite.info//videos/quick-code/2016/08/15/quick-code-simplistic-dialog.html</link>
+        <guid isPermaLink="true">https://tristanwhite.info//videos/quick-code/2016/08/15/quick-code-simplistic-dialog.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
     
       <item>
         <title>Quick Code - CSS Timeline v2</title>
@@ -226,31 +251,6 @@
         <pubDate>Mon, 20 Jun 2016 14:17:09 +0200</pubDate>
         <link>https://tristanwhite.info//videos/quick-code/2016/06/20/quick-code-another-responsive-menu.html</link>
         <guid isPermaLink="true">https://tristanwhite.info//videos/quick-code/2016/06/20/quick-code-another-responsive-menu.html</guid>
-        
-        
-        <category>videos</category>
-        
-        <category>quick-code</category>
-        
-      </item>
-    
-      <item>
-        <title>Quick Code - Scaling CSS Loader</title>
-        <description>&lt;div class=&quot;responsive-video&quot;&gt;
-   &lt;iframe src=&quot;https://www.youtube.com/embed/N5BPBSfU3Nw&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
-
-&lt;p data-height=&quot;300&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;WwyvjP&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/WwyvjP/&quot;&gt;Scaling CSS Loader&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-</description>
-        <pubDate>Mon, 13 Jun 2016 14:09:19 +0200</pubDate>
-        <link>https://tristanwhite.info//videos/quick-code/2016/06/13/quick-code-scaling-csss-loader.html</link>
-        <guid isPermaLink="true">https://tristanwhite.info//videos/quick-code/2016/06/13/quick-code-scaling-csss-loader.html</guid>
         
         
         <category>videos</category>
