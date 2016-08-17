@@ -4897,6 +4897,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/work\/compressionbear_thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19177,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/work\/compressionbear_thumb.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/work\/compressionbear_thumb.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/work\/gridder-browser.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -12453,6 +12464,17 @@
 		"initialSize": 12939,
 		"inputAbbreviatedPath": "\/assets\/img\/work\/client_logos_bg.png",
 		"outputAbbreviatedPath": "\/assets\/img\/work\/client_logos_bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/work\/compressionbear_thumb.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 19234,
+		"inputAbbreviatedPath": "\/assets\/img\/work\/compressionbear_thumb.png",
+		"outputAbbreviatedPath": "\/assets\/img\/work\/compressionbear_thumb.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
