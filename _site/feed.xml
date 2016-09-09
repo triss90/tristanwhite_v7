@@ -5,9 +5,34 @@
     <description>Hi! My name is Tristan White, I&#39;m a designer, developer and somewhat unicorn-like. I was born and raised in a small town in Denmark. Today I am proud to call myself a full-stack web developer. I love making beautiful, yet practical websites and applications.</description>
     <link>https://tristanwhite.info//</link>
     <atom:link href="https://tristanwhite.info//feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 29 Aug 2016 16:43:26 +0200</pubDate>
-    <lastBuildDate>Mon, 29 Aug 2016 16:43:26 +0200</lastBuildDate>
+    <pubDate>Thu, 08 Sep 2016 18:09:06 +0200</pubDate>
+    <lastBuildDate>Thu, 08 Sep 2016 18:09:06 +0200</lastBuildDate>
     <generator>Jekyll v3.1.2</generator>
+    
+      <item>
+        <title>Quick Code - CSS &#39;:target&#39; Navigation</title>
+        <description>&lt;div class=&quot;responsive-video&quot;&gt;
+   &lt;iframe src=&quot;https://www.youtube.com/embed/6VJ9Gqju6II&quot;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
+
+&lt;p data-height=&quot;700&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;oLGpmx&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/oLGpmx/&quot;&gt;CSS &quot;:target&quot;  Navigation&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
+&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
+
+</description>
+        <pubDate>Mon, 05 Sep 2016 10:12:01 +0200</pubDate>
+        <link>https://tristanwhite.info//videos/quick-code/2016/09/05/quick-code-css-target-navigation.html</link>
+        <guid isPermaLink="true">https://tristanwhite.info//videos/quick-code/2016/09/05/quick-code-css-target-navigation.html</guid>
+        
+        
+        <category>videos</category>
+        
+        <category>quick-code</category>
+        
+      </item>
     
       <item>
         <title>Quick Code - Off Canvas Navigation</title>
@@ -226,31 +251,6 @@
         <pubDate>Mon, 11 Jul 2016 11:12:01 +0200</pubDate>
         <link>https://tristanwhite.info//videos/quick-code/2016/07/11/quick-code-responsive-css-web-browser.html</link>
         <guid isPermaLink="true">https://tristanwhite.info//videos/quick-code/2016/07/11/quick-code-responsive-css-web-browser.html</guid>
-        
-        
-        <category>videos</category>
-        
-        <category>quick-code</category>
-        
-      </item>
-    
-      <item>
-        <title>Quick Code - CSS Loader 2.0</title>
-        <description>&lt;div class=&quot;responsive-video&quot;&gt;
-   &lt;iframe src=&quot;https://www.youtube.com/embed/gwAkjIXrhOU&quot;&gt;&lt;/iframe&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;the-code&quot;&gt;The code&lt;/h3&gt;
-
-&lt;p data-height=&quot;300&quot; data-theme-id=&quot;16012&quot; data-slug-hash=&quot;wGyajM&quot; data-default-tab=&quot;result&quot; data-user=&quot;triss90&quot; data-embed-version=&quot;2&quot; class=&quot;codepen&quot;&gt;See the Pen &lt;a href=&quot;http://codepen.io/triss90/pen/wGyajM/&quot;&gt;CSS Loader 2.0&lt;/a&gt; by Tristan  White (&lt;a href=&quot;http://codepen.io/triss90&quot;&gt;@triss90&lt;/a&gt;) on &lt;a href=&quot;http://codepen.io&quot;&gt;CodePen&lt;/a&gt;.&lt;/p&gt;
-&lt;script async=&quot;&quot; src=&quot;//assets.codepen.io/assets/embed/ei.js&quot;&gt;&lt;/script&gt;
-
-</description>
-        <pubDate>Mon, 04 Jul 2016 10:24:11 +0200</pubDate>
-        <link>https://tristanwhite.info//videos/quick-code/2016/07/04/quick-code-css-loader-2-0.html</link>
-        <guid isPermaLink="true">https://tristanwhite.info//videos/quick-code/2016/07/04/quick-code-css-loader-2-0.html</guid>
         
         
         <category>videos</category>
