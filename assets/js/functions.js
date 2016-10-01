@@ -42,9 +42,9 @@ function carousel(){
       tallestUnitHeight = getTallestUnitHeight(),
       $carouselNav = $('.carousel-nav');
   function initCarousel(){
-    $carouselUnits.height(tallestUnitHeight).first().addClass('is-current');
-    $carouselWrap.height(tallestUnitHeight);
-    $carousel.height(tallestUnitHeight);
+      $carouselUnits.height(tallestUnitHeight).first().addClass('is-current');
+      $carouselWrap.height(tallestUnitHeight);
+      $carousel.height(tallestUnitHeight);
   }
   initCarousel();
   function nextTestimonial(){
@@ -78,38 +78,9 @@ function carousel(){
 
 
 /**
-  Shake random video element on home page
-**/
-function shakeVideo() {
-  window.setInterval(function() {
-    var random = Math.floor(Math.random()*3),
-        videoLink = $('.video-link');
-    videoLink.eq(random).addClass('shake');
-    setTimeout(function() {
-      videoLink.removeClass('shake');
-    }, 1000);
-  }, 5000);
-}
-
-
-/**
-  Banner
-**/
-function bannerFade() {
-  setTimeout(function() {
-    var monitor = $('#monitor');
-    monitor.addClass('fadeIn');
-  }, 1000);
-}
-
-
-
-/**
   Run functions
 **/
 $(function() {
   navigation();
   carousel();
-  shakeVideo();
-  bannerFade();
 });
