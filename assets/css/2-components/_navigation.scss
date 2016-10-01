@@ -20,10 +20,22 @@ nav {
     }
     .logo {
       padding: 25px 0;
+      svg {
+        rect {
+          transition: all 150ms ease-in-out;
+        }
+      }
       @media(max-width: 768px) {
         padding: 0px 0;
         svg {
           height: 50px;
+        }
+      }
+      &:hover {
+        svg {
+          rect {
+            fill: $link-color;
+          }
         }
       }
     }
@@ -31,15 +43,18 @@ nav {
       float: right;
       margin: 40px 0;
       a {
-        color: $dark-text-color;
+        color: lighten($dark-text-color, 15%);
         text-decoration: none;
         padding: 15px 10px;
         margin: 0;
+        font-weight: 800;
+        transition: all 200ms ease-in-out;
         &:last-child {
           padding: 15px 0 15px 10px;
         }
         &:hover {
           text-decoration: underline;
+          color: $dark-text-color;
           @media(max-width: 768px) {
             text-decoration: none;
           }

@@ -12,7 +12,7 @@ permalink: /
         <div class="lead-wrapper">
           <h1 class="lead">Tristan White</h1>
           <h2 class="sublead">Designer, Developer & Somewhat Unicorn-like</h2>
-          <a href="#about" class="button light big">Learn more</a>
+          <a href="/about/" class="button light big">Learn more</a>
           <a href="#contact" class="button dark big">Contact me</a>
         </div>
       </div>
@@ -34,15 +34,6 @@ permalink: /
           I love making beautiful, yet practical websites and applications and I would enjoy the
           opportunity to collaborate on your next project, so drop me an <a href="mailto:oliver.tristan@gmail.com">email</a> or a tweet and lets get to work!
         </p>
-        <hr>
-        <h2>Featured video</h2><br>
-        <div class="row">
-          <div class="tiny-10 tiny-offset-1">
-            <div class="responsive-video">
-               <iframe src="https://www.youtube.com/embed/YWVXTt7MmQ0"></iframe>
-            </div>
-          </div>
-        </div>
       </div>
     </div>
   </div>
@@ -152,32 +143,27 @@ permalink: /
 </section>
 
 <!-- Content (videos & articles) -->
-<section id="content">
+<section id="videos">
   <div class="container">
+
     <div class="row">
-      <div class="tiny-12 small-6 medium-7 large-7">
-        <h2>New Articles</h2>
-        {% for post in site.categories.articles limit:3 %}
-        <article>
-           <div class="title">
-              <a class="post-link" href="{{ post.url | prepend: site.baseurl }}"><h3>{{ post.title }}</h3></a>
-           </div>
-           <div class="date">{{ post.date | date: "%b %-d, %Y" }}</div>
-           <div class="excerpt">{{ post.excerpt }}</div>
-        </article>
-        {% endfor %}
-        <a href="{{ site.baseurl }}/articles/" class="button">Read more...</a>
+      <div class="tiny-12">
+        <h2>YouTube</h2>
       </div>
-      <div class="tiny-12 small-6 medium-4 large-4 medium-offset-1 large-offset-1">
-        <h2>New Videos</h2>
-        {% for post in site.categories.videos limit:3 %}
-        <a class="video-link" href="{{ post.url | prepend: site.baseurl }}">
-           <img src="{{ site.baseurl }}/{{ post.thumbnail }}" alt="{{ post.title }}">
-           <span class="playtime">{{ post.time }}</span>
-        </a>
-        {% endfor %}
-        <a href="{{ site.baseurl }}/videos/" class="button">View more...</a>
+    </div>
+
+    <div class="row">
+      <div class="tiny-12 small-6 medium-7 large-8">
+        <div class="responsive-video">
+           <iframe src="https://www.youtube.com/embed/NB_wYvuXAPY"></iframe>
+        </div>
       </div>
+
+      <div class="tiny-12 small-6 medium-5 large-4">
+        <p>I create and publish new videos every monday. Usually showcasing various UX elements and designs.</p>
+        <a href="https://www.youtube.com/channel/UCxnhnHu17q4Zk4m9-7BL5dw" target="blank" class="button">See more...</a>
+      </div>
+
     </div>
   </div>
 </section>

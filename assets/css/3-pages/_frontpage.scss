@@ -10,7 +10,7 @@ section#about {
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
   }
   @media (max-width: 768px) {
-    padding: 30px 0;
+    padding: 50px 0;
   }
   h2 {
     font-weight: 100;
@@ -51,14 +51,14 @@ section#about {
 
 section#work {
   background-color: $link-color;
-  //background-image: url('/assets/img/work/client_logos_bg.png');
   background-image: url('/assets/img/tw_logo_transparent.svg');
   background-repeat: no-repeat;
   background-size: 110%;
   background-position: center center;
   padding: 100px 0;
   @media (max-width: 768px) {
-    padding: 30px 0;
+    padding: 50px 30px;
+    text-align: center;
   }
   h2 {
     font-weight: 100;
@@ -72,6 +72,7 @@ section#work {
   .case-container {
     position: relative;
     margin-bottom: 40px;
+    border-radius: 2px;
     &:hover {
       .overlay {
         visibility: visible;
@@ -89,7 +90,7 @@ section#work {
       opacity: 0;
       transition: all 300ms ease-in-out;
       padding: 20px;
-      border-radius: 5px;
+      border-radius: 2px;
       .button {
         display: inline-block;
         @media(max-width: 350px) {
@@ -124,103 +125,40 @@ section#work {
     }
     img {
       max-width: 100%;
-      border-radius: 5px;
+      border-radius: 2px;
       box-shadow: 0px 17px 10px -10px rgba(0,0,0,0.4);
     }
   }
 }
 
 
-section#content {
-  background-color: $light-text-color;
-  background-image: url('/assets/img/bg-pattern.png');
+section#videos {
   padding: 100px 0;
   @media (max-width: 768px) {
-    padding: 30px 0;
+    padding: 50px 0;
+    text-align: center;
   }
   h2 {
-    text-align: center;
     font-weight: 100;
-    margin: 0;
-    margin-bottom: 50px;
-  }
-  .tiny-12:first-child {
-    @media(max-width: 768px) {
-      margin-bottom: 25px;
-      padding-bottom: 25px;
-      border-bottom: 1px solid darken($light-text-color, 20%);
-    }
-  }
-  .video-link {
-    display: block;
-    margin: 25px auto;
-    background: $light-text-color;
-    box-shadow: 0 0 10px rgba(0,0,0,0.5);
-    padding: 10px;
-    position: relative;
-    transition: all ease-in-out 200ms;
-    border-radius: 5px;
-    &:hover {
-      transform: scale(1.05);
-      text-decoration: none;
-      box-shadow: 0 0 20px rgba(0,0,0,0.2);
-    }
-    &.shake {
-      animation: shake 0.82s cubic-bezier(.36,.07,.19,.97) both;
-      transform: translate3d(0, 0, 0);
-      backface-visibility: hidden;
-      @keyframes shake {
-      10%, 90% {transform: translate3d(-1px, 0, 0);}
-      20%, 80% {transform: translate3d(2px, 0, 0);}
-      30%, 50%, 70% {transform: translate3d(-4px, 0, 0);}
-      40%, 60% {transform: translate3d(4px, 0, 0);}
-      }
-    }
-    img {
-      max-width: 100%;
-      width: 100%;
-    }
-    span.playtime {
-      background: rgba(0,0,0,0.4);
-      padding: 10px 15px;
-      color: $light-text-color;
-      text-decoration: none;
-      position: absolute;
-      right: 20px;
-      bottom: 20px;
-    }
-  }
-  article {
+    color: $dark-text-color;
     margin: 0 0 50px 0;
-    .post-link {
-      position: relative;
-      &.external:before {
-        content: '';
-        position: absolute;
-        left: -25px;
-        top: 0;
-        background-image: url('/assets/img/link.svg');
-        background-repeat: no-repeat;
-        height: 26px;
-        width: 26px;
-      }
-      h3 {
-        margin: 0 0 15px 0;
-      }
+    text-align: center;
+    font-size: 2.5rem;
+    @media (max-width: 768px) {
+      font-size: 2.3rem;
     }
-    .date {
-      color: darken($light-text-color, 25%);
-      font-weight: bold;
-    }
-    .excerpt {
-
+  }
+  p {
+    margin: 0;
+    padding: 0;
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+    @media (max-width: 768px) {
+      margin-top: 1rem;
     }
   }
   .button {
-    text-align: center;
-    margin: 0 auto;
-    display: block;
-    width: 150px;
+    margin-top: 1rem;
   }
 }
 
