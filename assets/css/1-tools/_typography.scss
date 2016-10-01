@@ -105,7 +105,11 @@ hr {
   height: 1px;
   margin: 50px 0;
   background-color: darken($light-background-color, 10%);
-  // @media (max-width: 768px) {
-  //   margin: 20px;
-  // }
+}
+
+* {
+  &::selection {
+    background-color: $link-color;
+    color: $light-text-color;
+  }
 }
