@@ -157,6 +157,44 @@ section#videos {
       margin-top: 1rem;
     }
   }
+  .youtube-video {
+    position: relative;
+    cursor: pointer;
+    &:hover {
+      .overlay {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+    .overlay {
+      position: absolute;
+      z-index: 2;
+      background: rgba(0,0,0,0.65);
+      border-radius: 3px;
+      height: 100%;
+      width: 100%;
+      visibility: hidden;
+      opacity: 0;
+      transition: all 200ms ease-in-out;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      svg {
+        width: 75px;
+        @media (max-width: 768px) {
+          width: 50px;
+        }
+        path {
+          fill: white;
+        }
+      }
+    }
+    img {
+      max-width: 100%;
+      border-radius: 3px;
+      margin-bottom: -4px;
+    }
+  }
   .button {
     margin-top: 1rem;
   }

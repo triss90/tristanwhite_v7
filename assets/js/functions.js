@@ -78,9 +78,22 @@ function carousel(){
 
 
 /**
+  Youtube placeholder image
+**/
+function youtubePlaceholder() {
+  var youtubeContainer = $('.youtube-video');
+  youtubeContainer.on('click', function(){
+    var video = '<div class="responsive-video"><iframe src="'+ $(this).attr('data-video') +'"></iframe></div>';
+    $(this).replaceWith(video);
+  });
+}
+
+
+/**
   Run functions
 **/
 $(function() {
   navigation();
   carousel();
+  youtubePlaceholder();
 });
