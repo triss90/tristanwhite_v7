@@ -8,6 +8,9 @@ section#about {
 
   hr {
     margin: 100px 0;
+    @media (max-width: 768px) {
+      margin: 35px 0;
+    }
   }
 
   .card {
@@ -20,6 +23,7 @@ section#about {
         color: lighten($dark-text-color, 45%);
         font-weight: 600;
         line-height: 1rem;
+        display: block;
       }
     }
     .stat-number {
