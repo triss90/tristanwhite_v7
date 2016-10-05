@@ -38,5 +38,9 @@ button, .button {
   &.big {
     font-size: 1.35rem;
     padding: 20px 35px;
+    @media (max-width: 768px) {
+      font-size: 1rem;
+      padding: 15px 25px;
+    }
   }
 }
