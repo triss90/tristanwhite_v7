@@ -89,6 +89,17 @@ function youtubePlaceholder() {
 }
 
 
+
+/**
+  Smooth page transition
+**/
+function smoothLoad() {
+  window.addEventListener("beforeunload", function () {
+    document.body.classList.add("animate-out");
+  });
+}
+
+
 /**
   Run functions
 **/
@@ -96,4 +107,5 @@ $(function() {
   navigation();
   carousel();
   youtubePlaceholder();
+  smoothLoad();
 });
