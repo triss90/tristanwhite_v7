@@ -3986,6 +3986,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_site\/assets\/img\/border-top-or-bottom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1634,
+		"inputAbbreviatedPath": "\/_site\/assets\/img\/border-top-or-bottom.png",
+		"outputAbbreviatedPath": "\/_site\/assets\/img\/border-top-or-bottom.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_site\/assets\/img\/branding\/logo_1.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -11527,6 +11538,17 @@
 		"initialSize": 163307,
 		"inputAbbreviatedPath": "\/assets\/img\/bg.png",
 		"outputAbbreviatedPath": "\/assets\/img\/bg.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/assets\/img\/border-top-or-bottom.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 1634,
+		"inputAbbreviatedPath": "\/assets\/img\/border-top-or-bottom.png",
+		"outputAbbreviatedPath": "\/assets\/img\/border-top-or-bottom.png",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
